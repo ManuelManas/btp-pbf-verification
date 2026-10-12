@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+lean/*/.deps/
+lean/*/.cache/
+lean/*/.lake/
+lean/*/.build/
+lean/*/.verification.*/
+*.olean
+*.ilean
+*.c
+*.o

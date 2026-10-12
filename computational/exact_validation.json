@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational",
+  "counts": {
+    "cases": 216,
+    "binomial_identities": 72,
+    "scalar_identities": 4,
+    "strict_obstructions": 140,
+    "q_one_invariants": 30
+  },
+  "ranges": {
+    "p": "1..6",
+    "q": "1..6",
+    "alpha": [
+      "1",
+      "2/3"
+    ],
+    "tau": [
+      "1/4",
+      "1",
+      "4"
+    ]
+  },
+  "scope": "Independent coefficient expansion checks the new affine-comparison proposition and the scalar exception. The proof in the manuscript covers all parameters; these checks do not replace it.",
+  "samples": [
+    {
+      "p": 2,
+      "q": 1,
+      "tau": "1/4",
+      "invariant": "9261/64",
+      "binomial_value": 27
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "tau": "1",
+      "invariant": "27",
+      "binomial_value": 27
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "tau": "4",
+      "invariant": "9261/64",
+      "binomial_value": 27
+    }
+  ],
+  "lean": "No new Lean formalization is asserted for this proposition."
+}

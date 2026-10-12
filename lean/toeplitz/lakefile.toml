@@ -1,0 +1,36 @@
+name = "btp_toeplitz_lean"
+version = "0.1.0"
+defaultTargets = ["ManuscriptTheorem"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[lean_lib]]
+name = "BidiagonalSwap"
+
+[[lean_lib]]
+name = "FactorReordering"
+
+[[lean_lib]]
+name = "ToeplitzSymbol"
+
+[[lean_lib]]
+name = "PositiveMinors"
+
+[[lean_lib]]
+name = "NegativeRoots"
+
+[[lean_lib]]
+name = "PBFMinors"
+
+[[lean_lib]]
+name = "BandStructure"
+
+[[lean_lib]]
+name = "ToeplitzTheorem"
+
+[[lean_lib]]
+name = "ManuscriptTheorem"
+

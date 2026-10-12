@@ -1,0 +1,952 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "manuscript_version": "v37",
+  "arithmetic": "Python standard-library fractions.Fraction; no floating point",
+  "scope": "Every stable interleaving, preserving relative order of each labelled factor type",
+  "analytic_role": "Supporting finite checks; the commutator proof establishes infinite support",
+  "boundary_convention": "Zero-based indices; corrections have row < p and column < q",
+  "bottom_boundary_handling": "p+q extra coordinates beyond each tested principal block",
+  "max_p": 4,
+  "max_q": 4,
+  "parameter_cases": 32,
+  "word_products_checked": 484,
+  "pair_commutators_checked": 200,
+  "uniform_cases_checked": 3,
+  "cases": [
+    {
+      "p": 1,
+      "q": 1,
+      "profile": "repeated_root",
+      "eta": [
+        "1"
+      ],
+      "xi": [
+        "1"
+      ],
+      "tested_block_order": 5,
+      "padded_product_order": 7,
+      "words_checked": 2,
+      "distinct_tested_products": 2,
+      "commutators_checked": 1,
+      "rank_histogram": {
+        "0": 1,
+        "1": 1
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 1,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5"
+      ],
+      "xi": [
+        "3/2"
+      ],
+      "tested_block_order": 5,
+      "padded_product_order": 7,
+      "words_checked": 2,
+      "distinct_tested_products": 2,
+      "commutators_checked": 1,
+      "rank_histogram": {
+        "0": 1,
+        "1": 1
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 2,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1"
+      ],
+      "tested_block_order": 6,
+      "padded_product_order": 9,
+      "words_checked": 3,
+      "distinct_tested_products": 3,
+      "commutators_checked": 2,
+      "rank_histogram": {
+        "0": 1,
+        "1": 2
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 2,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7"
+      ],
+      "xi": [
+        "3/2"
+      ],
+      "tested_block_order": 6,
+      "padded_product_order": 9,
+      "words_checked": 3,
+      "distinct_tested_products": 3,
+      "commutators_checked": 2,
+      "rank_histogram": {
+        "0": 1,
+        "1": 2
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1"
+      ],
+      "tested_block_order": 7,
+      "padded_product_order": 11,
+      "words_checked": 4,
+      "distinct_tested_products": 4,
+      "commutators_checked": 3,
+      "rank_histogram": {
+        "0": 1,
+        "1": 3
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9"
+      ],
+      "xi": [
+        "3/2"
+      ],
+      "tested_block_order": 7,
+      "padded_product_order": 11,
+      "words_checked": 4,
+      "distinct_tested_products": 4,
+      "commutators_checked": 3,
+      "rank_histogram": {
+        "0": 1,
+        "1": 3
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 5,
+      "distinct_tested_products": 5,
+      "commutators_checked": 4,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9",
+        "5/11"
+      ],
+      "xi": [
+        "3/2"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 5,
+      "distinct_tested_products": 5,
+      "commutators_checked": 4,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "profile": "repeated_root",
+      "eta": [
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1"
+      ],
+      "tested_block_order": 6,
+      "padded_product_order": 9,
+      "words_checked": 3,
+      "distinct_tested_products": 3,
+      "commutators_checked": 2,
+      "rank_histogram": {
+        "0": 1,
+        "1": 2
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5"
+      ],
+      "xi": [
+        "3/2",
+        "4/3"
+      ],
+      "tested_block_order": 6,
+      "padded_product_order": 9,
+      "words_checked": 3,
+      "distinct_tested_products": 3,
+      "commutators_checked": 2,
+      "rank_histogram": {
+        "0": 1,
+        "1": 2
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 2,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1"
+      ],
+      "tested_block_order": 7,
+      "padded_product_order": 11,
+      "words_checked": 6,
+      "distinct_tested_products": 6,
+      "commutators_checked": 4,
+      "rank_histogram": {
+        "0": 1,
+        "1": 3,
+        "2": 2
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 2,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7"
+      ],
+      "xi": [
+        "3/2",
+        "4/3"
+      ],
+      "tested_block_order": 7,
+      "padded_product_order": 11,
+      "words_checked": 6,
+      "distinct_tested_products": 6,
+      "commutators_checked": 4,
+      "rank_histogram": {
+        "0": 1,
+        "1": 3,
+        "2": 2
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 10,
+      "distinct_tested_products": 10,
+      "commutators_checked": 6,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4,
+        "2": 5
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9"
+      ],
+      "xi": [
+        "3/2",
+        "4/3"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 10,
+      "distinct_tested_products": 10,
+      "commutators_checked": 6,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4,
+        "2": 5
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 4,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1"
+      ],
+      "tested_block_order": 9,
+      "padded_product_order": 15,
+      "words_checked": 15,
+      "distinct_tested_products": 15,
+      "commutators_checked": 8,
+      "rank_histogram": {
+        "0": 1,
+        "1": 5,
+        "2": 9
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 2,
+      "q": 4,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9",
+        "5/11"
+      ],
+      "xi": [
+        "3/2",
+        "4/3"
+      ],
+      "tested_block_order": 9,
+      "padded_product_order": 15,
+      "words_checked": 15,
+      "distinct_tested_products": 15,
+      "commutators_checked": 8,
+      "rank_histogram": {
+        "0": 1,
+        "1": 5,
+        "2": 9
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "profile": "repeated_root",
+      "eta": [
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 7,
+      "padded_product_order": 11,
+      "words_checked": 4,
+      "distinct_tested_products": 4,
+      "commutators_checked": 3,
+      "rank_histogram": {
+        "0": 1,
+        "1": 3
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4"
+      ],
+      "tested_block_order": 7,
+      "padded_product_order": 11,
+      "words_checked": 4,
+      "distinct_tested_products": 4,
+      "commutators_checked": 3,
+      "rank_histogram": {
+        "0": 1,
+        "1": 3
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 10,
+      "distinct_tested_products": 10,
+      "commutators_checked": 6,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4,
+        "2": 5
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 10,
+      "distinct_tested_products": 10,
+      "commutators_checked": 6,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4,
+        "2": 5
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 3,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 9,
+      "padded_product_order": 15,
+      "words_checked": 20,
+      "distinct_tested_products": 20,
+      "commutators_checked": 9,
+      "rank_histogram": {
+        "0": 1,
+        "1": 5,
+        "2": 9,
+        "3": 5
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 3,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4"
+      ],
+      "tested_block_order": 9,
+      "padded_product_order": 15,
+      "words_checked": 20,
+      "distinct_tested_products": 20,
+      "commutators_checked": 9,
+      "rank_histogram": {
+        "0": 1,
+        "1": 5,
+        "2": 9,
+        "3": 5
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 10,
+      "padded_product_order": 17,
+      "words_checked": 35,
+      "distinct_tested_products": 35,
+      "commutators_checked": 12,
+      "rank_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 14,
+        "3": 14
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9",
+        "5/11"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4"
+      ],
+      "tested_block_order": 10,
+      "padded_product_order": 17,
+      "words_checked": 35,
+      "distinct_tested_products": 35,
+      "commutators_checked": 12,
+      "rank_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 14,
+        "3": 14
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 1,
+      "profile": "repeated_root",
+      "eta": [
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 5,
+      "distinct_tested_products": 5,
+      "commutators_checked": 4,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 1,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4",
+        "6/5"
+      ],
+      "tested_block_order": 8,
+      "padded_product_order": 13,
+      "words_checked": 5,
+      "distinct_tested_products": 5,
+      "commutators_checked": 4,
+      "rank_histogram": {
+        "0": 1,
+        "1": 4
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 2,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 9,
+      "padded_product_order": 15,
+      "words_checked": 15,
+      "distinct_tested_products": 15,
+      "commutators_checked": 8,
+      "rank_histogram": {
+        "0": 1,
+        "1": 5,
+        "2": 9
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 2,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4",
+        "6/5"
+      ],
+      "tested_block_order": 9,
+      "padded_product_order": 15,
+      "words_checked": 15,
+      "distinct_tested_products": 15,
+      "commutators_checked": 8,
+      "rank_histogram": {
+        "0": 1,
+        "1": 5,
+        "2": 9
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 3,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 10,
+      "padded_product_order": 17,
+      "words_checked": 35,
+      "distinct_tested_products": 35,
+      "commutators_checked": 12,
+      "rank_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 14,
+        "3": 14
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 3,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4",
+        "6/5"
+      ],
+      "tested_block_order": 10,
+      "padded_product_order": 17,
+      "words_checked": 35,
+      "distinct_tested_products": 35,
+      "commutators_checked": 12,
+      "rank_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 14,
+        "3": 14
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 4,
+      "profile": "repeated_root",
+      "eta": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "xi": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "tested_block_order": 11,
+      "padded_product_order": 19,
+      "words_checked": 70,
+      "distinct_tested_products": 70,
+      "commutators_checked": 16,
+      "rank_histogram": {
+        "0": 1,
+        "1": 7,
+        "2": 20,
+        "3": 28,
+        "4": 14
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    },
+    {
+      "p": 4,
+      "q": 4,
+      "profile": "distinct_positive_roots",
+      "eta": [
+        "2/5",
+        "3/7",
+        "4/9",
+        "5/11"
+      ],
+      "xi": [
+        "3/2",
+        "4/3",
+        "5/4",
+        "6/5"
+      ],
+      "tested_block_order": 11,
+      "padded_product_order": 19,
+      "words_checked": 70,
+      "distinct_tested_products": 70,
+      "commutators_checked": 16,
+      "rank_histogram": {
+        "0": 1,
+        "1": 7,
+        "2": 20,
+        "3": 28,
+        "4": 14
+      },
+      "symbol_match": true,
+      "support_first_p_rows_q_columns": true,
+      "T0_minus_Tw_entrywise_nonnegative": true,
+      "rank_bound": true
+    }
+  ],
+  "uniform_h_4_over_27": {
+    "h": "4/27",
+    "tested_block_order": 8,
+    "padded_product_order": 12,
+    "cases": [
+      {
+        "section": "4.1",
+        "word": "LLU",
+        "nonzero_Tw_minus_T0": [
+          {
+            "row": 0,
+            "column": 0,
+            "value": "-8/27"
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "value": "-16/729"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "section": "4.2",
+        "word": "LUL",
+        "nonzero_Tw_minus_T0": [
+          {
+            "row": 0,
+            "column": 0,
+            "value": "-4/27"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "section": "4.3",
+        "word": "ULL",
+        "nonzero_Tw_minus_T0": [],
+        "passed": true
+      }
+    ]
+  }
+}

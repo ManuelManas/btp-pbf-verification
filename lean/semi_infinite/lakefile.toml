@@ -1,0 +1,86 @@
+name = "BTPSemiInfinite"
+version = "0.2.0"
+defaultTargets = ["CompleteResults"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[lean_lib]]
+name = "Lemma24"
+
+[[lean_lib]]
+name = "Proposition29"
+
+[[lean_lib]]
+name = "Proposition215"
+
+[[lean_lib]]
+name = "SeriesLimits"
+
+[[lean_lib]]
+name = "SemiInfiniteBasic"
+
+[[lean_lib]]
+name = "InverseSections"
+
+[[lean_lib]]
+name = "InverseMinors"
+
+[[lean_lib]]
+name = "AdjacentRatios"
+
+[[lean_lib]]
+name = "UniformMinors"
+
+[[lean_lib]]
+name = "ExtractionDeterminants"
+
+[[lean_lib]]
+name = "ExtractionPositive"
+
+[[lean_lib]]
+name = "UniformPerturbation"
+
+[[lean_lib]]
+name = "PlannedColumns"
+
+[[lean_lib]]
+name = "GlobalConstruction"
+
+[[lean_lib]]
+name = "PositiveLimits"
+
+[[lean_lib]]
+name = "OneFactorFormula"
+
+[[lean_lib]]
+name = "FormalizedTheorem"
+
+[[lean_lib]]
+name = "OrderedMinors"
+
+[[lean_lib]]
+name = "PrefixBounds"
+
+[[lean_lib]]
+name = "Necessity"
+
+[[lean_lib]]
+name = "TwoSidedCriterion"
+
+[[lean_lib]]
+name = "RecurrenceParameters"
+
+[[lean_lib]]
+name = "DenseParameters"
+
+[[lean_lib]]
+name = "ParameterChart"
+
+[[lean_lib]]
+name = "UnrestrictedDeterminant"
+
+[[lean_lib]]
+name = "CompleteResults"

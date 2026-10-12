@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the formal proofs or exact computational checks."
+type: software
+title: "BTP/PBF: formal proofs and exact computational checks"
+authors:
+  - family-names: "Mañas"
+    given-names: "Manuel"
+    orcid: "https://orcid.org/0000-0003-3764-5737"
+version: "v48"
+date-released: "2026-10-12"
+repository-code: "https://github.com/ManuelManas/btp-pbf-verification"
+url: "https://github.com/ManuelManas/btp-pbf-verification/tree/v48"
+abstract: >-
+  Lean formalizations of selected finite, semi-infinite, and Toeplitz
+  positive bidiagonal factorization results, together with exact
+  computational checks accompanying Positive Bidiagonal Factorizations
+  and Mixed-Type Chebyshev Multiple Orthogonal Polynomials.
