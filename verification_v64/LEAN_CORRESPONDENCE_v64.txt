@@ -1,0 +1,103 @@
+BTP/PBF — v64 — 13 October 2026
+Correspondence with the public Lean release v64
+
+Repository: https://github.com/ManuelManas/btp-pbf-verification
+Release: https://github.com/ManuelManas/btp-pbf-verification/releases/tag/v64
+Lean: 4.34.0-rc2
+mathlib: 85e3a25e006c35636f0e53b0e9296caca2685bc0
+
+This release adds the exact constant mathfrak B of Lemma 2.16.
+The previous release v48 proves a larger uniform constant sufficient
+for the global theorem. Its proofs remain unchanged. The two new modules
+SharpUniformMinors.lean and CompleteSharpResults.lean prove the bound
+with the manuscript's stated maximum, following its nested-sum argument.
+
+The files listed below belong to lean/semi_infinite/ unless stated otherwise.
+
+INDEX CONVENTIONS
+
+The Lean Metelmann factor index j starts at zero, from the right:
+a j n is the manuscript's widehat a_(p-j)(n). cumulative a j n is pi_j(n).
+ratioAt a k s is r_k(s), while adjacentTerm a k n is r_k(k+n).
+adjacentSeries a k is the sum S_k when the positive series converges.
+consecutiveMinor a p k n c is the minor with rows n,...,n+k-1 and
+column indices c(0),...,c(k-1), in that order.
+normalizedTail a p l n j represents chi_(l,j)(n) in the nested-sum proof.
+
+LEMMA 2.16 — lem:global-inverse-minors
+
+Part (1), leading minors, for all n >= 0 and k <= p:
+  InverseMinors.lean: leading_minor_formula, leading_minor_pos.
+  Delta_(k,n) = consecutiveMinor a p k n (fun j => j.val).
+
+Part (1), the second minor, including n=0:
+  AdjacentRatios.lean: normalized_next_minor.
+  CompleteSharpResults.lean: next_minor_formula, next_minor_at_zero,
+    next_minor_pos.
+  Here Lean index k represents manuscript order k+1. The sum interval
+  Ico (k+1) (n+k+1) corresponds to s=k+1,...,n+k. The raw determinant
+  equals Delta times this sum; it is zero at n=0 and positive at n>=1.
+
+Part (2), reciprocal partial sums, positive ratios, strict decrease and limits:
+  AdjacentRatios.lean: inverseMinorRatio_eq_convergent,
+    inverseMinorRatio_strictAnti, inverseMinorRatio_tendsto.
+  SeriesLimits.lean: convergent_pos, endpoint_eq_inv_tsum,
+    endpoint_eq_zero_iff_not_summable.
+  inverseMinorRatio a p k n represents kappa_(k+1,n+1).
+  seriesEndpoint a k is the actual limit: 1/S_k in the summable case
+  and zero in the nonsummable case. The nonsummable case is handled
+  separately because Lean's real-valued tsum is not an extended real sum.
+  CompleteSharpResults.lean: inverse_minors_identities_and_limits
+  assembles the determinant identities, boundary case, strict positivity,
+  strict decrease and convergence in a single statement.
+
+Part (3), the precise maximum in eq:global-minor-bound-constant:
+  SharpUniformMinors.lean:
+    consecutiveSeriesProduct a l j = product S_h for l+1 <= h <= j;
+    manuscriptBoundValues a p = {1} union all these products with 0<=l<j<p;
+    manuscriptBound a p is the maximum of that nonempty finite set.
+    manuscriptBound_one proves the p=1 value is 1.
+
+  The proof proceeds as in the manuscript:
+    normalizedTail_le_consecutiveSeriesProduct bounds each nested sum;
+    normalizedTail_le_manuscriptBound takes the finite maximum;
+    uniform_inverse_minors_sharp applies the normalized determinant identity
+      and the permutation expansion, giving |minor/Delta| <= k! mathfrak B^k.
+  CompleteSharpResults.lean: inverse_minors_uniform_bound_complete.
+  This holds for all k<=p, all n>=0, and every list of k column indices below p.
+  Increasing lists representing k-element subsets are included.
+
+The new estimate requires convergence of the adjacent series, exactly as in
+part (3). It assumes neither the desired determinant bound nor a PBF.
+
+OTHER FORMALIZED RESULTS RETAINED
+
+lem:rowwise — Lemma24.lean.
+prop:successive-recurrences — Proposition29.lean, RecurrenceParameters.lean.
+prop:inverse-parameter-bound — Proposition215.lean.
+lem:global-extraction-determinant — OneFactorFormula.lean,
+  UnrestrictedDeterminant.lean and CompleteResults.lean:
+  one_factor_determinant_formula_complete includes arbitrary initial
+  parameters, n=0, and recurrence terms that vanish.
+thm:global-lower-criterion, cor:global-two-sided-criterion —
+  Necessity.lean, GlobalConstruction.lean, TwoSidedCriterion.lean,
+  CompleteResults.lean: global_two_sided_criterion_complete.
+  It starts from compatible Metelmann factors and a positive diagonal,
+  and includes the count p+q-2. The proof retains the sufficient larger
+  uniform bound from v48; the literal sharper lemma is now also verified.
+thm:toeplitz — lean/toeplitz/BTPToPBF.lean: direct BTP/PBF equivalence
+  and upper and positive lower bounds on the factor entries.
+
+VALIDATION
+
+Run sh check.sh in lean/semi_infinite/. It creates an empty local output
+directory and checks all 28 modules with warnings treated as errors.
+The compilation record and validation.json document this release's run.
+The new theorems and the global criterion use only propext,
+Classical.choice and Quot.sound, the standard axioms reported by Lean.
+
+All 68 Lean files from v48 are retained unchanged; two files are added.
+The Toeplitz project is unchanged from that release. Python checks and
+their v63 records are retained separately in computational/audit_v63/.
+They check the finite cases, identities and numerical integrals specified
+in their source; they are distinct from the Lean proofs listed above.

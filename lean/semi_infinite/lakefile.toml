@@ -1,6 +1,6 @@
 name = "BTPSemiInfinite"
-version = "0.2.0"
-defaultTargets = ["CompleteResults"]
+version = "0.3.0"
+defaultTargets = ["CompleteSharpResults"]
 
 [[require]]
 name = "mathlib"
@@ -33,6 +33,9 @@ name = "AdjacentRatios"
 
 [[lean_lib]]
 name = "UniformMinors"
+
+[[lean_lib]]
+name = "SharpUniformMinors"
 
 [[lean_lib]]
 name = "ExtractionDeterminants"
@@ -84,3 +87,6 @@ name = "UnrestrictedDeterminant"
 
 [[lean_lib]]
 name = "CompleteResults"
+
+[[lean_lib]]
+name = "CompleteSharpResults"

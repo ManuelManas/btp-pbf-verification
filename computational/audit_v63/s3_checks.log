@@ -1,0 +1,108 @@
+OK   Lemma 3.1 exchange identity and positivity
+OK   (p,q)=(2,1) ordered-root construction gives PBF of T
+OK   (p,q)=(2,1) Lemma: H^-1 and K^-1 formulas
+OK   (p,q)=(2,1) Cor: B coefficient formula matches recurrence
+OK   (p,q)=(2,1) Cor: A coefficient formula matches recurrence
+OK   (p,q)=(1,2) ordered-root construction gives PBF of T
+OK   (p,q)=(1,2) Lemma: H^-1 and K^-1 formulas
+OK   (p,q)=(1,2) Cor: B coefficient formula matches recurrence
+OK   (p,q)=(1,2) Cor: A coefficient formula matches recurrence
+OK   (p,q)=(2,2) ordered-root construction gives PBF of T
+OK   (p,q)=(2,2) Lemma: H^-1 and K^-1 formulas
+OK   (p,q)=(2,2) Cor: B coefficient formula matches recurrence
+OK   (p,q)=(2,2) Cor: A coefficient formula matches recurrence
+OK   (p,q)=(3,2) ordered-root construction gives PBF of T
+OK   (p,q)=(3,2) Lemma: H^-1 and K^-1 formulas
+OK   (p,q)=(3,2) Cor: B coefficient formula matches recurrence
+OK   (p,q)=(3,2) Cor: A coefficient formula matches recurrence
+OK   (p,q)=(2,3) ordered-root construction gives PBF of T
+OK   (p,q)=(2,3) Lemma: H^-1 and K^-1 formulas
+OK   (p,q)=(2,3) Cor: B coefficient formula matches recurrence
+OK   (p,q)=(2,3) Cor: A coefficient formula matches recurrence
+OK   Thm 3.2 (2,1): Metelmann factors of C positive; shifted product = C
+OK   Thm 3.2 (2,1): bounds c_m/c_1^(m-1) <= b_i(n) <= c_1
+OK   Thm 3.2 (2,1): T = omega V_1...V_q B_(q+1)...B_m on leading block
+OK   Thm 3.2 (2,2): Metelmann factors of C positive; shifted product = C
+OK   Thm 3.2 (2,2): bounds c_m/c_1^(m-1) <= b_i(n) <= c_1
+OK   Thm 3.2 (2,2): T = omega V_1...V_q B_(q+1)...B_m on leading block
+OK   Thm 3.2 (1,3): Metelmann factors of C positive; shifted product = C
+OK   Thm 3.2 (1,3): bounds c_m/c_1^(m-1) <= b_i(n) <= c_1
+OK   Thm 3.2 (1,3): T = omega V_1...V_q B_(q+1)...B_m on leading block
+OK   Prop const-orders (2,1): support in first p rows & q cols, T_w <= T_0 (all orderings)
+OK   Prop const-orders (2,2): support in first p rows & q cols, T_w <= T_0 (all orderings)
+OK   Prop const-orders (3,2): support in first p rows & q cols, T_w <= T_0 (all orderings)
+OK   Ex uniform Christoffel chain: differences from T_0
+OK   Binomial PBF (1,1)
+OK   Binomial convolution identity (1,1)
+OK   Binomial H,K (1,1)
+OK   Binomial K-tilde formula (1,1)
+OK   Binomial inverses by sign change (1,1)
+OK   Binomial PBF (2,1)
+OK   Binomial convolution identity (2,1)
+OK   Binomial H,K (2,1)
+OK   Binomial K-tilde formula (2,1)
+OK   Binomial inverses by sign change (2,1)
+OK   Binomial PBF (1,2)
+OK   Binomial convolution identity (1,2)
+OK   Binomial H,K (1,2)
+OK   Binomial K-tilde formula (1,2)
+OK   Binomial inverses by sign change (1,2)
+OK   Binomial PBF (2,2)
+OK   Binomial convolution identity (2,2)
+OK   Binomial H,K (2,2)
+OK   Binomial K-tilde formula (2,2)
+OK   Binomial inverses by sign change (2,2)
+OK   Binomial PBF (3,2)
+OK   Binomial convolution identity (3,2)
+OK   Binomial H,K (3,2)
+OK   Binomial K-tilde formula (3,2)
+OK   Binomial inverses by sign change (3,2)
+OK   Binomial (2,1): Q_{n,0}=1, Q_{n,1}=2n/(n+1)
+OK   Lima rescaling r=2
+OK   Lima rescaling r=3
+OK   Lima rescaling r=4
+OK   Thm general-measure (2,1) eta=[Fraction(1, 1)] xi=[Fraction(2, 1), Fraction(1, 2)]: moments 0..3 match H E T^l E^T K (max err 0)
+     sections N=40: eig range [0.1178,7.4798] vs [0.1119,7.4934]
+OK   Thm general-measure (1,2) eta=[Fraction(3, 1), Fraction(1, 3)] xi=[Fraction(1, 1)]: moments 0..3 match H E T^l E^T K (max err 2.52e-29)
+     sections N=40: eig range [0.4434,8.6918] vs [0.4346,8.7063]
+OK   Thm general-measure (2,2) eta=[Fraction(2, 1), Fraction(1, 1)] xi=[Fraction(3, 2), Fraction(1, 3)]: moments 0..3 match H E T^l E^T K (max err 1.62e-27)
+     sections N=40: eig range [0.0340,19.9448] vs [0.0289,19.9969]
+OK   Ex two-by-two binomial weight
+OK   Binomial (2,1): hard-edge constants and soft-edge constant (errs 3.0e-8, 2.2e-18)
+OK   Binomial (1,2): hard-edge constants and soft-edge constant (errs 3.0e-8, 7.1e-18)
+OK   Binomial (2,2): hard-edge constants and soft-edge constant (errs 9.2e-7, 7.8e-19)
+OK   Binomial (3,2): hard-edge constants and soft-edge constant (errs 2.0e-5, 6.4e-15)
+OK   Lemma roots: trigonometric parametrization
+OK   Geometric tau=2/3 (1,1): PBF product = T_tau
+OK   Geometric tau=2/3 (1,1): H, K and inverses
+OK   Geometric tau=2/3 (1,1): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=2/3 (2,1): PBF product = T_tau
+OK   Geometric tau=2/3 (2,1): H, K and inverses
+OK   Geometric tau=2/3 (2,1): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=2/3 (1,2): PBF product = T_tau
+OK   Geometric tau=2/3 (1,2): H, K and inverses
+OK   Geometric tau=2/3 (1,2): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=2/3 (2,2): PBF product = T_tau
+OK   Geometric tau=2/3 (2,2): H, K and inverses
+OK   Geometric tau=2/3 (2,2): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=2/3 (3,2): PBF product = T_tau
+OK   Geometric tau=2/3 (3,2): H, K and inverses
+OK   Geometric tau=2/3 (3,2): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   tau-Vandermonde-Pfaff tau=2/3
+OK   Geometric tau=3 (1,1): PBF product = T_tau
+OK   Geometric tau=3 (1,1): H, K and inverses
+OK   Geometric tau=3 (1,1): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=3 (2,1): PBF product = T_tau
+OK   Geometric tau=3 (2,1): H, K and inverses
+OK   Geometric tau=3 (2,1): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=3 (1,2): PBF product = T_tau
+OK   Geometric tau=3 (1,2): H, K and inverses
+OK   Geometric tau=3 (1,2): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=3 (2,2): PBF product = T_tau
+OK   Geometric tau=3 (2,2): H, K and inverses
+OK   Geometric tau=3 (2,2): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   Geometric tau=3 (3,2): PBF product = T_tau
+OK   Geometric tau=3 (3,2): H, K and inverses
+OK   Geometric tau=3 (3,2): GF initial coefficients = H^-1, K^-1; P^vee formula
+OK   tau-Vandermonde-Pfaff tau=3
+OK   q-affine p=q=1: a=s=alpha sqrt(tau), b=alpha(sqrt(tau)-1)^2

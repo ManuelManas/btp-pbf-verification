@@ -1,0 +1,418 @@
+{
+  "version": "v64",
+  "date": "2026-10-13",
+  "lean": "4.34.0-rc2",
+  "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "clean_build": true,
+  "modules_checked": [
+    "Lemma24",
+    "Proposition29",
+    "Proposition215",
+    "SeriesLimits",
+    "SemiInfiniteBasic",
+    "InverseSections",
+    "InverseMinors",
+    "AdjacentRatios",
+    "UniformMinors",
+    "SharpUniformMinors",
+    "ExtractionDeterminants",
+    "ExtractionPositive",
+    "UniformPerturbation",
+    "PlannedColumns",
+    "GlobalConstruction",
+    "PositiveLimits",
+    "OneFactorFormula",
+    "FormalizedTheorem",
+    "OrderedMinors",
+    "PrefixBounds",
+    "Necessity",
+    "TwoSidedCriterion",
+    "RecurrenceParameters",
+    "DenseParameters",
+    "ParameterChart",
+    "UnrestrictedDeterminant",
+    "CompleteResults",
+    "CompleteSharpResults"
+  ],
+  "module_count": 28,
+  "warnings_as_errors": true,
+  "axioms": {
+    "BTP.lemma_2_4": "propext, Classical.choice, Quot.sound",
+    "BTP.number_of_parameters": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.proposition_2_9": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.proposition_2_9_forward": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.proposition_2_9_converse": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.sequence_unique": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.positive_iteration": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.final_factor": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.number_of_recurrences": "propext, Classical.choice, Quot.sound",
+    "BTP.Extraction.total_initial_parameters": "propext, Classical.choice, Quot.sound",
+    "BTP.InverseBounds.qProduct_signed_inverse": "propext, Classical.choice, Quot.sound",
+    "BTP.InverseBounds.adjacent_minor_identity": "propext, Classical.choice, Quot.sound",
+    "BTP.InverseBounds.positive_refactorization_bound": "propext, Classical.choice, Quot.sound",
+    "BTP.InverseBounds.proposition_2_15": "propext, Classical.choice, Quot.sound",
+    "BTP.InverseBounds.arbitrary_positive_refactorization_bound": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.endpoint_pos_iff_summable": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.admissible_parameter_iff": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.all_endpoints_pos_iff": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.product_compatible": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.sameProduct_iff_entries": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.global_extraction": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.signed_inverse_section": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverse_compatible": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.global_first_limit_positive": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.leading_minor_formula": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.normalized_minor_identity": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverseMinorRatio_eq_convergent": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverseMinorRatio_tendsto": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.uniform_inverse_minors": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.normalizedTail_le_consecutiveSeriesProduct": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.uniform_inverse_minors_sharp": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.manuscriptBound_one": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.windowDet_shift": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverse_window_det": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.extraction_recurrence_positive": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.uniform_determinant_positivity": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.planned_windows_positive": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.positive_extraction": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.construct_from_planned_windows": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.all_small_parameters_extend": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.positive_limits_give_PBF": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.positive_limits_give_two_sided_PBF": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.extractionColumns_matrix": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.extraction_determinant_formula": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.p_add_q_sub_two_positive_limits": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverse_minor_limit_is_limit": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverseEntries_ordered_minors": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverse_prefix_weighted_nonnegative": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.PBF_gives_positive_limits": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.PBF_iff_positive_limits": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.normalized_products_unique": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.two_sided_PBF_iff_positive_limits": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.fundamental_row_nonzero": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.canonical_fundamental": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.goodInitialData_dense": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.canonical_chart": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.extraction_formula_nonzero_initial": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.extraction_determinant_formula_unrestricted": "propext,\n Classical.choice,\n Quot.sound",
+    "BTP.SemiInfinite.global_two_sided_criterion_complete": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.one_factor_determinant_formula_complete": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.example_extraction_at_zero": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.next_minor_at_zero": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverse_minors_identities_and_limits": "propext, Classical.choice, Quot.sound",
+    "BTP.SemiInfinite.inverse_minors_uniform_bound_complete": "propext, Classical.choice, Quot.sound"
+  },
+  "only_standard_axioms": true,
+  "source_scan_no_sorry_or_added_axioms": true,
+  "new_theorems": [
+    "BTP.SemiInfinite.uniform_inverse_minors_sharp",
+    "BTP.SemiInfinite.inverse_minors_uniform_bound_complete"
+  ],
+  "exact_constant": "max({1} union {product S_h, l+1 <= h <= j : 0 <= l < j < p})",
+  "old_lean_files_preserved": [
+    {
+      "path": "lean/semi_infinite/AdjacentRatios.lean",
+      "sha256": "dd5dd6a8746142136af8034b7f7c11e62307374650e47b83c096ce0f7fdec727"
+    },
+    {
+      "path": "lean/semi_infinite/CompleteResults.lean",
+      "sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d"
+    },
+    {
+      "path": "lean/semi_infinite/DenseParameters.lean",
+      "sha256": "dc863dfb4f302fe00c2890abfa19ad892ba78c206ecc077ed801fc17a65632a1"
+    },
+    {
+      "path": "lean/semi_infinite/ExtractionDeterminants.lean",
+      "sha256": "1c7166744f870d822f7ec4e81514f833e9a63dea7004b8db7e9b20a707e95460"
+    },
+    {
+      "path": "lean/semi_infinite/ExtractionPositive.lean",
+      "sha256": "cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99"
+    },
+    {
+      "path": "lean/semi_infinite/FormalizedTheorem.lean",
+      "sha256": "c1208ae6acac9a692fd5daf073314bfe391de59433c276924f7e9b841b1c6218"
+    },
+    {
+      "path": "lean/semi_infinite/GlobalConstruction.lean",
+      "sha256": "8b84c26a4cee09f498b02703c0cc35f216d9a8d5a2c9314e61faee124854189a"
+    },
+    {
+      "path": "lean/semi_infinite/InverseMinors.lean",
+      "sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58"
+    },
+    {
+      "path": "lean/semi_infinite/InverseSections.lean",
+      "sha256": "c9ffa0975542a6808ac195041392dbd740326d409eb4eb91a308bd6c363e6a82"
+    },
+    {
+      "path": "lean/semi_infinite/Lemma24.lean",
+      "sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18"
+    },
+    {
+      "path": "lean/semi_infinite/Necessity.lean",
+      "sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212"
+    },
+    {
+      "path": "lean/semi_infinite/OneFactorFormula.lean",
+      "sha256": "317a8044566f724bc285c09b792d95e5026fb0138cd94936f31a35b64540c154"
+    },
+    {
+      "path": "lean/semi_infinite/OrderedMinors.lean",
+      "sha256": "cf0580e1bc0f0e8c9b9705b4cdeb5f29479e7e7c66f28de060870a0b3c80f2e9"
+    },
+    {
+      "path": "lean/semi_infinite/ParameterChart.lean",
+      "sha256": "d25c11eaa321e9aa0f3696dd944283cd80bcac97ac852926fcf7f67fad608bad"
+    },
+    {
+      "path": "lean/semi_infinite/PlannedColumns.lean",
+      "sha256": "612171ed8be7b394536fe419ad8eb2468fc76f1ded3c681df95ede529604cb17"
+    },
+    {
+      "path": "lean/semi_infinite/PositiveLimits.lean",
+      "sha256": "88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb"
+    },
+    {
+      "path": "lean/semi_infinite/PrefixBounds.lean",
+      "sha256": "01e402bdece4cbed352d74e6b81ac9d6a69093b89df0e0c7904fdc520b1ba892"
+    },
+    {
+      "path": "lean/semi_infinite/Proposition215.lean",
+      "sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272"
+    },
+    {
+      "path": "lean/semi_infinite/Proposition29.lean",
+      "sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368"
+    },
+    {
+      "path": "lean/semi_infinite/RecurrenceParameters.lean",
+      "sha256": "34e51e70350e943c89f19550fdee72257262ec041679c20738cab871a851f1be"
+    },
+    {
+      "path": "lean/semi_infinite/SemiInfiniteBasic.lean",
+      "sha256": "3f74052572d9eb1711ec720ac8c5805a9301bacdf33b11ffa94911b5c8ee4ced"
+    },
+    {
+      "path": "lean/semi_infinite/SeriesLimits.lean",
+      "sha256": "70c26d5f8f7e361dda1af8c6519c06be5bbba1720809a2cb133778c7b603ceb9"
+    },
+    {
+      "path": "lean/semi_infinite/TwoSidedCriterion.lean",
+      "sha256": "cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237"
+    },
+    {
+      "path": "lean/semi_infinite/UniformMinors.lean",
+      "sha256": "cfd40131607751a48af30ea0d89dd64fdaec58d4a6a1555c13193af27f20e5c4"
+    },
+    {
+      "path": "lean/semi_infinite/UniformPerturbation.lean",
+      "sha256": "bd64f926123727df5d922e86f7cd412a20fd79b5c0e1331746ef471895325de6"
+    },
+    {
+      "path": "lean/semi_infinite/UnrestrictedDeterminant.lean",
+      "sha256": "c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972"
+    },
+    {
+      "path": "lean/toeplitz/AdjacentRatios.lean",
+      "sha256": "dd5dd6a8746142136af8034b7f7c11e62307374650e47b83c096ce0f7fdec727"
+    },
+    {
+      "path": "lean/toeplitz/BTPToPBF.lean",
+      "sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8"
+    },
+    {
+      "path": "lean/toeplitz/BandStructure.lean",
+      "sha256": "6b91c3ab5fd415f379312f82032553a67b75d5d1e814d83080e8a11bb91f9c54"
+    },
+    {
+      "path": "lean/toeplitz/BidiagonalSwap.lean",
+      "sha256": "bd9bfe206446ab25da5a0bc8406e82169b1a55541a62f71f1f504dfa9d7dc2ac"
+    },
+    {
+      "path": "lean/toeplitz/CanonicalLowerInverse.lean",
+      "sha256": "864115d90145834606ff3ca0180cbc6d0acddc81f5eaf031ab6553e88574866c"
+    },
+    {
+      "path": "lean/toeplitz/CompleteResults.lean",
+      "sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d"
+    },
+    {
+      "path": "lean/toeplitz/DenseParameters.lean",
+      "sha256": "dc863dfb4f302fe00c2890abfa19ad892ba78c206ecc077ed801fc17a65632a1"
+    },
+    {
+      "path": "lean/toeplitz/ExtractionDeterminants.lean",
+      "sha256": "1c7166744f870d822f7ec4e81514f833e9a63dea7004b8db7e9b20a707e95460"
+    },
+    {
+      "path": "lean/toeplitz/ExtractionPositive.lean",
+      "sha256": "cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99"
+    },
+    {
+      "path": "lean/toeplitz/FactorReordering.lean",
+      "sha256": "77ca0566f742049decdb8553420022c248a1171b67d140b64cbc4731df10f912"
+    },
+    {
+      "path": "lean/toeplitz/FlagComplement.lean",
+      "sha256": "952f4dd798e1967596940478c38dac84547b019a7f9af5fcff8e0c2d18105dde"
+    },
+    {
+      "path": "lean/toeplitz/FormalizedTheorem.lean",
+      "sha256": "c1208ae6acac9a692fd5daf073314bfe391de59433c276924f7e9b841b1c6218"
+    },
+    {
+      "path": "lean/toeplitz/ForwardConversion.lean",
+      "sha256": "7216dd0d3062dbd3aba9ac6ae024032642742a38b4c34f282b35f35ad0bc4807"
+    },
+    {
+      "path": "lean/toeplitz/GlobalConstruction.lean",
+      "sha256": "8b84c26a4cee09f498b02703c0cc35f216d9a8d5a2c9314e61faee124854189a"
+    },
+    {
+      "path": "lean/toeplitz/InverseMinors.lean",
+      "sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58"
+    },
+    {
+      "path": "lean/toeplitz/InverseSections.lean",
+      "sha256": "c9ffa0975542a6808ac195041392dbd740326d409eb4eb91a308bd6c363e6a82"
+    },
+    {
+      "path": "lean/toeplitz/Lemma24.lean",
+      "sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18"
+    },
+    {
+      "path": "lean/toeplitz/LowerOperatorBridge.lean",
+      "sha256": "8a0b096a07f7f335bae2615ee159ac23edaa255433731708e7dae7ffbba9e7b5"
+    },
+    {
+      "path": "lean/toeplitz/ManuscriptTheorem.lean",
+      "sha256": "b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a"
+    },
+    {
+      "path": "lean/toeplitz/MetelmannFromFlags.lean",
+      "sha256": "c1186e7fea8d3a394ce98a1c3a9fc602114c441197f98aff768984d3bbffd806"
+    },
+    {
+      "path": "lean/toeplitz/Necessity.lean",
+      "sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212"
+    },
+    {
+      "path": "lean/toeplitz/NegativeRoots.lean",
+      "sha256": "97c35c2acb041fea2bc0e9689b82954e73c6541402cfc7822fa2e22d55d1dafb"
+    },
+    {
+      "path": "lean/toeplitz/OneFactorFormula.lean",
+      "sha256": "317a8044566f724bc285c09b792d95e5026fb0138cd94936f31a35b64540c154"
+    },
+    {
+      "path": "lean/toeplitz/OrderedMinors.lean",
+      "sha256": "cf0580e1bc0f0e8c9b9705b4cdeb5f29479e7e7c66f28de060870a0b3c80f2e9"
+    },
+    {
+      "path": "lean/toeplitz/PBFMinors.lean",
+      "sha256": "8d781c729c08cf8099102adfee1e053d019da1779a21f7d0c221421ec684785f"
+    },
+    {
+      "path": "lean/toeplitz/ParameterChart.lean",
+      "sha256": "d25c11eaa321e9aa0f3696dd944283cd80bcac97ac852926fcf7f67fad608bad"
+    },
+    {
+      "path": "lean/toeplitz/PlannedColumns.lean",
+      "sha256": "612171ed8be7b394536fe419ad8eb2468fc76f1ded3c681df95ede529604cb17"
+    },
+    {
+      "path": "lean/toeplitz/PositiveLimits.lean",
+      "sha256": "88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb"
+    },
+    {
+      "path": "lean/toeplitz/PositiveMinors.lean",
+      "sha256": "e21f5c5a05a8edf37d6acf8d2a5bb6fb1be170db2c167e985146a7a32157bfe2"
+    },
+    {
+      "path": "lean/toeplitz/PrefixBounds.lean",
+      "sha256": "01e402bdece4cbed352d74e6b81ac9d6a69093b89df0e0c7904fdc520b1ba892"
+    },
+    {
+      "path": "lean/toeplitz/Proposition215.lean",
+      "sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272"
+    },
+    {
+      "path": "lean/toeplitz/Proposition29.lean",
+      "sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368"
+    },
+    {
+      "path": "lean/toeplitz/RecurrenceParameters.lean",
+      "sha256": "34e51e70350e943c89f19550fdee72257262ec041679c20738cab871a851f1be"
+    },
+    {
+      "path": "lean/toeplitz/SemiInfiniteBasic.lean",
+      "sha256": "3f74052572d9eb1711ec720ac8c5805a9301bacdf33b11ffa94911b5c8ee4ced"
+    },
+    {
+      "path": "lean/toeplitz/SeriesLimits.lean",
+      "sha256": "70c26d5f8f7e361dda1af8c6519c06be5bbba1720809a2cb133778c7b603ceb9"
+    },
+    {
+      "path": "lean/toeplitz/ToeplitzSymbol.lean",
+      "sha256": "ccc27aa4af500097b37beb0ba5b01c884cf04f81690e30394090a01db604b7b7"
+    },
+    {
+      "path": "lean/toeplitz/ToeplitzTail.lean",
+      "sha256": "21e1d40f508799cf6bfcecf30cbeb93dbfc369fe652e183a26e1d3cc0e1a7925"
+    },
+    {
+      "path": "lean/toeplitz/ToeplitzTheorem.lean",
+      "sha256": "14ccb69eed2449c158eb99bab3258f41f2a03c21586d298051ec80da9dfe1a43"
+    },
+    {
+      "path": "lean/toeplitz/TwoSidedCriterion.lean",
+      "sha256": "cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237"
+    },
+    {
+      "path": "lean/toeplitz/UniformMinors.lean",
+      "sha256": "cfd40131607751a48af30ea0d89dd64fdaec58d4a6a1555c13193af27f20e5c4"
+    },
+    {
+      "path": "lean/toeplitz/UniformPerturbation.lean",
+      "sha256": "bd64f926123727df5d922e86f7cd412a20fd79b5c0e1331746ef471895325de6"
+    },
+    {
+      "path": "lean/toeplitz/UnrestrictedDeterminant.lean",
+      "sha256": "c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972"
+    }
+  ],
+  "semi_infinite_source_sha256": {
+    "Lemma24.lean": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18",
+    "SeriesLimits.lean": "70c26d5f8f7e361dda1af8c6519c06be5bbba1720809a2cb133778c7b603ceb9",
+    "PositiveLimits.lean": "88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb",
+    "Necessity.lean": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212",
+    "SharpUniformMinors.lean": "7af1b130949ce636b347628b3afda45bb1d13664129085d22d5c8c0c2123a468",
+    "AdjacentRatios.lean": "dd5dd6a8746142136af8034b7f7c11e62307374650e47b83c096ce0f7fdec727",
+    "GlobalConstruction.lean": "8b84c26a4cee09f498b02703c0cc35f216d9a8d5a2c9314e61faee124854189a",
+    "ExtractionDeterminants.lean": "1c7166744f870d822f7ec4e81514f833e9a63dea7004b8db7e9b20a707e95460",
+    "SemiInfiniteBasic.lean": "3f74052572d9eb1711ec720ac8c5805a9301bacdf33b11ffa94911b5c8ee4ced",
+    "FormalizedTheorem.lean": "c1208ae6acac9a692fd5daf073314bfe391de59433c276924f7e9b841b1c6218",
+    "OneFactorFormula.lean": "317a8044566f724bc285c09b792d95e5026fb0138cd94936f31a35b64540c154",
+    "Proposition215.lean": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272",
+    "OrderedMinors.lean": "cf0580e1bc0f0e8c9b9705b4cdeb5f29479e7e7c66f28de060870a0b3c80f2e9",
+    "InverseSections.lean": "c9ffa0975542a6808ac195041392dbd740326d409eb4eb91a308bd6c363e6a82",
+    "ExtractionPositive.lean": "cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99",
+    "Proposition29.lean": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
+    "UnrestrictedDeterminant.lean": "c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972",
+    "PrefixBounds.lean": "01e402bdece4cbed352d74e6b81ac9d6a69093b89df0e0c7904fdc520b1ba892",
+    "RecurrenceParameters.lean": "34e51e70350e943c89f19550fdee72257262ec041679c20738cab871a851f1be",
+    "CompleteSharpResults.lean": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
+    "PlannedColumns.lean": "612171ed8be7b394536fe419ad8eb2468fc76f1ded3c681df95ede529604cb17",
+    "TwoSidedCriterion.lean": "cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237",
+    "UniformPerturbation.lean": "bd64f926123727df5d922e86f7cd412a20fd79b5c0e1331746ef471895325de6",
+    "UniformMinors.lean": "cfd40131607751a48af30ea0d89dd64fdaec58d4a6a1555c13193af27f20e5c4",
+    "CompleteResults.lean": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d",
+    "DenseParameters.lean": "dc863dfb4f302fe00c2890abfa19ad892ba78c206ecc077ed801fc17a65632a1",
+    "InverseMinors.lean": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58",
+    "ParameterChart.lean": "d25c11eaa321e9aa0f3696dd944283cd80bcac97ac852926fcf7f67fad608bad"
+  },
+  "toeplitz_project": "Unchanged from v48; this clean build covers the semi-infinite project.",
+  "completed_at": "2026-10-13T21:36:19.750997+02:00"
+}

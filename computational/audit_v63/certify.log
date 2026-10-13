@@ -1,0 +1,16 @@
+All rational certificate checks passed.
+geometric: convergent; certificate starts at 1; limit in [1, 1]
+slow_geometric: convergent; certificate starts at 1; limit in [5.0157507e-05, 0.015922275]
+factorial: convergent; certificate starts at 1; limit in [0.58197671, 0.58197671]
+p4_k1: convergent; certificate starts at 8; limit in [0.96026059, 1.047619]
+p4_k2: convergent; certificate starts at 2; limit in [0.48530098, 0.51612903]
+p4_k3: convergent; certificate starts at 3; limit in [0.32787711, 0.33879781]
+near_critical: convergent; certificate starts at 256; limit in [0.0025610509, 0.099657437]
+divergent_geometric: divergent; certificate starts at 1
+harmonic: divergent; certificate starts at 2
+harmonic_with_correction: divergent; certificate starts at 1
+constant: divergent; certificate starts at 1
+p=4: common free parameter = 1/4096 ; B = 6
+m = 1 ; certified all-row margin > 0.9956043957790826
+m = 2 ; certified all-row margin > 0.9648265817665731
+m = 3 ; certified all-row margin > 0.683516483521089

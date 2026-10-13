@@ -1,0 +1,48 @@
+OK   Ex 2.10: Metelmann factors reproduce L
+OK   Ex 2.10: a3(1)=1-u-v
+OK   Ex 2.10: a2(2)
+OK   Ex 2.10: a3(2)
+OK   Ex 2.10: a2(3)
+     Ex 2.10 factor set: ['2*u - v*w + 2*v - 1', '3*u - 3*v*w + 3*v - 1', '3*u*w - 2*w + 1', '4*u - 6*v*w + 4*v - 1', '6*u*w - 3*w + 1', 'u', 'u + v - 1', 'u*w - w + 1', 'v', 'w']
+OK   Ex 2.10: every claimed inequality polynomial appears
+OK   Ex 2.10: no other polynomial factors ([])
+OK   Ex 2.10: u=v=w=1/10 admissible
+OK   Ex 2.15: three-factor recursion recovers Metelmann factors
+OK   Prop 2.13: kappa_n strictly decreasing, positive
+OK   Prop 2.17 p=2: Jacobi convergents = kappa = closed form
+OK   Prop 2.17 p=3: Jacobi convergents = kappa = closed form
+OK   Prop 2.17 p=4: Jacobi convergents = kappa = closed form
+OK   Lemma 2.18 m=2: W_n = phi_(n+m-1) * prod f_m (random signed F)
+OK   Lemma 2.18 m=3: W_n = phi_(n+m-1) * prod f_m (random signed F)
+OK   Lemma 2.18 m=4: W_n = phi_(n+m-1) * prod f_m (random signed F)
+OK   Ex 2.28: r_k(n) closed form
+OK   Ex 2.28: tail sums
+OK   Ex 2.28: B = 6
+OK   Ex 2.28: finite reconstruction reproduces section
+OK   Ex 2.28: finite factors positive through row 4
+OK   Ex 2.28: epsilon_m formulas
+     m!6^m eps_m = {1: 0.004395604220917448, 2: 0.0351734182334269, 3: 0.31648351647891104}
+OK   Ex 2.28: m!6^m eps_m < 1/3
+     min_{m,n<=39} W/Delta = 0.9990702647957339
+OK   Ex 2.28: W_{m,n}/Delta_{m,n} > 2/3 on computed range
+OK   Ex 2.28: global extraction positive in all 43 rows
+OK   Ex 2.28: global factors agree with finite factors on section
+OK   Ex 2.28: product of global factors = L
+OK   Rem 2.21: reconstruction formula a_i(n)=W W/(W W)
+OK   Prop 2.26 formula for kappa_(k,n), xi=[2, 1, 3, 4]
+     limits: [Fraction(1, 1), Fraction(2, 1), 0]
+OK   Prop 2.26 formula for kappa_(k,n), xi=[1, 3, 2, 4]
+     limits: [Fraction(2, 1), 0, Fraction(2, 1)]
+OK   Prop 2.26 formula for kappa_(k,n), xi=[1, 2, 4, 3]
+     limits: [0, Fraction(2, 1), Fraction(1, 1)]
+OK   Ex 2.27: kappa_(3,n)=1/(2^n-1)
+OK   Prop 2.26 explicit factorization p=2
+OK   Prop 2.26 explicit factorization p=3
+OK   Prop 2.26 explicit factorization p=4
+OK   Prop 2.26 explicit factorization p=5
+     Rem 2.23 u=endpoint: min F_n over n<60 = 1.0  first n with F_n<=0: None
+     Rem 2.23 u=endpoint+1e-3: min F_n over n<60 = -7.065193045869368e+24  first n with F_n<=0: 7
+OK   Prop 2.24 certificate b(n)=2n, k=1, N=8: [0.8800,1.4285714285714286] contains 1/k
+OK   Prop 2.24 certificate b(n)=2n, k=2, N=3: [0.3750,1.5] contains 1/k
+OK   Prop 2.24 certificate b(n)=2n, k=3, N=4: [0.1818,0.6666666666666666] contains 1/k
+OK   Thm 2.29: support in m0 block, rank<=p+q-2, nonneg coefficients, degree<=p+q-2
