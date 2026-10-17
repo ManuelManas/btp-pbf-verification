@@ -1,0 +1,2850 @@
+{
+  "precision_decimal_digits": 70,
+  "passed": 516,
+  "checks": [
+    {
+      "name": "exact convolution left n=0",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=1",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=2",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=3",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=4",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=5",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=6",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=7",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=8",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=9",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=10",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=11",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=12",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=13",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=14",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=15",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=16",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=17",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=18",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=19",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=20",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution left n=21",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=0",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=1",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=2",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=3",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=4",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=5",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=6",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=7",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=8",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=9",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=10",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=11",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=12",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=13",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=14",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=15",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=16",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=17",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=18",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=19",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=20",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "exact convolution right n=21",
+      "absolute_error": "0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] amplitude identity",
+      "absolute_error": "1.131959885e-72",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=1",
+      "absolute_error": "4.527839539e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=2",
+      "absolute_error": "4.527839539e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=2",
+      "absolute_error": "3.622271632e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=3",
+      "absolute_error": "1.131959885e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=3",
+      "absolute_error": "1.086681489e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=4",
+      "absolute_error": "4.563076176e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=4",
+      "absolute_error": "7.244543263e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=5",
+      "absolute_error": "5.659799424e-73",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=5",
+      "absolute_error": "4.346725958e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=6",
+      "absolute_error": "1.442971385e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=6",
+      "absolute_error": "1.448908653e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=7",
+      "absolute_error": "5.659799424e-73",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=7",
+      "absolute_error": "1.738690383e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=8",
+      "absolute_error": "4.47446432e-73",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=8",
+      "absolute_error": "2.897817305e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=9",
+      "absolute_error": "3.555017516e-73",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=9",
+      "absolute_error": "6.954761533e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=10",
+      "absolute_error": "9.175065473e-74",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=10",
+      "absolute_error": "2.897817305e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=11",
+      "absolute_error": "1.419261372e-73",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=11",
+      "absolute_error": "3.248787943e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=12",
+      "absolute_error": "4.4217183e-75",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=12",
+      "absolute_error": "2.496835803e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=13",
+      "absolute_error": "6.194352325e-74",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=13",
+      "absolute_error": "9.319265117e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=14",
+      "absolute_error": "1.32651549e-74",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=14",
+      "absolute_error": "1.529344875e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=15",
+      "absolute_error": "2.21085915e-74",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=15",
+      "absolute_error": "2.256222019e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] left contraction n=16",
+      "absolute_error": "8.8434366e-75",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] right contraction n=16",
+      "absolute_error": "5.980915206e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] CD a=1,b=1",
+      "absolute_error": "1.811135816e-71",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] alpha asymptotic n=100",
+      "absolute_error": "1.219120796e-69",
+      "tolerance": "7.888609052e-29"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] beta asymptotic n=100",
+      "absolute_error": "1.075361891e-69",
+      "tolerance": "7.888609052e-29"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] alpha asymptotic n=200",
+      "absolute_error": "1.17723828e-69",
+      "tolerance": "6.323015278e-59"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] beta asymptotic n=200",
+      "absolute_error": "7.606770426e-70",
+      "tolerance": "6.323015278e-59"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] rational Poisson",
+      "absolute_error": "1.063066005e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] diagonal rate N=50",
+      "absolute_error": "0.0009743361539",
+      "tolerance": "0.4371208442"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] sine rate N=50",
+      "absolute_error": "0.006946149831",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] diagonal rate N=100",
+      "absolute_error": "0.0009322311346",
+      "tolerance": "0.2185604221"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] sine rate N=100",
+      "absolute_error": "0.002826222307",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] diagonal rate N=200",
+      "absolute_error": "3.527575356e-6",
+      "tolerance": "0.109280211"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] sine rate N=200",
+      "absolute_error": "0.002899080745",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] diagonal rate N=400",
+      "absolute_error": "1.850566695e-5",
+      "tolerance": "0.05464010552"
+    },
+    {
+      "name": "(1,1) beta=[3, 1] sine rate N=400",
+      "absolute_error": "0.001118882895",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] amplitude identity",
+      "absolute_error": "5.70384522e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=1",
+      "absolute_error": "2.016303545e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=2",
+      "absolute_error": "1.641341833e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=2",
+      "absolute_error": "2.897817305e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=3",
+      "absolute_error": "5.260960434e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=3",
+      "absolute_error": "1.448908653e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=4",
+      "absolute_error": "4.994772992e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=4",
+      "absolute_error": "1.390952307e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=5",
+      "absolute_error": "1.429209898e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=5",
+      "absolute_error": "4.636507688e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=6",
+      "absolute_error": "3.096352457e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=6",
+      "absolute_error": "3.709206151e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=7",
+      "absolute_error": "7.402541621e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=7",
+      "absolute_error": "9.273015377e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=8",
+      "absolute_error": "9.141485286e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=8",
+      "absolute_error": "7.121675809e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=9",
+      "absolute_error": "1.242443985e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=9",
+      "absolute_error": "4.784732165e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=10",
+      "absolute_error": "2.494335467e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=10",
+      "absolute_error": "1.519290839e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=11",
+      "absolute_error": "4.497079252e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=11",
+      "absolute_error": "1.5200325e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=12",
+      "absolute_error": "8.886264476e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=12",
+      "absolute_error": "3.038581679e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=13",
+      "absolute_error": "1.283462003e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=13",
+      "absolute_error": "2.432051999e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=14",
+      "absolute_error": "1.256653068e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=14",
+      "absolute_error": "5.347925335e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=15",
+      "absolute_error": "1.913389548e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=15",
+      "absolute_error": "3.919652589e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] left contraction n=16",
+      "absolute_error": "1.450004639e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] right contraction n=16",
+      "absolute_error": "1.089038526e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] CD a=1,b=1",
+      "absolute_error": "5.469447022e-63",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] CD a=2,b=1",
+      "absolute_error": "3.038581679e-64",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] alpha asymptotic n=100",
+      "absolute_error": "3.078930887e-70",
+      "tolerance": "4.691035521e-23"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] beta asymptotic n=100",
+      "absolute_error": "6.338975355e-71",
+      "tolerance": "4.691035521e-23"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] alpha asymptotic n=200",
+      "absolute_error": "2.199681046e-69",
+      "tolerance": "2.200581426e-47"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] beta asymptotic n=200",
+      "absolute_error": "4.038832869e-69",
+      "tolerance": "2.200581426e-47"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] rational Poisson",
+      "absolute_error": "5.659799424e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] diagonal rate N=50",
+      "absolute_error": "0.0001004873924",
+      "tolerance": "0.4151023867"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] sine rate N=50",
+      "absolute_error": "0.005104480751",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] diagonal rate N=100",
+      "absolute_error": "0.0001716450034",
+      "tolerance": "0.2075511934"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] sine rate N=100",
+      "absolute_error": "0.001202627156",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] diagonal rate N=200",
+      "absolute_error": "0.0001952651402",
+      "tolerance": "0.1037755967"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] sine rate N=200",
+      "absolute_error": "0.002481237",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] diagonal rate N=400",
+      "absolute_error": "5.158085744e-6",
+      "tolerance": "0.05188779834"
+    },
+    {
+      "name": "(2,1) beta=[5, 2, 1] sine rate N=400",
+      "absolute_error": "0.001251858095",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] amplitude identity",
+      "absolute_error": "3.891112104e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=1",
+      "absolute_error": "1.131959885e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=1",
+      "absolute_error": "3.678869626e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=2",
+      "absolute_error": "9.055679079e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=2",
+      "absolute_error": "1.811135816e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=3",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=3",
+      "absolute_error": "1.722559955e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=4",
+      "absolute_error": "1.811135816e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=4",
+      "absolute_error": "1.896259199e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=5",
+      "absolute_error": "2.26391977e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=5",
+      "absolute_error": "2.254411307e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=6",
+      "absolute_error": "2.716703724e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=6",
+      "absolute_error": "9.410480585e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=7",
+      "absolute_error": "5.062278501e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=7",
+      "absolute_error": "6.64856978e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=8",
+      "absolute_error": "3.169992977e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=8",
+      "absolute_error": "4.750533177e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=9",
+      "absolute_error": "5.062278501e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=9",
+      "absolute_error": "1.581295051e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=10",
+      "absolute_error": "3.169992977e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=10",
+      "absolute_error": "1.639366246e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=11",
+      "absolute_error": "9.334380338e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=11",
+      "absolute_error": "1.523912441e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=12",
+      "absolute_error": "2.717293222e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=12",
+      "absolute_error": "1.55893836e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=13",
+      "absolute_error": "9.213485944e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=13",
+      "absolute_error": "7.907711161e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=14",
+      "absolute_error": "2.264096632e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=14",
+      "absolute_error": "8.660789948e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=15",
+      "absolute_error": "6.828507545e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=15",
+      "absolute_error": "1.649788974e-58",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] left contraction n=16",
+      "absolute_error": "1.811191086e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] right contraction n=16",
+      "absolute_error": "1.846379131e-57",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] CD a=1,b=1",
+      "absolute_error": "5.621376105e-63",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] CD a=1,b=2",
+      "absolute_error": "1.595255381e-63",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] alpha asymptotic n=100",
+      "absolute_error": "9.055679079e-71",
+      "tolerance": "3.698934919e-23"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] beta asymptotic n=100",
+      "absolute_error": "9.327349451e-70",
+      "tolerance": "3.698934919e-23"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] alpha asymptotic n=200",
+      "absolute_error": "1.901692607e-70",
+      "tolerance": "1.368211954e-47"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] beta asymptotic n=200",
+      "absolute_error": "1.168182601e-69",
+      "tolerance": "1.368211954e-47"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] rational Poisson",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] diagonal rate N=50",
+      "absolute_error": "2.047011093e-5",
+      "tolerance": "0.4069732393"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] sine rate N=50",
+      "absolute_error": "0.01334778794",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] diagonal rate N=100",
+      "absolute_error": "3.054300928e-5",
+      "tolerance": "0.2034866197"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] sine rate N=100",
+      "absolute_error": "0.004884549239",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] diagonal rate N=200",
+      "absolute_error": "5.126909482e-5",
+      "tolerance": "0.1017433098"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] sine rate N=200",
+      "absolute_error": "0.0002591166363",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] diagonal rate N=400",
+      "absolute_error": "4.427017206e-5",
+      "tolerance": "0.05087165491"
+    },
+    {
+      "name": "(1,2) beta=[5, 2, 1] sine rate N=400",
+      "absolute_error": "0.0001874837053",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] amplitude identity",
+      "absolute_error": "1.238081124e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=1",
+      "absolute_error": "9.055679079e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=2",
+      "absolute_error": "4.667190169e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=2",
+      "absolute_error": "7.244543263e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=3",
+      "absolute_error": "2.490311747e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=3",
+      "absolute_error": "1.304017787e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=4",
+      "absolute_error": "1.308831676e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=4",
+      "absolute_error": "1.592350609e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=5",
+      "absolute_error": "1.39202767e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=5",
+      "absolute_error": "1.14869478e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=6",
+      "absolute_error": "4.965076732e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=6",
+      "absolute_error": "1.56997946e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=7",
+      "absolute_error": "1.135716577e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=7",
+      "absolute_error": "3.685977247e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=8",
+      "absolute_error": "2.693413649e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=8",
+      "absolute_error": "3.810235653e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=9",
+      "absolute_error": "7.883610672e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=9",
+      "absolute_error": "4.372566142e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=10",
+      "absolute_error": "1.783598239e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=10",
+      "absolute_error": "4.383632188e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=11",
+      "absolute_error": "4.298631829e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=11",
+      "absolute_error": "4.200028283e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=12",
+      "absolute_error": "9.834560137e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=12",
+      "absolute_error": "2.27639029e-59",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=13",
+      "absolute_error": "2.264301417e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=13",
+      "absolute_error": "3.636467517e-58",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=14",
+      "absolute_error": "5.100010832e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=14",
+      "absolute_error": "3.773762166e-57",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=15",
+      "absolute_error": "1.083930545e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=15",
+      "absolute_error": "1.970235733e-56",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] left contraction n=16",
+      "absolute_error": "2.528863205e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] right contraction n=16",
+      "absolute_error": "1.152493367e-55",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] CD a=1,b=1",
+      "absolute_error": "1.513437316e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] CD a=1,b=2",
+      "absolute_error": "6.571504133e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] CD a=2,b=1",
+      "absolute_error": "7.965459556e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] CD a=2,b=2",
+      "absolute_error": "1.692660156e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] alpha asymptotic n=100",
+      "absolute_error": "7.244543263e-70",
+      "tolerance": "1.240691747e-20"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] beta asymptotic n=100",
+      "absolute_error": "2.626146933e-70",
+      "tolerance": "1.240691747e-20"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] alpha asymptotic n=200",
+      "absolute_error": "1.467020011e-69",
+      "tolerance": "1.539316011e-42"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] beta asymptotic n=200",
+      "absolute_error": "1.113848527e-69",
+      "tolerance": "1.539316011e-42"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] rational Poisson",
+      "absolute_error": "1.76868732e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] diagonal rate N=50",
+      "absolute_error": "9.31412994e-5",
+      "tolerance": "0.4023938123"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] sine rate N=50",
+      "absolute_error": "0.003697563771",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] diagonal rate N=100",
+      "absolute_error": "6.508322628e-5",
+      "tolerance": "0.2011969062"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] sine rate N=100",
+      "absolute_error": "0.001559811577",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] diagonal rate N=200",
+      "absolute_error": "1.486057494e-5",
+      "tolerance": "0.1005984531"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] sine rate N=200",
+      "absolute_error": "0.0003902547762",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] diagonal rate N=400",
+      "absolute_error": "1.653096506e-5",
+      "tolerance": "0.05029922654"
+    },
+    {
+      "name": "(2,2) beta=[4, 3, 2, 1] sine rate N=400",
+      "absolute_error": "0.0009652211806",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] amplitude identity",
+      "absolute_error": "5.161302654e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=1",
+      "absolute_error": "3.622271632e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=2",
+      "absolute_error": "7.923719194e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=2",
+      "absolute_error": "1.448908653e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=3",
+      "absolute_error": "5.062278501e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=3",
+      "absolute_error": "7.244543263e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=4",
+      "absolute_error": "1.60357347e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=4",
+      "absolute_error": "4.158367833e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=5",
+      "absolute_error": "3.543642439e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=5",
+      "absolute_error": "1.353860245e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=6",
+      "absolute_error": "2.461224003e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=6",
+      "absolute_error": "5.32502908e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=7",
+      "absolute_error": "1.000293957e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=7",
+      "absolute_error": "2.163487218e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=8",
+      "absolute_error": "2.014006912e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=8",
+      "absolute_error": "1.69473629e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=9",
+      "absolute_error": "2.210768757e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=9",
+      "absolute_error": "8.3274868e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=10",
+      "absolute_error": "5.368197597e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=10",
+      "absolute_error": "1.402259747e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=11",
+      "absolute_error": "1.221085514e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=11",
+      "absolute_error": "6.978695111e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=12",
+      "absolute_error": "4.922164483e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=12",
+      "absolute_error": "1.027341434e-57",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=13",
+      "absolute_error": "2.076219911e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=13",
+      "absolute_error": "8.985714801e-57",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=14",
+      "absolute_error": "7.885820855e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=14",
+      "absolute_error": "1.560515747e-55",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=15",
+      "absolute_error": "1.550165533e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=15",
+      "absolute_error": "2.365880898e-54",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] left contraction n=16",
+      "absolute_error": "3.26151668e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] right contraction n=16",
+      "absolute_error": "4.130972673e-53",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] CD a=1,b=1",
+      "absolute_error": "2.803841764e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] CD a=1,b=2",
+      "absolute_error": "1.704608345e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] CD a=2,b=1",
+      "absolute_error": "4.396933675e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] CD a=2,b=2",
+      "absolute_error": "2.787910844e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] CD a=3,b=1",
+      "absolute_error": "5.352788821e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] CD a=3,b=2",
+      "absolute_error": "7.965459556e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] alpha asymptotic n=100",
+      "absolute_error": "1.195349638e-69",
+      "tolerance": "1.048197083e-20"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] beta asymptotic n=100",
+      "absolute_error": "1.17723828e-70",
+      "tolerance": "1.048197083e-20"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] alpha asymptotic n=200",
+      "absolute_error": "1.141015564e-69",
+      "tolerance": "1.098717124e-42"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] beta asymptotic n=200",
+      "absolute_error": "1.141015564e-69",
+      "tolerance": "1.098717124e-42"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] rational Poisson",
+      "absolute_error": "5.659799424e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] diagonal rate N=50",
+      "absolute_error": "1.28324312e-5",
+      "tolerance": "0.4015030648"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] sine rate N=50",
+      "absolute_error": "0.008956436159",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] diagonal rate N=100",
+      "absolute_error": "1.065568384e-5",
+      "tolerance": "0.2007515324"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] sine rate N=100",
+      "absolute_error": "0.002661217404",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] diagonal rate N=200",
+      "absolute_error": "1.281648087e-5",
+      "tolerance": "0.1003757662"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] sine rate N=200",
+      "absolute_error": "0.000841975263",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] diagonal rate N=400",
+      "absolute_error": "1.12036128e-5",
+      "tolerance": "0.0501878831"
+    },
+    {
+      "name": "(3,2) beta=[6, 3, 2, 1, '.5'] sine rate N=400",
+      "absolute_error": "0.0009956513968",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] amplitude identity",
+      "absolute_error": "4.848792659e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=2",
+      "absolute_error": "1.811135816e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=2",
+      "absolute_error": "5.433407447e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=3",
+      "absolute_error": "3.893942004e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=3",
+      "absolute_error": "6.522603918e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=4",
+      "absolute_error": "1.66850887e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=4",
+      "absolute_error": "1.150524027e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=5",
+      "absolute_error": "3.22834979e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=5",
+      "absolute_error": "1.419749378e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=6",
+      "absolute_error": "3.146395729e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=6",
+      "absolute_error": "2.58396558e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=7",
+      "absolute_error": "1.129379016e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=7",
+      "absolute_error": "3.165274976e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=8",
+      "absolute_error": "1.32201595e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=8",
+      "absolute_error": "1.913432389e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=9",
+      "absolute_error": "5.827738125e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=9",
+      "absolute_error": "3.144177055e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=10",
+      "absolute_error": "3.096916824e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=10",
+      "absolute_error": "6.89601698e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=11",
+      "absolute_error": "2.738002454e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=11",
+      "absolute_error": "1.350774729e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=12",
+      "absolute_error": "1.643711342e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=12",
+      "absolute_error": "5.595026113e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=13",
+      "absolute_error": "2.482876826e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=13",
+      "absolute_error": "4.915751717e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=14",
+      "absolute_error": "6.78983289e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=14",
+      "absolute_error": "1.023250674e-59",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=15",
+      "absolute_error": "6.055198131e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=15",
+      "absolute_error": "5.886684231e-59",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] left contraction n=16",
+      "absolute_error": "3.057388576e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] right contraction n=16",
+      "absolute_error": "1.451797037e-57",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] CD a=1,b=1",
+      "absolute_error": "1.529368235e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] CD a=1,b=2",
+      "absolute_error": "5.273134226e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] CD a=1,b=3",
+      "absolute_error": "2.708256249e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] CD a=2,b=1",
+      "absolute_error": "7.137051762e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] CD a=2,b=2",
+      "absolute_error": "8.762005511e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] CD a=2,b=3",
+      "absolute_error": "2.309983271e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] alpha asymptotic n=100",
+      "absolute_error": "3.712828422e-70",
+      "tolerance": "6.86718002e-21"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] beta asymptotic n=100",
+      "absolute_error": "5.342850657e-70",
+      "tolerance": "6.86718002e-21"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] alpha asymptotic n=200",
+      "absolute_error": "5.79563461e-70",
+      "tolerance": "4.715816143e-43"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] beta asymptotic n=200",
+      "absolute_error": "8.512338334e-70",
+      "tolerance": "4.715816143e-43"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] rational Poisson",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] diagonal rate N=50",
+      "absolute_error": "5.973010135e-6",
+      "tolerance": "0.400843682"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] sine rate N=50",
+      "absolute_error": "0.01323952697",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] diagonal rate N=100",
+      "absolute_error": "3.110138898e-6",
+      "tolerance": "0.200421841"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] sine rate N=100",
+      "absolute_error": "0.006307585124",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] diagonal rate N=200",
+      "absolute_error": "1.939431969e-6",
+      "tolerance": "0.1002109205"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] sine rate N=200",
+      "absolute_error": "0.002734419746",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] diagonal rate N=400",
+      "absolute_error": "1.818980718e-6",
+      "tolerance": "0.05010546025"
+    },
+    {
+      "name": "(2,3) beta=[6, 3, 2, 1, '.5'] sine rate N=400",
+      "absolute_error": "0.0007908053569",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] amplitude identity",
+      "absolute_error": "1.270342526e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=1",
+      "absolute_error": "9.055679079e-72",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=1",
+      "absolute_error": "1.811135816e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=2",
+      "absolute_error": "1.584743839e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=2",
+      "absolute_error": "3.622271632e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=3",
+      "absolute_error": "2.780943469e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=3",
+      "absolute_error": "3.622452741e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=4",
+      "absolute_error": "1.968454342e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=4",
+      "absolute_error": "1.521630043e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=5",
+      "absolute_error": "1.131663413e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=5",
+      "absolute_error": "5.404431022e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=6",
+      "absolute_error": "2.96945407e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=6",
+      "absolute_error": "2.164089964e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=7",
+      "absolute_error": "1.98638156e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=7",
+      "absolute_error": "6.651278922e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=8",
+      "absolute_error": "7.539692091e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=8",
+      "absolute_error": "8.675184075e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=9",
+      "absolute_error": "2.5329606e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=9",
+      "absolute_error": "4.597943072e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=10",
+      "absolute_error": "4.960229011e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=10",
+      "absolute_error": "1.609597212e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=11",
+      "absolute_error": "1.47330999e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=11",
+      "absolute_error": "3.421881139e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=12",
+      "absolute_error": "3.052799972e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=12",
+      "absolute_error": "8.080836728e-59",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=13",
+      "absolute_error": "7.781438836e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=13",
+      "absolute_error": "7.136809318e-58",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=14",
+      "absolute_error": "1.513914974e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=14",
+      "absolute_error": "5.85680685e-58",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=15",
+      "absolute_error": "7.127055501e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=15",
+      "absolute_error": "1.151347695e-55",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] left contraction n=16",
+      "absolute_error": "1.493186914e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] right contraction n=16",
+      "absolute_error": "1.609715253e-54",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=1,b=1",
+      "absolute_error": "3.211673293e-55",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=1,b=2",
+      "absolute_error": "1.44174818e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=1,b=3",
+      "absolute_error": "1.832055698e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=2,b=1",
+      "absolute_error": "1.43378272e-55",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=2,b=2",
+      "absolute_error": "2.952198448e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=2,b=3",
+      "absolute_error": "3.126442876e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=3,b=1",
+      "absolute_error": "4.333209998e-56",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=3,b=2",
+      "absolute_error": "1.593091911e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] CD a=3,b=3",
+      "absolute_error": "3.5844568e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] alpha asymptotic n=100",
+      "absolute_error": "2.535590142e-70",
+      "tolerance": "2.977673006e-21"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] beta asymptotic n=100",
+      "absolute_error": "4.527839539e-70",
+      "tolerance": "2.977673006e-21"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] alpha asymptotic n=200",
+      "absolute_error": "1.27685075e-69",
+      "tolerance": "8.866536528e-44"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] beta asymptotic n=200",
+      "absolute_error": "9.23679266e-70",
+      "tolerance": "8.866536528e-44"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] rational Poisson",
+      "absolute_error": "1.811812765e-71",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] diagonal rate N=50",
+      "absolute_error": "2.291592561e-6",
+      "tolerance": "0.4002125793"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] sine rate N=50",
+      "absolute_error": "0.0109496465",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] diagonal rate N=100",
+      "absolute_error": "1.637079998e-6",
+      "tolerance": "0.2001062896"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] sine rate N=100",
+      "absolute_error": "0.003883289832",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] diagonal rate N=200",
+      "absolute_error": "1.726962021e-6",
+      "tolerance": "0.1000531448"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] sine rate N=200",
+      "absolute_error": "4.532552104e-5",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] diagonal rate N=400",
+      "absolute_error": "1.700946662e-6",
+      "tolerance": "0.05002657241"
+    },
+    {
+      "name": "(3,3) beta=[6, 4, 3, 2, 1, '.5'] sine rate N=400",
+      "absolute_error": "0.001075711736",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] amplitude identity",
+      "absolute_error": "1.107492418e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=2",
+      "absolute_error": "7.258678971e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=2",
+      "absolute_error": "7.258678971e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=3",
+      "absolute_error": "1.992249397e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=3",
+      "absolute_error": "1.992249397e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=4",
+      "absolute_error": "1.928880901e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=4",
+      "absolute_error": "1.928880901e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=5",
+      "absolute_error": "5.659801235e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=5",
+      "absolute_error": "5.659801235e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=6",
+      "absolute_error": "8.403670185e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=6",
+      "absolute_error": "8.403670185e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=7",
+      "absolute_error": "2.949434711e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=7",
+      "absolute_error": "2.949434711e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=8",
+      "absolute_error": "3.04723601e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=8",
+      "absolute_error": "3.04723601e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=9",
+      "absolute_error": "2.3223289e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=9",
+      "absolute_error": "2.3223289e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=10",
+      "absolute_error": "1.162705726e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=10",
+      "absolute_error": "1.162705726e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=11",
+      "absolute_error": "4.754543937e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=11",
+      "absolute_error": "4.754543937e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=12",
+      "absolute_error": "6.172327949e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=12",
+      "absolute_error": "6.172327949e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=13",
+      "absolute_error": "2.08986413e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=13",
+      "absolute_error": "2.08986413e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=14",
+      "absolute_error": "9.45036377e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=14",
+      "absolute_error": "9.45036377e-63",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=15",
+      "absolute_error": "5.625209768e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=15",
+      "absolute_error": "5.625209768e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] left contraction n=16",
+      "absolute_error": "3.614190777e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] right contraction n=16",
+      "absolute_error": "3.614190777e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] CD a=1,b=1",
+      "absolute_error": "2.489206111e-59",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] CD a=1,b=2",
+      "absolute_error": "8.712221389e-60",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] CD a=2,b=1",
+      "absolute_error": "2.738126722e-59",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] CD a=2,b=2",
+      "absolute_error": "4.667261458e-60",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] alpha asymptotic n=100",
+      "absolute_error": "2.171162449e-66",
+      "tolerance": "6.300856744e-20"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] beta asymptotic n=100",
+      "absolute_error": "2.171162449e-66",
+      "tolerance": "6.300856744e-20"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] alpha asymptotic n=200",
+      "absolute_error": "5.886191401e-70",
+      "tolerance": "3.970079571e-41"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] beta asymptotic n=200",
+      "absolute_error": "5.886191401e-70",
+      "tolerance": "3.970079571e-41"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] rational Poisson",
+      "absolute_error": "1.472338682e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] diagonal rate N=50",
+      "absolute_error": "0.0001069554406",
+      "tolerance": "0.4127707954"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] sine rate N=50",
+      "absolute_error": "0.01132982352",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] diagonal rate N=100",
+      "absolute_error": "6.668435067e-5",
+      "tolerance": "0.2063853977"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] sine rate N=100",
+      "absolute_error": "0.004757012612",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] diagonal rate N=200",
+      "absolute_error": "6.108863397e-5",
+      "tolerance": "0.1031926988"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] sine rate N=200",
+      "absolute_error": "0.001166431641",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] diagonal rate N=400",
+      "absolute_error": "7.20846474e-5",
+      "tolerance": "0.05159634942"
+    },
+    {
+      "name": "(2,2) beta=[1, 1, 1, 1] sine rate N=400",
+      "absolute_error": "0.0006600934472",
+      "tolerance": "0.05"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] amplitude identity",
+      "absolute_error": "8.58542396e-74",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=0",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=1",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=2",
+      "absolute_error": "1.584743839e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=2",
+      "absolute_error": "3.28010647e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=3",
+      "absolute_error": "6.112583378e-71",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=3",
+      "absolute_error": "5.840737506e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=4",
+      "absolute_error": "3.041436032e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=4",
+      "absolute_error": "4.50610591e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=5",
+      "absolute_error": "3.820364677e-70",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=5",
+      "absolute_error": "8.763000609e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=6",
+      "absolute_error": "2.035688358e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=6",
+      "absolute_error": "3.002139623e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=7",
+      "absolute_error": "5.113593406e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=7",
+      "absolute_error": "6.306577775e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=8",
+      "absolute_error": "8.110970121e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=8",
+      "absolute_error": "2.260761151e-64",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=9",
+      "absolute_error": "3.201808228e-69",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=9",
+      "absolute_error": "1.59481955e-62",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=10",
+      "absolute_error": "2.158225779e-68",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=10",
+      "absolute_error": "2.406756987e-61",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=11",
+      "absolute_error": "1.673372899e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=11",
+      "absolute_error": "4.472154544e-60",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=12",
+      "absolute_error": "4.641123086e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=12",
+      "absolute_error": "5.057145612e-59",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=13",
+      "absolute_error": "9.848222417e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=13",
+      "absolute_error": "5.948462058e-58",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=14",
+      "absolute_error": "4.104202827e-67",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=14",
+      "absolute_error": "5.937704793e-57",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=15",
+      "absolute_error": "1.666001763e-66",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=15",
+      "absolute_error": "6.454031122e-56",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] left contraction n=16",
+      "absolute_error": "1.050918695e-65",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] right contraction n=16",
+      "absolute_error": "6.391497668e-55",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] CD a=1,b=1",
+      "absolute_error": "1.513437316e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] CD a=1,b=2",
+      "absolute_error": "8.961142e-59",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] CD a=2,b=1",
+      "absolute_error": "2.389637867e-57",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] CD a=2,b=2",
+      "absolute_error": "5.911864514e-59",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] CD a=3,b=1",
+      "absolute_error": "5.974094667e-58",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] CD a=3,b=2",
+      "absolute_error": "3.484888556e-59",
+      "tolerance": "1.0e-32"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] alpha asymptotic n=100",
+      "absolute_error": "2.219470326e-64",
+      "tolerance": "1.494139267e-19"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] beta asymptotic n=100",
+      "absolute_error": "9.981056285e-70",
+      "tolerance": "1.494139267e-19"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] alpha asymptotic n=200",
+      "absolute_error": "6.338975355e-70",
+      "tolerance": "2.23245215e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] beta asymptotic n=200",
+      "absolute_error": "3.803385213e-70",
+      "tolerance": "2.23245215e-40"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] rational Poisson",
+      "absolute_error": "5.659799424e-73",
+      "tolerance": "1.0e-48"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] diagonal rate N=50",
+      "absolute_error": "6.779000101e-5",
+      "tolerance": "0.4022407012"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] sine rate N=50",
+      "absolute_error": "0.001343711346",
+      "tolerance": "0.4"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] diagonal rate N=100",
+      "absolute_error": "6.895995973e-5",
+      "tolerance": "0.2011203506"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] sine rate N=100",
+      "absolute_error": "0.005121838841",
+      "tolerance": "0.2"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] diagonal rate N=200",
+      "absolute_error": "8.100775717e-6",
+      "tolerance": "0.1005601753"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] sine rate N=200",
+      "absolute_error": "0.002796956797",
+      "tolerance": "0.1"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] diagonal rate N=400",
+      "absolute_error": "7.407437775e-6",
+      "tolerance": "0.05028008765"
+    },
+    {
+      "name": "(3,2) beta=[3, 2, 2, 1, 1] sine rate N=400",
+      "absolute_error": "0.00102619279",
+      "tolerance": "0.05"
+    }
+  ],
+  "convergence": [
+    {
+      "case": "(1,1) beta=[3, 1]",
+      "x": "3.5150257738807",
+      "rho": "0.18196637825246",
+      "limiting_density": "0.092802110491869",
+      "gauge_exponent": "0.0",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "0.000974336153865",
+          "sine_error": "0.00694614983091"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "0.000932231134604",
+          "sine_error": "0.00282622230719"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "3.5275753557e-6",
+          "sine_error": "0.00289908074461"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "1.85056669533e-5",
+          "sine_error": "0.00111888289463"
+        }
+      ]
+    },
+    {
+      "case": "(2,1) beta=[5, 2, 1]",
+      "x": "7.4763745291178",
+      "rho": "0.077114957824172",
+      "limiting_density": "0.037755966861404",
+      "gauge_exponent": "-0.44623891095832",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "0.000100487392419",
+          "sine_error": "0.00510448075089"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "0.000171645003433",
+          "sine_error": "0.0012026271558"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "0.000195265140151",
+          "sine_error": "0.00248123699994"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "5.15808574383e-6",
+          "sine_error": "0.00125185809496"
+        }
+      ]
+    },
+    {
+      "case": "(1,2) beta=[5, 2, 1]",
+      "x": "15.832279373587",
+      "rho": "0.035565375869523",
+      "limiting_density": "0.017433098275369",
+      "gauge_exponent": "0.43794287975264",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "2.04701109345e-5",
+          "sine_error": "0.0133477879389"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "3.05430092822e-5",
+          "sine_error": "0.00488454923858"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "5.12690948202e-5",
+          "sine_error": "0.000259116636264"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "4.42701720609e-5",
+          "sine_error": "0.000187483705333"
+        }
+      ]
+    },
+    {
+      "case": "(2,2) beta=[4, 3, 2, 1]",
+      "x": "38.546996980021",
+      "rho": "0.012792734008658",
+      "limiting_density": "0.005984530782886",
+      "gauge_exponent": "0.017777620544774",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "9.31412994035e-5",
+          "sine_error": "0.00369756377096"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "6.50832262844e-5",
+          "sine_error": "0.00155981157707"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "1.48605749392e-5",
+          "sine_error": "0.000390254776203"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "1.65309650558e-5",
+          "sine_error": "0.000965221180584"
+        }
+      ]
+    },
+    {
+      "case": "(3,2) beta=[6, 3, 2, 1, '.5']",
+      "x": "60.248217022629",
+      "rho": "0.0080300650640898",
+      "limiting_density": "0.0037576620824467",
+      "gauge_exponent": "-0.17451642256493",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "1.28324312039e-5",
+          "sine_error": "0.00895643615898"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "1.06556838435e-5",
+          "sine_error": "0.00266121740432"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "1.28164808666e-5",
+          "sine_error": "0.000841975262972"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "1.12036127976e-5",
+          "sine_error": "0.000995651396778"
+        }
+      ]
+    },
+    {
+      "case": "(2,3) beta=[6, 3, 2, 1, '.5']",
+      "x": "108.21107756364",
+      "rho": "0.0045042603217782",
+      "limiting_density": "0.0021092049510149",
+      "gauge_exponent": "0.19392738977629",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "5.97301013499e-6",
+          "sine_error": "0.0132395269698"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "3.11013889768e-6",
+          "sine_error": "0.00630758512356"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "1.93943196895e-6",
+          "sine_error": "0.00273441974606"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "1.81898071792e-6",
+          "sine_error": "0.000790805356855"
+        }
+      ]
+    },
+    {
+      "case": "(3,3) beta=[6, 4, 3, 2, 1, '.5']",
+      "x": "386.7746554389",
+      "rho": "0.001141360160234",
+      "limiting_density": "0.00053144816991448",
+      "gauge_exponent": "0.038184599387374",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "2.29159256063e-6",
+          "sine_error": "0.010949646499"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "1.63707999812e-6",
+          "sine_error": "0.00388328983202"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "1.7269620208e-6",
+          "sine_error": "4.53255210365e-5"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "1.70094666233e-6",
+          "sine_error": "0.00107571173553"
+        }
+      ]
+    },
+    {
+      "case": "(2,2) beta=[1, 1, 1, 1]",
+      "x": "6.88",
+      "rho": "0.068814970803681",
+      "limiting_density": "0.031926988445725",
+      "gauge_exponent": "0.0",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "0.000106955440582",
+          "sine_error": "0.0113298235223"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "6.66843506659e-5",
+          "sine_error": "0.00475701261167"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "6.10886339669e-5",
+          "sine_error": "0.00116643164062"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "7.2084647397e-5",
+          "sine_error": "0.000660093447226"
+        }
+      ]
+    },
+    {
+      "case": "(3,2) beta=[3, 2, 2, 1, 1]",
+      "x": "37.546195930044",
+      "rho": "0.012090477822557",
+      "limiting_density": "0.0056017530714727",
+      "gauge_exponent": "-0.22962840554324",
+      "results": [
+        {
+          "N": 50,
+          "diagonal_error": "6.77900010098e-5",
+          "sine_error": "0.00134371134594"
+        },
+        {
+          "N": 100,
+          "diagonal_error": "6.89599597268e-5",
+          "sine_error": "0.00512183884072"
+        },
+        {
+          "N": 200,
+          "diagonal_error": "8.10077571672e-6",
+          "sine_error": "0.00279695679738"
+        },
+        {
+          "N": 400,
+          "diagonal_error": "7.4074377754e-6",
+          "sine_error": "0.00102619279038"
+        }
+      ]
+    }
+  ],
+  "scope": "Exact convolution checks plus numerical tests of proved identities and asymptotic limits. No Lean formalization."
+}

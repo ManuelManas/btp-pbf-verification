@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-17",
+  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17",
+  "archive_sha256": "5cb22ff2703698ce517942ab5eef73629e9cac6b4d2b589f9b8cd7a83c4bd873",
+  "lean_files": 70,
+  "build_status": "Existing formal sources and build records are preserved unchanged; no new Lean build is claimed.",
+  "indexing": "Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers.",
+  "correspondence": [
+    {
+      "label": "lem:rowwise",
+      "part": "Finite row construction",
+      "hypotheses_and_scope": "A finite dimension d, p<d, and the Metelmann zero pattern with strict positivity of the permitted entries are input. Analytic dependence near zero, unchanged product, positivity for sufficiently small positive free entries, and the count p(p-1)/2 are proved.",
+      "declarations": [
+        {
+          "declaration": "BTP.lemma_2_4",
+          "archive_path": "lean/semi_infinite/Lemma24.lean",
+          "line": 537,
+          "source_sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Lemma24.lean#L537"
+        },
+        {
+          "declaration": "BTP.number_of_parameters",
+          "archive_path": "lean/semi_infinite/Lemma24.lean",
+          "line": 155,
+          "source_sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Lemma24.lean#L155"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.4",
+          "printed_page": "7"
+        },
+        "Memoirs_AMS": {
+          "number": "2.4",
+          "printed_page": "9"
+        }
+      }
+    },
+    {
+      "label": "prop:successive-recurrences",
+      "part": "Recurrence and extraction",
+      "hypotheses_and_scope": "For 2<=r<d, the matrix is unit lower triangular of bandwidth r, with nonzero extreme subdiagonal. Nonzero initial parameters and nonvanishing recurrence terms are explicit hypotheses where ratios are used. The converse, positive iteration and bandwidth-one final factor are separate declarations.",
+      "declarations": [
+        {
+          "declaration": "BTP.Extraction.proposition_2_9",
+          "archive_path": "lean/semi_infinite/Proposition29.lean",
+          "line": 385,
+          "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L385"
+        },
+        {
+          "declaration": "BTP.Extraction.proposition_2_9_converse",
+          "archive_path": "lean/semi_infinite/Proposition29.lean",
+          "line": 339,
+          "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L339"
+        },
+        {
+          "declaration": "BTP.Extraction.positive_iteration",
+          "archive_path": "lean/semi_infinite/Proposition29.lean",
+          "line": 448,
+          "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L448"
+        },
+        {
+          "declaration": "BTP.Extraction.final_factor",
+          "archive_path": "lean/semi_infinite/Proposition29.lean",
+          "line": 477,
+          "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L477"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.11",
+          "printed_page": "14"
+        },
+        "Memoirs_AMS": {
+          "number": "2.11",
+          "printed_page": "18"
+        }
+      }
+    },
+    {
+      "label": "prop:inverse-parameter-bound",
+      "part": "Strict inverse-entry bounds",
+      "hypotheses_and_scope": "The finite Metelmann pattern, 2<=p<d, and an arbitrary positive bidiagonal factorization of the same product are explicit. Strict monotonicity and the bound on its first entry are proved.",
+      "declarations": [
+        {
+          "declaration": "BTP.InverseBounds.proposition_2_15",
+          "archive_path": "lean/semi_infinite/Proposition215.lean",
+          "line": 464,
+          "source_sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition215.lean#L464"
+        },
+        {
+          "declaration": "BTP.InverseBounds.arbitrary_positive_refactorization_bound",
+          "archive_path": "lean/semi_infinite/Proposition215.lean",
+          "line": 534,
+          "source_sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition215.lean#L534"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.13",
+          "printed_page": "16"
+        },
+        "Memoirs_AMS": {
+          "number": "2.13",
+          "printed_page": "20"
+        }
+      }
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "part": "Parts (1) and (2): identities, positivity and limits",
+      "hypotheses_and_scope": "Compatible semi-infinite Metelmann factors are input. The leading determinant formula holds for n>=0. The next determinant is zero at n=0 and positive for n>=1; the ratio and its decreasing limit are identified. No summability hypothesis is needed for these identities.",
+      "declarations": [
+        {
+          "declaration": "BTP.SemiInfinite.leading_minor_formula",
+          "archive_path": "lean/semi_infinite/InverseMinors.lean",
+          "line": 111,
+          "source_sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/InverseMinors.lean#L111"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.leading_minor_pos",
+          "archive_path": "lean/semi_infinite/InverseMinors.lean",
+          "line": 128,
+          "source_sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/InverseMinors.lean#L128"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.next_minor_formula",
+          "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
+          "line": 15,
+          "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L15"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.next_minor_at_zero",
+          "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
+          "line": 24,
+          "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L24"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.next_minor_pos",
+          "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
+          "line": 29,
+          "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L29"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.inverse_minors_identities_and_limits",
+          "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
+          "line": 37,
+          "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L37"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.16",
+          "printed_page": "19"
+        },
+        "Memoirs_AMS": {
+          "number": "2.16",
+          "printed_page": "24"
+        }
+      }
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "part": "Part (3): the exact displayed uniform bound",
+      "hypotheses_and_scope": "All p-1 adjacent series are assumed summable. The constant is the maximum of 1 and the finite consecutive products of the series, exactly the manuscript constant B; the bound is k! B^k. The earlier weaker constant is not being substituted here.",
+      "declarations": [
+        {
+          "declaration": "BTP.SemiInfinite.uniform_inverse_minors_sharp",
+          "archive_path": "lean/semi_infinite/SharpUniformMinors.lean",
+          "line": 134,
+          "source_sha256": "7af1b130949ce636b347628b3afda45bb1d13664129085d22d5c8c0c2123a468",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/SharpUniformMinors.lean#L134"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.inverse_minors_uniform_bound_complete",
+          "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
+          "line": 54,
+          "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L54"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.16",
+          "printed_page": "19"
+        },
+        "Memoirs_AMS": {
+          "number": "2.16",
+          "printed_page": "24"
+        }
+      }
+    },
+    {
+      "label": "lem:global-extraction-determinant",
+      "part": "Determinant identity and positive extraction",
+      "hypotheses_and_scope": "For m>=2, unit lower triangular sections of bandwidth m and a nonzero extreme subdiagonal are assumed. The identity allows arbitrary initial values, including specializations where recurrence terms vanish. Strict positivity of the initial data, extreme subdiagonal and determinants is used for the positive-extraction conclusion.",
+      "declarations": [
+        {
+          "declaration": "BTP.SemiInfinite.extraction_determinant_formula_unrestricted",
+          "archive_path": "lean/semi_infinite/UnrestrictedDeterminant.lean",
+          "line": 104,
+          "source_sha256": "c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/UnrestrictedDeterminant.lean#L104"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.one_factor_determinant_formula_complete",
+          "archive_path": "lean/semi_infinite/CompleteResults.lean",
+          "line": 23,
+          "source_sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteResults.lean#L23"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.extraction_recurrence_positive",
+          "archive_path": "lean/semi_infinite/ExtractionPositive.lean",
+          "line": 75,
+          "source_sha256": "cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/ExtractionPositive.lean#L75"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.18",
+          "printed_page": "23"
+        },
+        "Memoirs_AMS": {
+          "number": "2.18",
+          "printed_page": "29"
+        }
+      }
+    },
+    {
+      "label": "thm:global-lower-criterion",
+      "part": "Equivalence with series and inverse-minor limits",
+      "hypotheses_and_scope": "A compatible Metelmann product is the input. Positivity of every actual inverse-minor limit and summability of every adjacent series are each equivalent to a global positive factorization. All sufficiently small positive initial entries extend. This project does not derive the compatible Metelmann factorization from an arbitrary BTP matrix.",
+      "declarations": [
+        {
+          "declaration": "BTP.SemiInfinite.PBF_iff_positive_limits",
+          "archive_path": "lean/semi_infinite/Necessity.lean",
+          "line": 73,
+          "source_sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Necessity.lean#L73"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.PBF_iff_summable_series",
+          "archive_path": "lean/semi_infinite/Necessity.lean",
+          "line": 78,
+          "source_sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Necessity.lean#L78"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.all_small_parameters_extend",
+          "archive_path": "lean/semi_infinite/PositiveLimits.lean",
+          "line": 39,
+          "source_sha256": "88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/PositiveLimits.lean#L39"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.19",
+          "printed_page": "24"
+        },
+        "Memoirs_AMS": {
+          "number": "2.19",
+          "printed_page": "31"
+        }
+      }
+    },
+    {
+      "label": "cor:global-two-sided-criterion",
+      "part": "The p+q-2 positive-limit criterion",
+      "hypotheses_and_scope": "p,q>0, two compatible Metelmann products and a positive diagonal are input. The criterion concerns their actual inverse-minor limits. The lower and upper lists have p-1 and q-1 terms; uniqueness of the normalized triangular products identifies any positive factorization with these products.",
+      "declarations": [
+        {
+          "declaration": "BTP.SemiInfinite.global_two_sided_criterion_complete",
+          "archive_path": "lean/semi_infinite/CompleteResults.lean",
+          "line": 15,
+          "source_sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteResults.lean#L15"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.two_sided_PBF_iff_positive_limits",
+          "archive_path": "lean/semi_infinite/TwoSidedCriterion.lean",
+          "line": 121,
+          "source_sha256": "cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/TwoSidedCriterion.lean#L121"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "2.20",
+          "printed_page": "27"
+        },
+        "Memoirs_AMS": {
+          "number": "2.20",
+          "printed_page": "35"
+        }
+      }
+    },
+    {
+      "label": "thm:toeplitz",
+      "part": "BTP implies bounded PBF, and BTP iff PBF",
+      "hypotheses_and_scope": "ToeplitzData supplies positive extreme coefficients and the finite band; p+q>0 is assumed. The construction and equivalence BTP iff PBF do not assume EdreiPolynomialInput. The factors have uniform upper and strictly positive lower bounds.",
+      "declarations": [
+        {
+          "declaration": "BTP.Toeplitz.BTP_implies_global_bounded_PBF",
+          "archive_path": "lean/toeplitz/BTPToPBF.lean",
+          "line": 47,
+          "source_sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L47"
+        },
+        {
+          "declaration": "BTP.Toeplitz.manuscript_BTP_to_PBF",
+          "archive_path": "lean/toeplitz/BTPToPBF.lean",
+          "line": 109,
+          "source_sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L109"
+        },
+        {
+          "declaration": "BTP.Toeplitz.manuscript_BTP_iff_PBF",
+          "archive_path": "lean/toeplitz/BTPToPBF.lean",
+          "line": 117,
+          "source_sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L117"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "4.2",
+          "printed_page": "50"
+        },
+        "Memoirs_AMS": {
+          "number": "4.2",
+          "printed_page": "66"
+        }
+      }
+    },
+    {
+      "label": "thm:toeplitz",
+      "part": "Scope of the negative-root and TN branches",
+      "hypotheses_and_scope": "The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript AI declaration claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.",
+      "declarations": [
+        {
+          "declaration": "BTP.Toeplitz.manuscript_negative_roots_to_PBF",
+          "archive_path": "lean/toeplitz/ManuscriptTheorem.lean",
+          "line": 72,
+          "source_sha256": "b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L72"
+        },
+        {
+          "declaration": "BTP.Toeplitz.manuscript_theorem_3_2_given_Edrei",
+          "archive_path": "lean/toeplitz/ManuscriptTheorem.lean",
+          "line": 83,
+          "source_sha256": "b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L83"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "4.2",
+          "printed_page": "50"
+        },
+        "Memoirs_AMS": {
+          "number": "4.2",
+          "printed_page": "66"
+        }
+      }
+    }
+  ],
+  "outside_formalization": [
+    "Chapter 3 stability and interior criteria",
+    "Toeplitz stability, simple-root equivalence and asymptotically Toeplitz extension",
+    "Schur asymptotics and sharp normalization bounds",
+    "Mixed-type polynomials, measure existence, support and density formulas",
+    "New direct Cauchy--Binet proof of PBF implies BTP as written in v74",
+    "Reconstruction radius proof as expanded in v74",
+    "Variable-initial-entry reconstruction: two factors and arbitrary lower bandwidth",
+    "All internal root orders with variable initial entries",
+    "Differential equations, spectral kernels, determinantal equilibrium identities and uniform collision estimates"
+  ],
+  "formal_core_commit": "77913c80913844b17e3e47f6913a8a598c698d9d"
+}

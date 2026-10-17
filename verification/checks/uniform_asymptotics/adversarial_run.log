@@ -1,0 +1,156 @@
+Exact finite tests completed 2142
+Asymptotic case 1 3 [4, 2, 2, 1] completed
+Asymptotic case 3 1 [4, 3, 3, 1] completed
+Asymptotic case 2 3 [4, 3, 2, 2, 1] completed
+Asymptotic case 3 3 [3, 3, 2, 2, 1, 1] completed
+Asymptotic case 4 2 [1, 1, 1, 1, 1, 1] completed
+{
+  "date": "2026-10-17",
+  "counts": {
+    "exact Schur characteristic left": 168,
+    "exact Schur characteristic right": 168,
+    "exact adjugate left": 672,
+    "exact adjugate right": 672,
+    "exact diagonal kernel positivity": 168,
+    "exact shifted determinant signs": 294,
+    "interior root pair exists": 35,
+    "high precision complex amplitude identity": 35,
+    "high precision asymmetric sine limit": 15
+  },
+  "total": 2227,
+  "metadata": {},
+  "asymptotics": [
+    {
+      "p": 1,
+      "q": 3,
+      "beta": [
+        4,
+        2,
+        2,
+        1
+      ],
+      "x": "46.547500260781271463",
+      "sine_errors": [
+        {
+          "N": 40,
+          "absolute_error": "0.00148079190005160818"
+        },
+        {
+          "N": 120,
+          "absolute_error": "0.00224925025613898623"
+        },
+        {
+          "N": 360,
+          "absolute_error": "0.00212644330097912665"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "beta": [
+        4,
+        3,
+        3,
+        1
+      ],
+      "x": "14.272573000056677987",
+      "sine_errors": [
+        {
+          "N": 40,
+          "absolute_error": "0.0144265724038569569"
+        },
+        {
+          "N": 120,
+          "absolute_error": "0.00427333571195012593"
+        },
+        {
+          "N": 360,
+          "absolute_error": "0.000650773496422258092"
+        }
+      ]
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "beta": [
+        4,
+        3,
+        2,
+        2,
+        1
+      ],
+      "x": "187.98544086005438784",
+      "sine_errors": [
+        {
+          "N": 40,
+          "absolute_error": "0.014424767102692554"
+        },
+        {
+          "N": 120,
+          "absolute_error": "0.000142598325027474412"
+        },
+        {
+          "N": 360,
+          "absolute_error": "0.0015112187204202245"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "q": 3,
+      "beta": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "x": "249.98644485187065876",
+      "sine_errors": [
+        {
+          "N": 40,
+          "absolute_error": "0.00550747051610393175"
+        },
+        {
+          "N": 120,
+          "absolute_error": "0.00120994512313608651"
+        },
+        {
+          "N": 360,
+          "absolute_error": "0.00187623219183410957"
+        }
+      ]
+    },
+    {
+      "p": 4,
+      "q": 2,
+      "beta": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "x": "25.4694375",
+      "sine_errors": [
+        {
+          "N": 40,
+          "absolute_error": "0.016084268938870358"
+        },
+        {
+          "N": 120,
+          "absolute_error": "0.00369962752028415464"
+        },
+        {
+          "N": 360,
+          "absolute_error": "0.00137325888466451775"
+        }
+      ]
+    }
+  ],
+  "all_passed": true,
+  "formal_proof": false
+}

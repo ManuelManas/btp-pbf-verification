@@ -1,0 +1,42 @@
+{
+  "p": 3,
+  "q": 3,
+  "beta": [
+    "10",
+    "9",
+    "8",
+    "7",
+    "6",
+    "6919/9439"
+  ],
+  "x": "38102400/9439",
+  "colliding_roots": [
+    -1,
+    -1
+  ],
+  "location": "two largest roots, inside central support",
+  "records": [
+    {
+      "N": 10,
+      "boundary_error": "3.335432788164737388e-8",
+      "characteristic_error": "4.9395299825968095768e-8"
+    },
+    {
+      "N": 20,
+      "boundary_error": "8.9639341755891355172e-17",
+      "characteristic_error": "2.4390207029072277997e-14"
+    },
+    {
+      "N": 40,
+      "boundary_error": "3.5703595433722397301e-32",
+      "characteristic_error": "7.3847451704170794204e-27"
+    },
+    {
+      "N": 80,
+      "boundary_error": "5.1536716113408941143e-62",
+      "characteristic_error": "6.8126421226815968403e-52"
+    }
+  ],
+  "checks": 8,
+  "passed": true
+}

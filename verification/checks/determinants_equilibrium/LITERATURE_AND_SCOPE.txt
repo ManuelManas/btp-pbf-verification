@@ -1,0 +1,46 @@
+Primary sources checked for v84, 17 October 2026.
+
+1. A. Branquinho, A. Foulquie Moreno and M. Manas,
+Spectral theory for bounded banded matrices with positive bidiagonal factorization
+and mixed multiple orthogonal polynomials, Advances in Mathematics 434
+(2023), 109313. https://doi.org/10.1016/j.aim.2023.109313
+Published text checked: Theorem 2.7, Section 3, Proposition 4.1,
+Proposition 7.5. The determinant eigenvectors and Christoffel-Darboux
+identity are attributed to this published paper, not the later AiM submission.
+
+2. M. Duits and A. B. J. Kuijlaars, An equilibrium problem for the limiting
+eigenvalue distribution of banded Toeplitz matrices, SIAM J. Matrix Anal.
+Appl. 30 (2008), 173-196. https://doi.org/10.1137/070687141
+Full primary preprint: https://arxiv.org/pdf/0704.0378
+Equations (2.7), (2.15), (2.22)-(2.25), Theorems 2.3 and 2.6,
+Section 6 Example 1 checked. Vector equilibrium, masses, interaction and
+limiting zero measures are their general results. The gcd assumption is
+automatic for a positive filled band. Auxiliary measures have masses
+less than one; they are not called probability measures here.
+
+3. P. Alexandersson, Schur polynomials, banded Toeplitz matrices and
+Widom's formula, Electron. J. Combin. 19 (2012), no. 4, P22, 13 pages.
+https://doi.org/10.37236/2651
+https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p22
+Journal PDF, Proposition 10 and Theorem 6 checked. The subset expansion
+at n=0 is Widom's formula in Schur form; this method is explicitly credited.
+
+4. E. A. Maximenko and M. A. Moctezuma-Salazar, Cofactors and eigenvectors
+of banded Toeplitz matrices: Trench formulas via skew Schur polynomials,
+Operators and Matrices 11 (2017), 1149-1169.
+https://doi.org/10.7153/oam-2017-11-79
+https://arxiv.org/pdf/1705.08067
+General Toeplitz cofactors have Schur descriptions, credited in the text.
+
+Scope of this integration:
+The finite identities specialize the AiM determinants to our Toeplitz
+class and identify their first components with the two adjacent DK shifts.
+The zero limits follow from DK. A direct proof establishes the alternating
+real-semiaxis geometry for all Gamma_k from the negative symbol roots.
+Fixed-component determinant ratios converge to the scalar Favard functions.
+Two dominant Widom terms yield characteristic-polynomial oscillations and
+the normalized determinantal sine limit. Repeated roots inside separated
+groups are handled by grouped contour expressions. Only compact-interior
+asymptotics are claimed. Neither uniqueness of a determinantal point
+process nor a classification of every Gamma_k as a full ray is asserted.
+This material has exact and numerical checks and is not Lean formalization.

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "counts": {
+    "free_derivative_entries": 33042,
+    "compound_entries": 1884,
+    "schur_companion": 143,
+    "endpoint_identity": 16,
+    "backward_solution": 60
+  },
+  "total_exact_assertion_units": 35145,
+  "scope": "Finite exact identities for new proofs, including all permutations up to p=5 and multiple roots. Not a formal proof of analytic or infinite-dimensional assertions."
+}

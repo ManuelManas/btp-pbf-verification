@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "Schur characteristic left": 216,
+    "Schur characteristic right": 216,
+    "left cofactor": 756,
+    "right cofactor": 756,
+    "shifted determinant": 504,
+    "finite CD": 216,
+    "diagonal CD": 216,
+    "positive diagonal": 216,
+    "subset Schur expansion": 200,
+    "alternating semiaxis numerical pairs": 4900,
+    "high precision boundary limits": 12,
+    "high precision sine limits": 4,
+    "sine error decay": 1
+  },
+  "total_checks": 8213,
+  "boundary_ratio_errors": [
+    0.0004434631641687213,
+    2.0093490993031906e-07,
+    8.781117461687876e-16
+  ],
+  "sine_limit_target": "0.6366197723675813430755",
+  "sine_limit": [
+    {
+      "N": 20,
+      "value": "0.6089021775163423431644",
+      "error": 0.027717594851239
+    },
+    {
+      "N": 40,
+      "value": "0.6230057921436685738852",
+      "error": 0.01361398022391277
+    },
+    {
+      "N": 80,
+      "value": "0.6298722137547984194727",
+      "error": 0.006747558612782923
+    },
+    {
+      "N": 120,
+      "value": "0.6321344307876483056713",
+      "error": 0.004485341579933038
+    }
+  ],
+  "precision_digits": 220,
+  "formalized_in_Lean": false,
+  "all_passed": true
+}

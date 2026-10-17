@@ -1,0 +1,31 @@
+Primary sources checked for the v83 integration, 17 October 2026.
+
+1. Daems and Kuijlaars, J. Approx. Theory 146 (2007), 91-114.
+https://arxiv.org/abs/math/0511470
+Mixed-type orthogonality, biorthogonal kernels and Christoffel-Darboux formulas.
+
+2. Ariznabarreta and Mañas, Linear Algebra Appl. 468 (2015), 154-170.
+https://doi.org/10.1016/j.laa.2014.04.030
+https://arxiv.org/abs/1310.7240
+Jacobi-type Christoffel-Darboux formula for mixed-type systems.
+
+3. Świderski and Van Assche, J. Approx. Theory 283 (2022), 105820.
+https://doi.org/10.1016/j.jat.2022.105820
+https://arxiv.org/abs/2203.14837
+Weak convergence of normalized diagonal kernel measures and zero measures
+for type-II multiple orthogonality under their hypotheses. The paper is
+cited for this established relationship, not as a pointwise sine-limit theorem.
+
+4. Hirschman (1967) and Duits-Kuijlaars (2008), already in the bibliography.
+The root-jump formula (1.12) of Duits-Kuijlaars identifies varpi with the
+classical limiting eigenvalue density. This density is not presented as new.
+
+5. NIST DLMF 18.12: classical generating function for Chebyshev U_n.
+
+Scope of the insertion: the scalar contractions of the mixed polynomial
+vectors with the rank-one density; these are generally algebraic functions.
+Exact convolutions, explicit root evaluation of the kernels, an amplitude
+identity, and compact-interior asymptotics are proved for this Toeplitz class.
+Repeated symbol roots are allowed. The statements do not identify the zeros
+of every individual vector-polynomial component with these scalar zeros.
+The manuscript does not infer a determinantal point process from these kernels.

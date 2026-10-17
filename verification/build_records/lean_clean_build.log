@@ -1,0 +1,135 @@
+Fresh local build: lean/semi_infinite/.verification.QdO1us
+Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)
+
+Checking Lemma24.lean
+'BTP.lemma_2_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.number_of_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Proposition29.lean
+'BTP.Extraction.proposition_2_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.proposition_2_9_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.proposition_2_9_converse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.sequence_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.positive_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.final_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.number_of_recurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.total_initial_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Proposition215.lean
+'BTP.InverseBounds.qProduct_signed_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.adjacent_minor_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.positive_refactorization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.proposition_2_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.arbitrary_positive_refactorization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking SeriesLimits.lean
+'BTP.SemiInfinite.endpoint_pos_iff_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.admissible_parameter_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.all_endpoints_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking SemiInfiniteBasic.lean
+'BTP.SemiInfinite.product_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.sameProduct_iff_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking InverseSections.lean
+'BTP.SemiInfinite.signed_inverse_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_first_limit_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking InverseMinors.lean
+'BTP.SemiInfinite.leading_minor_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.normalized_minor_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AdjacentRatios.lean
+'BTP.SemiInfinite.inverseMinorRatio_eq_convergent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverseMinorRatio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking UniformMinors.lean
+'BTP.SemiInfinite.uniform_inverse_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking SharpUniformMinors.lean
+'BTP.SemiInfinite.normalizedTail_le_consecutiveSeriesProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.uniform_inverse_minors_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.manuscriptBound_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ExtractionDeterminants.lean
+'BTP.SemiInfinite.windowDet_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_window_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ExtractionPositive.lean
+'BTP.SemiInfinite.extraction_recurrence_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking UniformPerturbation.lean
+'BTP.SemiInfinite.uniform_determinant_positivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking PlannedColumns.lean
+'BTP.SemiInfinite.planned_windows_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking GlobalConstruction.lean
+'BTP.SemiInfinite.positive_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.construct_from_planned_windows' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking PositiveLimits.lean
+'BTP.SemiInfinite.all_small_parameters_extend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.positive_limits_give_PBF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.positive_limits_give_two_sided_PBF' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking OneFactorFormula.lean
+'BTP.SemiInfinite.extractionColumns_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_determinant_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FormalizedTheorem.lean
+'BTP.SemiInfinite.p_add_q_sub_two_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_minor_limit_is_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_recurrence_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_determinant_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.uniform_inverse_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.all_small_parameters_extend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_first_limit_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking OrderedMinors.lean
+'BTP.SemiInfinite.inverseEntries_ordered_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking PrefixBounds.lean
+'BTP.SemiInfinite.inverse_prefix_weighted_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Necessity.lean
+'BTP.SemiInfinite.PBF_gives_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.PBF_iff_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking TwoSidedCriterion.lean
+'BTP.SemiInfinite.normalized_products_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.two_sided_PBF_iff_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RecurrenceParameters.lean
+'BTP.SemiInfinite.fundamental_row_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.canonical_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking DenseParameters.lean
+'BTP.SemiInfinite.goodInitialData_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ParameterChart.lean
+'BTP.SemiInfinite.canonical_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking UnrestrictedDeterminant.lean
+'BTP.SemiInfinite.extraction_formula_nonzero_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_determinant_formula_unrestricted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking CompleteResults.lean
+'BTP.SemiInfinite.global_two_sided_criterion_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.one_factor_determinant_formula_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.PBF_gives_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.normalized_products_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.goodInitialData_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.example_extraction_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking CompleteSharpResults.lean
+'BTP.SemiInfinite.next_minor_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_minors_identities_and_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_minors_uniform_bound_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_two_sided_criterion_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+VERIFIED: all modules compiled with warnings treated as errors.

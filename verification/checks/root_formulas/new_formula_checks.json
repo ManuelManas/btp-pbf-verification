@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "arithmetic": "Exact rational arithmetic; Python Fraction/comb/factorial; no sympy.",
+  "counts": {
+    "classical_Chebyshev_ODE": 1891,
+    "confluent_cancelled_poles": 80,
+    "confluent_denominator_reconstruction": 86,
+    "confluent_root_formula": 1871,
+    "differential_common_x": 624,
+    "differential_highest_derivative": 624,
+    "differential_nonzero_first_derivative_at_zero": 624,
+    "differential_penultimate_derivative_at_c": 624,
+    "left_closed_vs_gf": 4662,
+    "left_euler_ode_coefficients": 29760,
+    "left_factorial_coefficients": 25308,
+    "left_hypergeometric_coefficients": 29760,
+    "left_hypergeometric_parameter_count": 4452,
+    "left_ode_constant_boundary": 4452,
+    "left_ode_terminal_boundary": 4452,
+    "left_omitted_bottom_parameter": 4452,
+    "left_root_formula": 1452,
+    "left_zero_components": 210,
+    "reciprocal_derivative": 388,
+    "right_closed_vs_gf": 4662,
+    "right_euler_ode_coefficients": 29760,
+    "right_factorial_coefficients": 25308,
+    "right_hypergeometric_coefficients": 29760,
+    "right_hypergeometric_parameter_count": 4452,
+    "right_ode_constant_boundary": 4452,
+    "right_ode_terminal_boundary": 4452,
+    "right_omitted_bottom_parameter": 4452,
+    "right_root_formula": 1452,
+    "right_zero_components": 210,
+    "root_vanishing": 388,
+    "scalar_endpoint_x4": 61
+  },
+  "total_exact_equalities": 225181,
+  "ranges": {
+    "binomial_p_q": "1..6 independently",
+    "binomial_n": "0..36",
+    "components": "all allowed a,b",
+    "classical_n": "0..60",
+    "root_cases": "ordered Toeplitz x=0 plus universal proper rational functions, degrees2..8"
+  },
+  "scope": [
+    "Closed coefficient formula agrees with independently reconstructed generating functions.",
+    "All coefficients of Euler ODE checked, including k=0 and k=d+1.",
+    "Terminating hypergeometric coefficients and parameter omission checked, including zero terminal term.",
+    "Left binomial formulas checked with p/q exchanged.",
+    "Right and left finite-root formulas agree with exact formal division at rational roots.",
+    "Confluent derivative coefficients checked through exact Taylor expansion, including mixed multiplicities and cancelled poles.",
+    "Actual binomial p=q=2 evaluated at x=625/36 with rational simple roots; scalar x=4 double root checked.",
+    "Highest differential coefficient after cancellation of x checked, and nonremovable finite singular points 0,c verified.",
+    "No floating-point root finding; mpmath unavailable in the selected runtime."
+  ],
+  "algebraic_derivation": {
+    "ODE": "For k>=1, D(k)c_k=R(k-1)c_(k-1). At k=0, D(0)=0 because j=q-b. At k=d+1, R(d)=0 because j=N-qd lies in {0,...,q-1}.",
+    "hypergeometric": "The factorial coefficient quotient gives p numerator parameters and q numerator parameters; the m denominator parameters include exactly one 1, at j=q-b. Removing it supplies k!, and the scaling is p^p*q^q/m^m=1/c.",
+    "root_right": "For simple nonzero roots, N/Q=sum_j N(z_j)/(Qprime(z_j)*(z-z_j)); expansion at z=0 gives the minus sign and z_j^(-n-1).",
+    "root_left": "Qvee(w)=w^m Q(1/w), hence (Qvee)prime(1/z_j)=-z_j^(2-m)Qprime(z_j). Substitution in the right residue formula gives the positive sign and z_j^(n+m-1).",
+    "classical": "At p=q=b=1 the Euler operator is x times [x(4-x)ypp+(6-3x)yp+n(n+2)y]. Polynomial identity permits canceling x.",
+    "confluent": "gamma_(j,r) is the coefficient of w^(mu_j-r) in N(rho_j+w)/D_j(rho_j+w), namely the stated derivative divided by factorial.",
+    "singularities": "After division by x, highest coefficient is p^p q^q x^(m-1)(c-x). First-derivative coefficient at0 is D(1)>0; derivative-(m-1) coefficient atc is c^(m-2)m^m(1/2-m), nonzero. Thus neither top-coefficient zero is a removable common scalar factor."
+  },
+  "assumptions": [
+    "p,q>=1; 1<=b<=q and 1<=a<=p.",
+    "Hypergeometric formula is stated for n>=b-1 (left: n>=a-1); earlier components vanish.",
+    "Finite-root formulas require all m roots of Q simple; omega and the extreme coefficient are nonzero, hence no root is zero.",
+    "Repeated roots are handled by the derivative/principal-part formula, as independently checked."
+  ]
+}

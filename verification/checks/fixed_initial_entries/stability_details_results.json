@@ -1,0 +1,100 @@
+{
+  "extraction": [
+    {
+      "width": 2,
+      "rows": 9,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    },
+    {
+      "width": 3,
+      "rows": 11,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    },
+    {
+      "width": 4,
+      "rows": 13,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    },
+    {
+      "width": 5,
+      "rows": 15,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    },
+    {
+      "width": 6,
+      "rows": 17,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    },
+    {
+      "width": 7,
+      "rows": 19,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    },
+    {
+      "width": 8,
+      "rows": 21,
+      "first_order_product": true,
+      "remainder_formula_including_initial_rows": true,
+      "full_derivative_equation": true
+    }
+  ],
+  "full_ldu": [
+    {
+      "p": 1,
+      "q": 1,
+      "rows": 14,
+      "inverse_derivative_identity": true,
+      "band_preservation": true,
+      "positive_diagonal_lower_bound": true
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "rows": 14,
+      "inverse_derivative_identity": true,
+      "band_preservation": true,
+      "positive_diagonal_lower_bound": true
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "rows": 14,
+      "inverse_derivative_identity": true,
+      "band_preservation": true,
+      "positive_diagonal_lower_bound": true
+    },
+    {
+      "p": 4,
+      "q": 3,
+      "rows": 14,
+      "inverse_derivative_identity": true,
+      "band_preservation": true,
+      "positive_diagonal_lower_bound": true
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "rows": 14,
+      "inverse_derivative_identity": true,
+      "band_preservation": true,
+      "positive_diagonal_lower_bound": true
+    }
+  ],
+  "overlap_count": {
+    "terms_checked": 33277,
+    "all_bounds_hold": true
+  },
+  "all_passed": true
+}

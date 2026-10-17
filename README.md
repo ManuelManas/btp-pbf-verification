@@ -1,19 +1,16 @@
 # BTP/PBF: formal proofs and exact computational checks
 
-Companion verification code for **Positive Bidiagonal Factorizations and
-Mixed-Type Chebyshev Multiple Orthogonal Polynomials**, by Manuel Mañas.
+Companion verification code for **Banded Totally Positive Matrices and
+Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz
+Orthogonality**, by Manuel Mañas.
 
-A positive bidiagonal factorization (PBF) expresses a banded matrix as an
-ordered product of lower bidiagonal factors, a positive diagonal factor,
-and upper bidiagonal factors, with positive entries in the allowed positions.
-The manuscript studies when a banded totally positive (BTP) matrix admits
-such a factorization and uses Toeplitz factorizations to construct polynomial
-families and their orthogonality measures.
-
-This repository contains Lean proofs for selected factorization results and
-Python scripts for exact checks of finite examples and identities. The
-current release accompanies **manuscript v64, 13 October 2026**;
-[v48](https://github.com/ManuelManas/btp-pbf-verification/tree/v48) preserves the initial release.
+Verification archive dated **17 October 2026**.
+See [verification](verification/README.md) for the computational checks,
+the [correspondence table](verification/LEAN_CORRESPONDENCE.txt),
+and [scope](verification/VERIFICATION_SCOPE.json).
+The formal sources and their build records are preserved unchanged.
+The new stability and spectral results have written proofs and
+computational checks; they are not formalized in Lean.
 
 ## Contents
 
@@ -26,7 +23,7 @@ current release accompanies **manuscript v64, 13 October 2026**;
 The two Lean projects contain 70 source files in total, including shared
 modules. Each project has a `modules.txt` file specifying the compilation order.
 The detailed correspondence with the manuscript, including index shifts, is in
-[`LEAN_CORRESPONDENCE_v64.txt`](verification_v64/LEAN_CORRESPONDENCE_v64.txt) and summarized below.
+[`LEAN_CORRESPONDENCE.txt`](verification/LEAN_CORRESPONDENCE.txt) and summarized below.
 
 | Result | Lean source |
 | --- | --- |
@@ -72,7 +69,7 @@ python computational/finite_parameter_domain.py
 | `finite_parameter_domain.py` | The description of the admissible three-parameter domain and its boundary faces. |
 
 Each script writes a JSON report beside its source. These reports are included
-for comparison. All four scripts completed successfully for the v48 supplement.
+for comparison. The recorded results show that all four scripts completed successfully.
 They check the finite cases and identities specified in their source files.
 
 ## Check the Lean proofs
@@ -106,36 +103,25 @@ For an existing dependency cache, use `python3 bootstrap.py --offline`.
 The variables `BTP_LEAN_BIN` and `BTP_LEANTAR` allow matching executables
 installed outside the standard elan directory.
 
-## Exact uniform constant added in v64
+## Exact uniform-minor constant
 
-The manuscript uses the maximum of 1 and all consecutive products of the
-adjacent Metelmann series. `SharpUniformMinors.lean` proves the estimate
-with precisely this constant, following the manuscript: bound each nested
-sum, take the finite maximum, and expand the normalized determinant.
-`CompleteSharpResults.lean` also states the raw minor identity, its zero-row
-case and strict positivity at positive row indices.
+`SharpUniformMinors.lean` proves the displayed manuscript bound using the
+maximum of 1 and all consecutive products of adjacent Metelmann series.
+`CompleteSharpResults.lean` records the raw minor identity, the zero-row
+case, strict positivity, and the sharp bound.
 
-The original 68 Lean sources from v48 are retained unchanged. Their larger
-uniform bound already suffices for the global existence theorem. Version
-v64 adds two modules establishing the manuscript's literal, sharper bound.
+The recorded clean build checks all 28 semi-infinite modules with warnings
+treated as errors. The reported foundational axioms are `propext`,
+`Classical.choice`, and `Quot.sound`. See the preserved
+[build log](verification/build_records/lean_clean_build.log) and
+[validation record](verification/build_records/validation.json).
+These records describe the earlier formal build; the present update does
+not claim a fresh Lean build or formal proofs of the stability and spectral
+results. The source hashes in the correspondence table identify the exact
+formal files used.
 
-All **28 modules** of the semi-infinite project were checked in an empty
-local build directory with warnings treated as errors. The new theorems and
-the global criterion report only `propext`, `Classical.choice` and
-`Quot.sound`. See the [compilation log](verification_v64/lean_clean_build.log)
-and [validation record](verification_v64/validation.json). The Toeplitz
-project is unchanged from v48.
+## Citation
 
-The additional [v63 computational checks](computational/audit_v63) include
-the supplied Section 2 and Section 3 scripts and the exact tail-certificate
-script, with their recorded outputs and pinned Python dependencies.
-
-## Version and citation
-
-Use the immutable tag
-[`v64`](https://github.com/ManuelManas/btp-pbf-verification/tree/v64)
-or its commit hash when citing this revision. Citation metadata are in
-[`CITATION.cff`](CITATION.cff).
-
-[`SHA256SUMS_v64.txt`](SHA256SUMS_v64.txt) records the sources and documentation
-in this release. `SHA256SUMS.txt` is retained as the original v48 manifest.
+The [dated verification archive](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17)
+contains the sources, correspondence table, checks and hashes.
+Citation metadata are in [`CITATION.cff`](CITATION.cff).
