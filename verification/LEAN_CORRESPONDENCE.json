@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17",
+  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17-dichotomies",
   "archive_sha256": "5cb22ff2703698ce517942ab5eef73629e9cac6b4d2b589f9b8cd7a83c4bd873",
   "lean_files": 70,
   "build_status": "Existing formal sources and build records are preserved unchanged; no new Lean build is claimed.",
@@ -340,11 +340,11 @@
       "editions": {
         "Normal": {
           "number": "4.2",
-          "printed_page": "50"
+          "printed_page": "52"
         },
         "Memoirs_AMS": {
           "number": "4.2",
-          "printed_page": "66"
+          "printed_page": "68"
         }
       }
     },
@@ -371,11 +371,11 @@
       "editions": {
         "Normal": {
           "number": "4.2",
-          "printed_page": "50"
+          "printed_page": "52"
         },
         "Memoirs_AMS": {
           "number": "4.2",
-          "printed_page": "66"
+          "printed_page": "68"
         }
       }
     }
@@ -388,8 +388,11 @@
     "New direct Cauchy--Binet proof of PBF implies BTP as written in v74",
     "Reconstruction radius proof as expanded in v74",
     "Variable-initial-entry reconstruction: two factors and arbitrary lower bandwidth",
-    "All internal root orders with variable initial entries",
-    "Differential equations, spectral kernels, determinantal equilibrium identities and uniform collision estimates"
+    "Differential equations, spectral kernels, determinantal equilibrium identities and uniform collision estimates",
+    "Necessary and sufficient dichotomy criterion for two lower factors with a free initial entry",
+    "Pairwise dichotomy sufficient criterion in arbitrary lower bandwidth, including periodic factors",
+    "Transfer from analytic normalized LDU to arbitrary prescribed factors with pairwise dichotomies",
+    "Exchange with inverted limiting parameters; reconstruction for every ordered root partition and distinct-limit upper-lower product"
   ],
   "formal_core_commit": "77913c80913844b17e3e47f6913a8a598c698d9d"
 }

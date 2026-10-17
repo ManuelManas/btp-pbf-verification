@@ -2,23 +2,13 @@
   "date": "2026-10-17",
   "formal_core": "Unchanged Lean sources and build records; no new Lean build or formalization is claimed.",
   "new_written_proofs": [
-    "Two-factor reconstruction with a variable initial entry; endpoint varies analytically",
-    "Analytic right inverse for arbitrary lower bandwidth with pairwise distinct positive limits in any order",
-    "Variable-data reconstruction for every internal ordering of separated Toeplitz root groups",
-    "Uniform normalized matrix-power remainder through collisions of nondominant eigenvalues"
+    "Two lower factors: analytic local reconstruction with variable initial data is equivalent to uniform forward or reciprocal product decay; elementary positive-forcing converse.",
+    "Every-pair dichotomies give a bounded right inverse in arbitrary lower bandwidth, with variable initial entries.",
+    "Distinct positive limits and distinct periodic geometric means are sufficient in any order.",
+    "Analytic normalized LDU transfers to prescribed lower and upper PBFs with pairwise dichotomies. A maximum-limit product less than one is a sufficient condition for analytic LDU.",
+    "A positive exchange places the smaller limit below and larger limit above. For inverted limits, residuals relative to input entries decay geometrically.",
+    "Every ordered root partition with distinct parameters, and every positive upper-lower product with distinct positive limiting parameters, admits variable-data reconstruction."
   ],
-  "new_exact_checks": {
-    "status": "passed",
-    "counts": {
-      "free_derivative_entries": 33042,
-      "compound_entries": 1884,
-      "schur_companion": 143,
-      "endpoint_identity": 16,
-      "backward_solution": 60
-    },
-    "total_exact_assertion_units": 35145,
-    "scope": "Finite exact identities for new proofs, including all permutations up to p=5 and multiple roots. Not a formal proof of analytic or infinite-dimensional assertions."
-  },
   "renewed_collision_checks": {
     "p": 3,
     "q": 3,
@@ -63,5 +53,47 @@
   },
   "limits": "Finite computations check identities and examples, not the infinite-dimensional analytic assertions. Proofs of those assertions are in the manuscript.",
   "public_archive_doi": null,
-  "zenodo_status": "Prepared; authenticated Zenodo session is required before DOI assignment."
+  "zenodo_status": "Prepared; authenticated Zenodo session is required before DOI assignment.",
+  "dichotomy_and_exchange_checks": {
+    "status": "passed",
+    "exact_ordered_partitions": 566,
+    "counts": {
+      "positive weights": 3,
+      "forward telescoping identity": 864,
+      "forward uniform bound": 864,
+      "backward telescoping identity": 456,
+      "backward uniform bound": 456,
+      "periodic pair product": 5456,
+      "exchange diagonal": 40730,
+      "exchange subdiagonal": 40730,
+      "exchange swapped-entry identity": 40730,
+      "all-partition Toeplitz product": 9056,
+      "limiting group selection": 566,
+      "all-partition numerical limits": 72,
+      "variable-entry swap identity": 119,
+      "variable-entry geometric residual": 119,
+      "constant-limit convergence need not be geometric": 1
+    },
+    "total_assertions": 140222,
+    "numerical": {
+      "all_partition_limit_error": "7.3393984238e-28"
+    },
+    "scope": "Finite exact identities and finite high-precision limit checks; infinite-dimensional and analytic statements are established by the manuscript proofs, not by these computations."
+  },
+  "prior_exact_checks": {
+    "status": "passed",
+    "counts": {
+      "free_derivative_entries": 33042,
+      "compound_entries": 1884,
+      "schur_companion": 143,
+      "endpoint_identity": 16,
+      "backward_solution": 60
+    },
+    "total_exact_assertion_units": 35145,
+    "scope": "Finite exact identities for new proofs, including all permutations up to p=5 and multiple roots. Not a formal proof of analytic or infinite-dimensional assertions."
+  },
+  "open_questions": [
+    "Necessity of the pairwise condition for more than two lower factors",
+    "A matrix-intrinsic full-band characterization of analytic normalized LDU and PBF reconstruction"
+  ]
 }

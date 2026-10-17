@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "exact_ordered_partitions": 566,
+  "counts": {
+    "positive weights": 3,
+    "forward telescoping identity": 864,
+    "forward uniform bound": 864,
+    "backward telescoping identity": 456,
+    "backward uniform bound": 456,
+    "periodic pair product": 5456,
+    "exchange diagonal": 40730,
+    "exchange subdiagonal": 40730,
+    "exchange swapped-entry identity": 40730,
+    "all-partition Toeplitz product": 9056,
+    "limiting group selection": 566,
+    "all-partition numerical limits": 72,
+    "variable-entry swap identity": 119,
+    "variable-entry geometric residual": 119,
+    "constant-limit convergence need not be geometric": 1
+  },
+  "total_assertions": 140222,
+  "numerical": {
+    "all_partition_limit_error": "7.3393984238e-28"
+  },
+  "scope": "Finite exact identities and finite high-precision limit checks; infinite-dimensional and analytic statements are established by the manuscript proofs, not by these computations."
+}

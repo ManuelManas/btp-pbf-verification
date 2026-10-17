@@ -4,7 +4,7 @@ Companion verification code for **Banded Totally Positive Matrices and
 Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz
 Orthogonality**, by Manuel Mañas.
 
-Verification archive dated **17 October 2026**.
+Verification archive: **dichotomies and ordered root partitions, 17 October 2026**.
 See [verification](verification/README.md) for the computational checks,
 the [correspondence table](verification/LEAN_CORRESPONDENCE.txt),
 and [scope](verification/VERIFICATION_SCOPE.json).
@@ -122,6 +122,6 @@ formal files used.
 
 ## Citation
 
-The [dated verification archive](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17)
+The [dated verification archive](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17-dichotomies)
 contains the sources, correspondence table, checks and hashes.
 Citation metadata are in [`CITATION.cff`](CITATION.cff).

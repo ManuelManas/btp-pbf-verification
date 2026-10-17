@@ -1,9 +1,9 @@
-Verification archive (17 October 2026).
+Verification archive: dichotomies and ordered root partitions (17 October 2026).
 
-- Current manuscript-to-Lean correspondence with hypotheses and immutable source links.
-- Unchanged Lean formal core and build records; no new Lean build is claimed.
-- Exact checks for reconstruction with free initial entries in arbitrary lower bandwidth.
-- Checks of companion/compound identities and uniform asymptotics at noncentral root collisions.
-- Scripts and recorded results for the general ODE, root formulas, kernels and determinantal equilibrium identities.
+- Two-factor necessity: exact telescoping identities for forward and reciprocal decay.
+- Pairwise shifted weights: exact period-product formulas.
+- All ordered root partitions: 566 exact finite Toeplitz product checks, plus high-precision limits.
+- Inverted-limit exchange: exact input-relative identities and numerical decay checks.
+- Updated manuscript-to-Lean correspondence, with unchanged formal core and original build records.
 
-The release distinguishes mathematical proofs, formal proofs, finite exact checks and numerical asymptotic tests. Stability and spectral formulas are not formalized in Lean.
+All newly added stability results have written proofs and finite computational checks, not Lean formalization. The previous dated release is preserved unchanged. No new Lean build is claimed. Zenodo DOI remains pending.

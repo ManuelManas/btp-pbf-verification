@@ -108,7 +108,7 @@ p,q>0, two compatible Metelmann products and a positive diagonal are input. The 
   SHA-256 cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237
 
 thm:toeplitz — BTP implies bounded PBF, and BTP iff PBF
-{"Normal": {"number": "4.2", "printed_page": "50"}, "Memoirs_AMS": {"number": "4.2", "printed_page": "66"}}
+{"Normal": {"number": "4.2", "printed_page": "52"}, "Memoirs_AMS": {"number": "4.2", "printed_page": "68"}}
 ToeplitzData supplies positive extreme coefficients and the finite band; p+q>0 is assumed. The construction and equivalence BTP iff PBF do not assume EdreiPolynomialInput. The factors have uniform upper and strictly positive lower bounds.
   BTP.Toeplitz.BTP_implies_global_bounded_PBF
   https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L47
@@ -121,7 +121,7 @@ ToeplitzData supplies positive extreme coefficients and the finite band; p+q>0 i
   SHA-256 5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8
 
 thm:toeplitz — Scope of the negative-root and TN branches
-{"Normal": {"number": "4.2", "printed_page": "50"}, "Memoirs_AMS": {"number": "4.2", "printed_page": "66"}}
+{"Normal": {"number": "4.2", "printed_page": "52"}, "Memoirs_AMS": {"number": "4.2", "printed_page": "68"}}
 The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript AI declaration claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.
   BTP.Toeplitz.manuscript_negative_roots_to_PBF
   https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L72
@@ -138,5 +138,8 @@ Mixed-type polynomials, measure existence, support and density formulas
 New direct Cauchy--Binet proof of PBF implies BTP as written in v74
 Reconstruction radius proof as expanded in v74
 Variable-initial-entry reconstruction: two factors and arbitrary lower bandwidth
-All internal root orders with variable initial entries
 Differential equations, spectral kernels, determinantal equilibrium identities and uniform collision estimates
+Necessary and sufficient dichotomy criterion for two lower factors with a free initial entry
+Pairwise dichotomy sufficient criterion in arbitrary lower bandwidth, including periodic factors
+Transfer from analytic normalized LDU to arbitrary prescribed factors with pairwise dichotomies
+Exchange with inverted limiting parameters; reconstruction for every ordered root partition and distinct-limit upper-lower product
