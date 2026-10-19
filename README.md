@@ -15,35 +15,36 @@ it is not tied to a manuscript version number or to the preliminary arXiv upload
 | --- | --- |
 | [Semi-infinite](lean/semi_infinite) | Finite row construction, extraction recurrences, inverse-minor identities and bounds, global criteria from compatible Metelmann factors. The candidate two-sided factorization may have an arbitrary positive diagonal; its normalization is now proved explicitly. |
 | [Toeplitz](lean/toeplitz) | BTP if and only if PBF, with positive bounded factors, without a root-criterion assumption. The complete characterization involving TN and negative roots is separately conditional on the explicitly named classical input `EdreiPolynomialInput`. |
-| [Stability](lean/stability) | The complete weighted-shift lemma in real ℓ∞, including its inverse norm and one-block criterion; the exact scalar periodic reduction; and the abstract quantitative contraction argument, its combinatorial constants and positivity estimates. |
+| [Scalar stability and radius](lean/stability) | The complete weighted-shift lemma in real ℓ∞, including its inverse norm and one-block criterion; the exact scalar periodic reduction; and the abstract quantitative contraction argument, its combinatorial constants and positivity estimates. |
+| [General stability](lean/general_stability) | Complete fixed-data, variable-data and arbitrary-growth relative criteria; normalized LDU, local inverses, global fixed-data uniqueness, and the actual bounded operator-norm realization. |
 
-**The whole stability chapter is not formalized.** The abstract radius result
-takes a bounded linear inverse and remainder estimates as inputs. Its general
-realization for band-matrix multiplication and the analytic PBF criteria remain
-written proofs. The Jacobi-fraction reformulation and polynomial/spectral/measure
-theory are also outside Lean coverage. The computational scripts test the
-specified finite cases; they do not prove those infinite-dimensional theorems.
+## General stability theorems
 
-## New formal proofs
+The new [general-stability project](lean/general_stability) proves the actual
+analytic factorization criteria in arbitrary finite bandwidth:
 
-- [WeightedShift.lean](lean/stability/WeightedShift.lean): the actual continuous
-  linear operator I−W on bounded sequences is bijective exactly when products
-  of its nonnegative weights decay uniformly geometrically. An explicit inverse
-  has norm at most 1+Cρ/(1−ρ). A single uniformly contractive block is equivalent
-  to this condition for bounded weights. The row-sum equivalence does not require
-  an a priori bound on the weights.
-- [PeriodicStability.lean](lean/stability/PeriodicStability.lean): the preceding
-  decay condition is equivalent to a period product less than one. For shifted
-  adjacent factor ratios this is exactly strict ordering of period products.
-- [AnalyticRadius.lean](lean/stability/AnalyticRadius.lean): under the displayed
-  linear-inverse and remainder estimates, there is a unique solution in the
-  variation ball, with image bound 3r/4 and Lipschitz constant 2M. The exact
-  arbitrary-bandwidth combinatorial bounds and positivity estimate are proved;
-  the product expansion is also checked for two factors in any normed ring.
-- [ArbitraryDiagonalBridge.lean](lean/semi_infinite/ArbitraryDiagonalBridge.lean):
-  uniqueness of the normalized diagonal from leading-section determinants,
-  followed by the two-sided inverse-minor criterion with an arbitrary candidate
-  positive diagonal.
+- Fixed initial entries: the lower and full-band equivalences.
+- Variable initial entries: all pair conditions, with either geometric
+  direction for each pair; the full-band criterion also uses the actual
+  joint signed-inverse row sums.
+- Relative errors: the triangular and full-band equivalences for arbitrary
+  positive growth, without absolute bounds on the factors or the diagonal.
+- Analytic normalized LDU, local inverse and Lipschitz conclusions.
+- The actual realization as bounded operators on real ℓ² and the comparison
+  of coefficient norm with operator norm, including transport of the bounded
+  full-band criteria to operator-norm neighborhoods.
+
+The matrix multiplication maps, their derivatives and all necessary inverse
+estimates are proved. The final criteria do not assume the inverse or analytic
+choice they conclude. The [correspondence table](verification/LEAN_CORRESPONDENCE.txt)
+records exact statements, hypotheses and current numbers.
+
+This does not formalize every result in the stability chapter. In particular,
+interiority, the dimension of local families, the realization of unbounded
+closed operators and the spectral theory are not claimed. The relative theorem
+uses entrywise relative errors, not Kato perturbations. The earlier quantitative
+radius module retains its explicitly documented partial scope. Finite scripts
+are computational checks, not proofs of infinite-dimensional statements.
 
 ## Reproduce the proofs and axiom audit
 
@@ -62,6 +63,9 @@ sh check.sh
 cd ../stability
 python3 bootstrap.py
 sh check.sh
+cd ../general_stability
+python3 bootstrap.py
+sh check.sh
 ```
 
 Each `check.sh` starts with an empty directory of local compiled modules,
@@ -72,16 +76,20 @@ These are Lean's standard foundational axioms, not additional mathematical
 assumptions. Explicit theorem hypotheses must still be inspected; in particular,
 the axiom audit does not prove `EdreiPolynomialInput`.
 
-The current clean build covers 29 semi-infinite, 42 Toeplitz and 3 stability
-modules. Shared sources are counted separately in the first two projects;
-these are not counts of distinct manuscript results. Three additional
-`AxiomAudit.lean` files provide the audit utilities.
-The [build records](verification/build_records) include independent semantic
-reviews, fresh compilation logs and the verified dependency bootstrap.
-The 3095 pinned dependency archives were checked and unpacked into a new
-directory. This reproduces the cached Mathlib artifacts, not a source build
-of Mathlib itself. Use `bootstrap.py --offline` for an existing archive cache.
-`BTP_LEAN_BIN` and `BTP_LEANTAR` support nonstandard toolchain locations.
+The general-stability project contains 114 mathematical source modules,
+including its required legacy sources, plus the `AxiomAudit.lean` utility.
+It audits 3042 theorem constants with their dependencies. These include auxiliary declarations and
+are not counts of new manuscript results. Earlier projects retain their recorded
+builds. The [build records](verification/build_records/general_stability) include
+the fresh compilation and independent semantic reviews. Across the four active
+projects there are 188 mathematical source modules and four
+`AxiomAudit.lean` utilities; shared sources are counted in each project.
+
+The dependency bootstrap verifies 3143 pinned cache archives
+and compiles one checksum-verified source module from the same Mathlib commit.
+This is not a source rebuild of all Mathlib. Use `bootstrap.py --offline` with
+an existing archive cache. `BTP_LEAN_BIN` and `BTP_LEANTAR` support nonstandard
+toolchain locations.
 
 ## Run the exact computational checks
 
@@ -122,7 +130,7 @@ or promoted to formal proofs by the present Lean update.
 
 ## Citation and archived records
 
-The [verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-stability) contains sources, correspondence,
+The [verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-general-stability) contains sources, correspondence,
 instructions and build records. Citation metadata are in [CITATION.cff](CITATION.cff).
 Earlier releases remain available for reproducibility. Legacy names in
 `verification_v64` and old declaration identifiers are historical records,

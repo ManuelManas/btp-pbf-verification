@@ -1,0 +1,63 @@
+INDEPENDENT REVIEW OF THE PREPARED PUBLIC PACKAGE
+2026-10-19
+Reviewer: lean_audit_existing
+Repository: staging/btp-pbf-public-stability
+
+The preparation/update scripts were run against the final audit_p07crm6z
+snapshot and both delivered manuscript auxiliary files for the current
+Normal and Memoirs editions.
+
+Verified independently:
+- All 114 mathematical source hashes equal both the fresh audit report
+  and current_validation.json. modules.txt has exactly those 114 entries,
+  in the audited order, with no duplicates. AxiomAudit.lean is a separate
+  utility, making 115 Lean files in the general-stability directory.
+- There are 188 mathematical module entries across the four active
+  projects, plus four AxiomAudit utilities. Shared modules are intentionally
+  counted in each independent project. These counts are not counts of
+  new mathematical results.
+- The final general-stability audit covers 3042 theorem constants,
+  including generated auxiliaries. The project has 3143 pinned dependency
+  archives and one checksum-verified Mathlib source exception. The earlier
+  count 3095 is preserved only as a historical cache-bootstrap count.
+- All 20 correspondence rows match the current Normal and Memoirs AUX
+  numbers and pages. Every declaration source hash and source line was
+  checked. All new qualified names agree with the actual namespace;
+  Proposition 3.24 correctly uses BTP.Stability.BandLDU.
+- README local links and the main entry-point paths exist. The standalone
+  project contains the complete required local module closure and its
+  pinned dependency source/license, rather than absolute workspace imports.
+- check.sh starts an empty local build directory, compiles all listed
+  sources with warnings as errors, and runs the all-theorem transitive
+  axiom audit. The modules' theorem namespaces are covered by its BTP
+  namespace predicate, including private generated auxiliaries.
+- The README instructions pin the Lean and Mathlib versions and include
+  the new project. The bootstrap explicitly distinguishes verified cache
+  artifacts from the single compiled pinned source; it does not claim
+  a source rebuild of all Mathlib.
+
+Mathematical scope:
+The correspondence describes the completed fixed-data, variable-data,
+normalized-LDU and arbitrary-growth relative criteria with their actual
+hypotheses. The relative case includes both implications, positivity,
+initial entries, Lipschitz dependence, local inverse identities and global
+uniqueness. The bounded operator-norm realization is explicit.
+
+The remaining exclusions are correct: interiority implies analytic LDU,
+local-family dimension, closed unbounded operator/Kato results and the
+polynomial/spectral/asymptotic theory are not claimed. The quantitative
+radius application retains its separate partial scope. Its inherited
+wording was clarified to avoid appearing to deny the newly formalized
+general analyticity. The old periodic scalar module is still accurately
+marked as a scalar reduction rather than an assembled matrix corollary.
+The compatible-Metelmann input and EdreiPolynomialInput are disclosed;
+the axiom audit is not presented as a proof of these mathematical inputs.
+
+No mathematical overclaim or unresolved correspondence discrepancy was
+found. Source counts were clarified in the README and its generator.
+No Lean source was changed during this review.
+
+The repository's CITATION metadata and aggregate checksums are finalized
+by finalize_general_public.py immediately before archiving. Its checked
+logic updates the release URL and abstract and revalidates the source
+hashes; the final package/public bootstrap logs are separate records.

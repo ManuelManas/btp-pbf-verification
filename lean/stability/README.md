@@ -11,8 +11,10 @@ code names and are not references to current theorem numbers.
   including the shifted adjacent ratio and strict ordering of period products.
 - AnalyticRadius.lean proves the abstract contraction theorem, its sharp
   displayed constants and positivity bound. A bounded inverse and remainder
-  estimates are explicit inputs. The identification of the general band-matrix
-  multiplication remainder and the analytic PBF criteria are not formalized.
+  estimates are explicit inputs. The matrix-specific quantitative remainder application remains outside this
+  module. The general analytic PBF criteria are proved separately in
+  [general_stability](../general_stability), including the relative criterion.
+  This does not enlarge the quantitative-radius claim made here.
 
 Run `python3 bootstrap.py` followed by `sh check.sh` in this directory.
 The latter starts with no compiled local modules and audits every project

@@ -5,26 +5,31 @@
   "module_counts": {
     "semi_infinite": 29,
     "toeplitz": 42,
-    "stability": 3
+    "stability": 3,
+    "general_stability": 114
   },
   "new_full_formal_results": [
-    "Weighted-shift lemma on real bounded sequences, including inverse norm and fixed-block equivalence.",
-    "Scalar periodic decay criterion and shifted adjacent period-product comparison.",
-    "Uniqueness of the normalized diagonal and two-sided limit criterion with arbitrary positive candidate diagonal."
+    "Bounded lower factors, fixed initial entries",
+    "Bounded lower factors, variable initial entries",
+    "Bounded full band, fixed initial entries",
+    "Analytic normalized LDU and joint signed-inverse row sums",
+    "Bounded full band, variable initial entries",
+    "Relative triangular criterion with arbitrary positive growth",
+    "Relative full-band criterion with arbitrary positive growth"
   ],
   "new_partial_formal_results": [
-    "Abstract quantitative-radius argument, exact combinatorial majorants, positivity and two-factor normed-ring remainder. The matrix-specific bounded inverse/remainder assembly and real analyticity are not formalized."
+    "The earlier quantitative-radius application retains the partial coverage documented in lean/stability."
   ],
   "explicit_classical_hypothesis": "EdreiPolynomialInput remains an explicit input for the full TN/negative-root characterization; BTP iff PBF is independent of this input.",
   "not_formalized": [
-    "The general fixed- or variable-initial-entry PBF analytic criteria.",
-    "The general relative/unbounded operator theorems.",
-    "The Jacobi-fraction reformulation.",
-    "Polynomial, spectral, measure and asymptotic results."
+    "Interior implies analytic LDU, local-family dimension, perturbation examples and several stability corollaries are not claimed by the general-criterion formalization.",
+    "Closed unbounded operators with a common domain and Kato perturbations. The relative criterion formalized here concerns entrywise relative errors.",
+    "The exact manuscript quantitative-radius application retains its separately documented partial scope.",
+    "The Jacobi-fraction reformulation and polynomial, spectral, measure and asymptotic theory."
   ],
   "computations": "Preserved scripts and outputs retain their original finite scope. They were not rerun by this formalization update. See build_records/historical_computational_scope.json.",
   "numbering": "Current numbers and pages read from both manuscript auxiliary files; stable labels and declaration names are primary identifiers. No particular arXiv upload is asserted.",
-  "public_archive": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-stability",
+  "public_archive": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-general-stability",
   "public_archive_doi": null,
   "zenodo_status": "No Zenodo publication was performed in this update."
 }

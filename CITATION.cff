@@ -8,12 +8,13 @@ authors:
     orcid: "https://orcid.org/0000-0003-3764-5737"
 date-released: "2026-10-19"
 repository-code: "https://github.com/ManuelManas/btp-pbf-verification"
-url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-stability"
+url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-general-stability"
 abstract: >-
   Lean proofs and manuscript-to-formalization correspondence for banded total
   positivity and positive bidiagonal factorizations. Includes inverse-minor
-  existence criteria, Toeplitz factorization, the complete weighted-shift
-  stability lemma, a periodic scalar criterion, and the abstract quantitative
-  perturbation-radius argument. Explicit hypotheses and partial coverage are
-  distinguished from the unformalized general analytic and spectral results.
+  existence criteria, Toeplitz factorization and the general analytic stability
+  criteria in arbitrary bandwidth, with fixed or variable initial entries,
+  and with arbitrary positive growth in entrywise relative norms. The actual
+  products, inverse estimates, uniqueness and operator-norm comparison are
+  proved. Exact hypotheses and remaining gaps in coverage are documented.
   Historical exact and high-precision computational checks are preserved.

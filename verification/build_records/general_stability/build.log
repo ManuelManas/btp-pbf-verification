@@ -1,0 +1,612 @@
+
+Checking WeightedShift
+'BTP.Stability.blockProduct_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.rowSum_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.geometric_of_rowSum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.rowSum_bounded_iff_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.forwardSolution_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.forwardSolution_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.differenceMap_bijective_iff_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.weighted_shift_inverse_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.geometric_iff_block_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ExtractionDerivative
+'BTP.GeneralStability.rightBidiagonal_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.eliminate_extractionDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.scalarResidual_eq_firstOrderProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.extraction_scalar_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.remainderCoefficients_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.remainderCoefficients_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.extraction_scalar_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking BandLDU
+'BTP.Stability.BandLDU.variation_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.variation_formula_bands' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.variation_identity_row_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking BandSpaces
+
+Checking FiniteLDUCompatibility
+
+Checking BoundedLDUInverse
+'BTP.Stability.BandLDU.SectionData.derivativeEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Lemma24
+'BTP.lemma_2_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.number_of_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Proposition29
+'BTP.Extraction.proposition_2_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.proposition_2_9_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.proposition_2_9_converse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.sequence_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.positive_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.final_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.number_of_recurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Extraction.total_initial_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Proposition215
+'BTP.InverseBounds.qProduct_signed_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.adjacent_minor_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.positive_refactorization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.proposition_2_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.InverseBounds.arbitrary_positive_refactorization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking SeriesLimits
+'BTP.SemiInfinite.endpoint_pos_iff_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.admissible_parameter_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.all_endpoints_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking SemiInfiniteBasic
+'BTP.SemiInfinite.product_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.sameProduct_iff_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking InverseSections
+'BTP.SemiInfinite.signed_inverse_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_first_limit_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullBandStability
+
+Checking ActualPBFData
+
+Checking FiniteInverseEstimate
+
+Checking LDUCriterion
+'BTP.Stability.BandLDU.ldu_derivative_row_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticFactorization
+
+Checking AnalyticExtraction
+'BTP.GeneralStability.leftExtraction_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.leftExtractionDerivative_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticLDU
+'BTP.GeneralStability.analytic_lduProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticLDUDerivative
+'BTP.GeneralStability.lduTerm_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.lduProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticLDUCriterion
+'BTP.Stability.BandLDU.analytic_ldu_iff_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.differentiable_ldu_iff_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.analytic_ldu_local_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticLDUMatrix
+'BTP.GeneralStability.lduProduct_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticLDUDerivativeMatrix
+'BTP.GeneralStability.lduProductDerivative_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ActualAnalyticLDU
+'BTP.Stability.BandLDU.actual_ldu_analytic_iff_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.actual_ldu_differentiable_iff_row_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.Stability.BandLDU.actual_ldu_local_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticMatrixRealization
+'BTP.GeneralStability.productCoefficient_eq_productCoefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.lowerProductBand_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking LowerStability
+'BTP.GeneralStability.fixedExtraction_bijective_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.shiftedFirstOrderComposition_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.shiftedFirstOrderComposition_bijective_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.residualMap_product_eq_composition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.lower_extraction_bijective_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.lower_extraction_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.firstOrderMap_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.firstOrderMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.firstOrderMap_bijective_iff_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.composition_bijective_iff' depends on axioms: [propext, Quot.sound]
+
+Checking AnalyticProductDerivative
+'BTP.GeneralStability.fixedProduct_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.fixedProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticInduction
+'BTP.GeneralStability.fixedProductDerivative_succ_bijective_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.fixedProductDerivative_succ_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FreeScalar
+
+Checking LowerGeneralCriterion
+'BTP.GeneralStability.firstExtraction_bijective_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.firstExtraction_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.fixedProductDerivative_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.fixedProductDerivative_bijective_iff_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.fixedProductDerivative_bijective_iff_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.fixedProductDerivative_bijective_iff_manuscript' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.pairGeometric_iff_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.pairGeometric_succ_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticPositiveFactors
+'BTP.GeneralStability.positive_fixed_local_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.lowerProduct_analytic_section_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticLowerStability
+'BTP.GeneralStability.fixed_initial_positive_factorization_iff_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.fixed_initial_positive_factorization_iff_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.fixed_initial_positive_factorization_iff_manuscript' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.fixed_positive_choice_with_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullPositiveTransfer
+'BTP.GeneralStability.full_fixed_positive_of_ldu_and_triangular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.full_fixed_positive_of_ldu_and_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking FactorOrderBridge
+'BTP.GeneralStability.productCoefficient_reversedEntries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.reversed_factor_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking InverseDominance
+'BTP.Stability.BandLDU.actual_inverse_last_factor_dominance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.actual_joint_rows_bounded_of_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.Stability.BandLDU.geometric_same_row_of_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullFixedCriterion
+'BTP.GeneralStability.analytic_ldu_of_adjacent_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_fixed_positive_of_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullFixedDerivative
+'BTP.GeneralStability.fixedFullProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_fixed_choice_implies_analytic_ldu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_fixed_choice_derivative_rightInverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking LDUInjectivity
+'BTP.Stability.BandLDU.SectionData.derivative_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.Stability.BandLDU.factorBase_derivative_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullFixedEquivalence
+'BTP.GeneralStability.full_fixed_positive_factorization_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FreeExtraction
+'BTP.GeneralStability.freeExtraction_surjective_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.freeResidualMap_product_eq_composition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.freeFirstOrder_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FreeNeumann
+
+Checking FreeRightInverse
+
+Checking FreeForward
+'BTP.FreeScalar.freeDifference_forward_rightInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.FreeScalar.forward_preimage_cZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.FreeScalar.quotientDifference_bijective_of_dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FreeQuotientExtraction
+'BTP.GeneralStability.quotientFreeComposition_surjective_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.freeExtraction_surjective_implies_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.quotientFreeFirstOrder_surjective_dichotomy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking FreeProductDerivative
+'BTP.GeneralStability.freeProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.freeProductDerivative_preserves_cZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking QuotientBandOperator
+'BTP.GeneralStability.quotientBandOperator_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.quotientBandOperator_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.quotientBandOperator_injective_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FreeExtractionInverse
+'BTP.GeneralStability.freeExtraction_rightInverse_of_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FreeGeneralCriterion
+'BTP.GeneralStability.freeProductDerivative_surjective_implies_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.freeProductDerivative_rightInverse_iff_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.freeProductDerivative_surjective_iff_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.quotientFreeExtraction_injective_of_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.quotientFreeExtraction_surjective_implies_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.quotientFreeProductDerivative_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AnalyticFreeLowerStability
+'BTP.GeneralStability.free_initial_positive_factorization_iff_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.free_initial_differentiable_factorization_iff_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.free_initial_positive_factorization_iff_manuscript' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.free_positive_choice_with_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullFreeTransfer
+'BTP.GeneralStability.freeFullProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_free_choice_derivative_rightInverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.full_free_positive_of_ldu_and_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullDerivativeSplit
+'BTP.GeneralStability.block_derivative_right_inverses' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullFreeCriterion
+'BTP.GeneralStability.full_free_positive_factorization_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_free_positive_factorization_iff_manuscript' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.GeneralStability.full_fixed_choice_locally_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_free_choice_locally_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullFixedLocalInverse
+'BTP.GeneralStability.full_fixed_local_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FullDifferentiableCriterion
+'BTP.GeneralStability.full_free_differentiable_iff_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_free_differentiable_factorization_iff_manuscript' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking AnalyticLowerLocalInverse
+'BTP.GeneralStability.fixed_lower_local_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeNormalization
+'BTP.RelativeStability.normalized_first_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.theta_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.path_index_bound' depends on axioms: [propext, Quot.sound]
+
+Checking RelativeExtraction
+'BTP.RelativeStability.bounded_rawSolutionProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.normalized_residual_bounded_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.adjacent_geometric_of_normalized_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.geometric_of_bounded_raw_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_firstOrderProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.normalized_residual_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativePathBounds
+'BTP.RelativeStability.relative_forcing_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.productCoefficients_le_lastPath' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.lastPath_le_productCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.eliminate_le_lastPath' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeProduct
+'BTP.RelativeStability.relativeCoefficient_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.analytic_relativeProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeExtractionMap
+'BTP.RelativeStability.relativeExtractionDerivative_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.productCoefficients_head' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeBandVariation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativePositiveFactors
+'BTP.RelativeStability.relative_positive_choice_iff_derivative_rightInverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_positive_choice_with_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_positive_choice_of_derivative_equiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeProductInduction
+'BTP.RelativeStability.relativeProductDerivative_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeProductDerivative_succ_bijective_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relativeAdjacentGeometric_succ_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeExtractionInverse
+'BTP.RelativeStability.relativeExtraction_remainder_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeExtraction_rightInverse_of_comparable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.normalizedForcing_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.normalizedRemainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeRemainderMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeExtractionNecessity
+'BTP.RelativeStability.relativeExtraction_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeExtraction_surjective_implies_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeClamp
+
+Checking RelativeComparison
+'BTP.RelativeStability.sameRow_finite_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeExtraction_rightInverse_of_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeLowerCriterion
+'BTP.RelativeStability.relativeProductDerivative_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeProductDerivative_bijective_iff_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_positive_choice_iff_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_positive_choice_with_lipschitz_of_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeLowerLocalInverse
+'BTP.RelativeStability.relative_lower_local_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeRowSums
+'BTP.RelativeStability.relative_joint_row_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativePrefixBounds
+'BTP.RelativeStability.finite_product_prefix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.productCoefficients_prefix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeFiniteEstimates
+'BTP.RelativeStability.relative_upper_cancellation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_lower_cancellation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_sandwich_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeFiniteControl
+'BTP.RelativeStability.finite_relative_inverse_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeNormalizedFactors
+'BTP.RelativeStability.normalizeRaw_rawCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeFactorOrder
+'BTP.RelativeStability.productCoefficients_eq_entry_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.entry_eq_productCoefficients_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeLDUProduct
+'BTP.RelativeStability.analytic_relativeLDUProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeLDUCoefficient_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeLDUProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeLDUCoefficientDerivative_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeLDUMatrix
+'BTP.RelativeStability.relativeLDUProduct_actual_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeLDUProductDerivative_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeNormalizedControl
+'BTP.RelativeStability.normalized_inverse_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.normalized_product_prefix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeLDUScaling
+'BTP.RelativeStability.relativeLDUProduct_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relativeLDUProductDerivative_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeDiagonalControl
+'BTP.RelativeStability.scaled_diagonal_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeActualControl
+'BTP.RelativeStability.normalized_finite_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeFullTransfer
+'BTP.RelativeStability.relativeFullProduct_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_full_choice_derivative_rightInverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_full_positive_of_ldu_and_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_full_choice_with_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.RelativeStability.relative_full_choice_implies_adjacent_of_ldu_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeLDUInverse
+'BTP.RelativeStability.RelativeLDUData.analyticSection_of_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.RelativeLDUData.derivative_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeLDUSufficiency
+'BTP.RelativeStability.relative_ldu_analytic_of_geometric_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeLDUNecessity
+'BTP.RelativeStability.relative_full_positive_choice_implies_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_rows_bound_of_diagonal_solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_analytic_ldu_implies_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeFullCriterion
+'BTP.RelativeStability.relative_factor_ldu_derivative_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_factor_ldu_analytic_of_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_full_positive_factorization_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BTP.RelativeStability.relative_full_positive_factorization_with_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeFullLocalInverse
+'BTP.RelativeStability.relative_full_local_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RelativeFullLocalCriterion
+'BTP.RelativeStability.relative_full_local_inverse_of_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeUniquenessCore
+'BTP.RelativeStability.positive_factors_unique_from_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking InverseMinors
+'BTP.SemiInfinite.leading_minor_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.normalized_minor_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking AdjacentRatios
+'BTP.SemiInfinite.inverseMinorRatio_eq_convergent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverseMinorRatio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking UniformMinors
+'BTP.SemiInfinite.uniform_inverse_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ExtractionDeterminants
+'BTP.SemiInfinite.windowDet_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_window_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ExtractionPositive
+'BTP.SemiInfinite.extraction_recurrence_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking UniformPerturbation
+'BTP.SemiInfinite.uniform_determinant_positivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking PlannedColumns
+'BTP.SemiInfinite.planned_windows_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking GlobalConstruction
+'BTP.SemiInfinite.positive_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.construct_from_planned_windows' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking PositiveLimits
+'BTP.SemiInfinite.all_small_parameters_extend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.positive_limits_give_PBF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.positive_limits_give_two_sided_PBF' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking OneFactorFormula
+'BTP.SemiInfinite.extractionColumns_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_determinant_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking FormalizedTheorem
+'BTP.SemiInfinite.p_add_q_sub_two_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_minor_limit_is_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_recurrence_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_determinant_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.uniform_inverse_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.all_small_parameters_extend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_first_limit_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking OrderedMinors
+'BTP.SemiInfinite.inverseEntries_ordered_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking PrefixBounds
+'BTP.SemiInfinite.inverse_prefix_weighted_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking Necessity
+'BTP.SemiInfinite.PBF_gives_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.PBF_iff_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking TwoSidedCriterion
+'BTP.SemiInfinite.normalized_products_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.two_sided_PBF_iff_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking RecurrenceParameters
+'BTP.SemiInfinite.fundamental_row_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.canonical_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking DenseParameters
+'BTP.SemiInfinite.goodInitialData_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ParameterChart
+'BTP.SemiInfinite.canonical_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking UnrestrictedDeterminant
+'BTP.SemiInfinite.extraction_formula_nonzero_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.extraction_determinant_formula_unrestricted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking CompleteResults
+'BTP.SemiInfinite.global_two_sided_criterion_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.one_factor_determinant_formula_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.PBF_gives_positive_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.normalized_products_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.goodInitialData_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.example_extraction_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking SharpUniformMinors
+'BTP.SemiInfinite.normalizedTail_le_consecutiveSeriesProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.uniform_inverse_minors_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.manuscriptBound_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking CompleteSharpResults
+'BTP.SemiInfinite.next_minor_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_minors_identities_and_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.inverse_minors_uniform_bound_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.global_two_sided_criterion_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking ArbitraryDiagonalBridge
+'BTP.SemiInfinite.normalized_diagonal_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.SemiInfinite.arbitrary_two_sided_PBF_iff_positive_limits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Checking RelativeGlobalUniqueness
+'BTP.RelativeStability.relative_full_factors_global_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking BandOperatorNorm
+'BTP.GeneralStability.bandOperator_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.norm_bandOperator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.coefficientNorm_le_operatorNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.bandOperatorEquivRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.bandOperator_range_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Checking OperatorStability
+'BTP.GeneralStability.full_free_operator_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.analytic_choice_operator_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BTP.GeneralStability.full_fixed_operator_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]

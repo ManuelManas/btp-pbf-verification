@@ -1,0 +1,474 @@
+{
+  "entry_modules": [
+    "FullFixedLocalInverse",
+    "FullDifferentiableCriterion",
+    "AnalyticLowerLocalInverse",
+    "RelativeLowerLocalInverse",
+    "RelativeFullLocalCriterion",
+    "RelativeGlobalUniqueness",
+    "OperatorStability"
+  ],
+  "started": 1792424901.8907452,
+  "success": true,
+  "theorems": 3042,
+  "finished": 1792425242.8187509,
+  "source_unchanged": true,
+  "modules": [
+    {
+      "module": "WeightedShift",
+      "sha256": "0e5f2fdb8c865d7a65d3feb43b9863f8f24bdf212a134746f388bb56d22e7eeb"
+    },
+    {
+      "module": "ExtractionDerivative",
+      "sha256": "1984eed67a72c8a6889a2c354ddc15c30f209a942d7c22d945505af23b8036d9"
+    },
+    {
+      "module": "BandLDU",
+      "sha256": "809b65862be87b942b5af5effeb2f140484b94ad19a0e2cf9da42f29baa02423"
+    },
+    {
+      "module": "BandSpaces",
+      "sha256": "069f6bcfd8b47f1b751b438400761ec228e853caf1e26acd1da8657fee4bdd2d"
+    },
+    {
+      "module": "FiniteLDUCompatibility",
+      "sha256": "0cc8bac5edcdd46e2f61f4dc2d01efef1f987a4236e28078a03a0f877719fe02"
+    },
+    {
+      "module": "BoundedLDUInverse",
+      "sha256": "31bd65ceaaaf9fe9e150716b281fd0b2f00f90a91dcc4572ac8c1909f5c48114"
+    },
+    {
+      "module": "Lemma24",
+      "sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18"
+    },
+    {
+      "module": "Proposition29",
+      "sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368"
+    },
+    {
+      "module": "Proposition215",
+      "sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272"
+    },
+    {
+      "module": "SeriesLimits",
+      "sha256": "70c26d5f8f7e361dda1af8c6519c06be5bbba1720809a2cb133778c7b603ceb9"
+    },
+    {
+      "module": "SemiInfiniteBasic",
+      "sha256": "3f74052572d9eb1711ec720ac8c5805a9301bacdf33b11ffa94911b5c8ee4ced"
+    },
+    {
+      "module": "InverseSections",
+      "sha256": "c9ffa0975542a6808ac195041392dbd740326d409eb4eb91a308bd6c363e6a82"
+    },
+    {
+      "module": "FullBandStability",
+      "sha256": "a2434c0e5c1cd6df80313d86d8d4a08900d36558399b66dff787f91b29edd773"
+    },
+    {
+      "module": "ActualPBFData",
+      "sha256": "8153b54a0055220b3c2607bdc228edfba7c0c465a12352f075393705dcba741c"
+    },
+    {
+      "module": "FiniteInverseEstimate",
+      "sha256": "84d38c24fb544d3098b92c0a67936d5c99d791598d72dba7024e6290d0ec3089"
+    },
+    {
+      "module": "LDUCriterion",
+      "sha256": "40bad136551f5eea38c5b2d0ba7050a08a7fc4cafb3f02c1e0239bbb7df10d3a"
+    },
+    {
+      "module": "AnalyticFactorization",
+      "sha256": "ff72ae4d73e833fcaa10ba332eb9d2cb7755439091f90406f35f54a3c421b6b1"
+    },
+    {
+      "module": "AnalyticExtraction",
+      "sha256": "6981a48847c1fb052bcda4c67b04b2dd59098ff11f9efe9aa5cf889d15b3f6cc"
+    },
+    {
+      "module": "AnalyticLDU",
+      "sha256": "2617e163f3ac2b3b5da2e6fbc4bd93505c7dc0f7616be20e60d68a7081aa12f6"
+    },
+    {
+      "module": "AnalyticLDUDerivative",
+      "sha256": "d0f89136d9800724ce28fccb9b75cbec9e158c91cb90f65a7b74edebe87f60d0"
+    },
+    {
+      "module": "AnalyticLDUCriterion",
+      "sha256": "2e50f36d2cae09233ccb9ce558d2f8b95637cfa4175bcebfd407dda38aa276a3"
+    },
+    {
+      "module": "AnalyticLDUMatrix",
+      "sha256": "9bbcc485c07cd64b42e6e51faf1774211d86b0aff7e4954b2d64f2dc6e52f509"
+    },
+    {
+      "module": "AnalyticLDUDerivativeMatrix",
+      "sha256": "27ca7ae57dcc927e6d84ebde1b9554e9e3d8f0a188f69c394e96a0e0b06ab450"
+    },
+    {
+      "module": "ActualAnalyticLDU",
+      "sha256": "5c9c992747be6f7e4bac9f939d518336bd53f0044172461d1e344ca20f3a3e98"
+    },
+    {
+      "module": "AnalyticMatrixRealization",
+      "sha256": "fd4eca0849354fb2ac7dcc0077a5f9834e44c990c8e90c7a6dc2b2b40c9b3f68"
+    },
+    {
+      "module": "LowerStability",
+      "sha256": "d81e9d87088e8fa80140af2ff8e477f0adbf0476912accfc39fb17ead8bf1d88"
+    },
+    {
+      "module": "AnalyticProductDerivative",
+      "sha256": "bab707b910b2862834f41e22460fdb0d97e455fee330c6584fe1e2ff91c67684"
+    },
+    {
+      "module": "AnalyticInduction",
+      "sha256": "89b023c5856e14a60f0ab6f576d56f0d3f99d8292904322b039b9e2faabcad7c"
+    },
+    {
+      "module": "FreeScalar",
+      "sha256": "be9a5fed56acb8dfbb953e188ccdefa6018f4894bf73f2eccf3ce8fc589944f8"
+    },
+    {
+      "module": "LowerGeneralCriterion",
+      "sha256": "8c543ef0f96be648ab0c6e73f6a4f5dee76f79c708c19be21d488b28996da443"
+    },
+    {
+      "module": "AnalyticPositiveFactors",
+      "sha256": "2495cbd110c431581dd36cdad45bd3aaf72bdb0cb36ac961f4ac16eaf30d60d1"
+    },
+    {
+      "module": "AnalyticLowerStability",
+      "sha256": "c8717aaa356f6db362d7e602d133bc803faba15ec8aeff84b51bc9cde2153cf6"
+    },
+    {
+      "module": "FullPositiveTransfer",
+      "sha256": "a7a1b3e581c72bd3edfe8de966616d955a3c57034ae60e16bf48ed41999a202c"
+    },
+    {
+      "module": "FactorOrderBridge",
+      "sha256": "a30cb0c06a52fd71ccf26daf4b1c746cb095f2b15951fbc7f16582d969903e72"
+    },
+    {
+      "module": "InverseDominance",
+      "sha256": "cf1293692b99e8361e99d9f0c10b72721f1c5ee06d2217eb8a2ecd6c2f536929"
+    },
+    {
+      "module": "FullFixedCriterion",
+      "sha256": "9f875b1cdce8e2f34cc4441978c75d8f2b7a93b89ee661e9c35aaec14dec0fec"
+    },
+    {
+      "module": "FullFixedDerivative",
+      "sha256": "71667e7e799aa2e6cc98c7ab9cc4e6db2c2189b7f954a479eca3b4d2dfcc3750"
+    },
+    {
+      "module": "LDUInjectivity",
+      "sha256": "1b565142dea69a059ab129ff928be22ecbd520a49b663db3825e709958681610"
+    },
+    {
+      "module": "FullFixedEquivalence",
+      "sha256": "1ff789920f4cb555a44ebf4f410e92c1b9c7e4a0d1d35d90f290462bf05a675d"
+    },
+    {
+      "module": "FreeExtraction",
+      "sha256": "7fcbcd623957dad1b00e6a78664f01ad7651e9632911eaeec3ae55fb8afeaa95"
+    },
+    {
+      "module": "FreeNeumann",
+      "sha256": "4c31d524b4d52d1b84e0df1c8eb2019d6103989783af7e275c9ae98f5f63383f"
+    },
+    {
+      "module": "FreeRightInverse",
+      "sha256": "57b186e1dfd8511169cf4baee648323b8a385c05badd8d03344dda57b684b0ca"
+    },
+    {
+      "module": "FreeForward",
+      "sha256": "7630325e0a3ca46778b1f2beea726d4dc278ce808a10db09afe5b9630898dc95"
+    },
+    {
+      "module": "FreeQuotientExtraction",
+      "sha256": "7d44ee4b7c2f96808dfe0f8a8d169c4852cc4db45ac5c90b1ea3889561ea3e39"
+    },
+    {
+      "module": "FreeProductDerivative",
+      "sha256": "c128a2b1d5e804a41f7ed9466adcab70308db33f227328c9fdaa9fb8d1070292"
+    },
+    {
+      "module": "QuotientBandOperator",
+      "sha256": "568c2861ad41413325ece9ca926d9db4db04690c2ad794754ccab02b1a548f55"
+    },
+    {
+      "module": "FreeExtractionInverse",
+      "sha256": "7c8f60b2ec6a1f0b54eb9c217cd18edcbbc8760503ba2223c68131b5633dfd4c"
+    },
+    {
+      "module": "FreeGeneralCriterion",
+      "sha256": "4bd88655a2fb80bd916fc7b1deb41c1571b08f50c9ba734c8c47cc2d4e9a9a39"
+    },
+    {
+      "module": "AnalyticFreeLowerStability",
+      "sha256": "c93515c8193dd5b4ce545e1119ef1072b2655b44d472cdbfd4648fb6e4116743"
+    },
+    {
+      "module": "FullFreeTransfer",
+      "sha256": "f2488f51e05e17d2e3440595cabe7232f4d9648a5f5d72f5d59e168e6449016d"
+    },
+    {
+      "module": "FullDerivativeSplit",
+      "sha256": "237366df2467ac1c7cafd6e6b87ac603b0cbfd4ed381df10227e6c02d8057cfb"
+    },
+    {
+      "module": "FullFreeCriterion",
+      "sha256": "8223c1f7a80af6f8c9d06239cda4328b5161188ac61852880419f4bd7c13b3e1"
+    },
+    {
+      "module": "FullFixedLocalInverse",
+      "sha256": "cbb10f37f186cd54c4e914ff2de45b1bd71f4192465141b57c044455392d7643"
+    },
+    {
+      "module": "FullDifferentiableCriterion",
+      "sha256": "a18c96b454364a562b05c5cf9249771e7fafe808dbb6827c0c55a19ab65dc64f"
+    },
+    {
+      "module": "AnalyticLowerLocalInverse",
+      "sha256": "27dcfdf81b56929e5f7b3d97150dd5e0f3128e0030198b7f979a3d141b0b1be6"
+    },
+    {
+      "module": "RelativeNormalization",
+      "sha256": "c9d0d8286d96ecd8ef407ee60e387c93b158e5ec3f59f9fa81884901edf80452"
+    },
+    {
+      "module": "RelativeExtraction",
+      "sha256": "45f5284607ea4038acd42041481ba0074420558571a4d856282a38243b2b61c2"
+    },
+    {
+      "module": "RelativePathBounds",
+      "sha256": "f3ac8cf5d2af09b07cbf02a0a3a830aeb0d195418d21dc12748b3f71d621ca3b"
+    },
+    {
+      "module": "RelativeProduct",
+      "sha256": "9301106899f534a3ead99a7c91513eb7ac89da75ee6b4bd795485e63c7f71c51"
+    },
+    {
+      "module": "RelativeExtractionMap",
+      "sha256": "229d98e93da836ac7680c90842a1f1fca9146afd923df22d5d39f0f47e648fc6"
+    },
+    {
+      "module": "RelativePositiveFactors",
+      "sha256": "18e135cbe3375794b583f20152eba6b61065a6e04d0bc575bcfd7445da9913ca"
+    },
+    {
+      "module": "RelativeProductInduction",
+      "sha256": "296949e013db74e3c79e35f7bc945062f6aa4d907a161b3b2c301649727d063a"
+    },
+    {
+      "module": "RelativeExtractionInverse",
+      "sha256": "a624e67170ba0be3c3a22f73943212017fc32b2f3f8c82419cfdd1082c58c23d"
+    },
+    {
+      "module": "RelativeExtractionNecessity",
+      "sha256": "69c47f052893a82209fbcd3d34f828804ea6080ae7decbacd9e6c468db282457"
+    },
+    {
+      "module": "RelativeClamp",
+      "sha256": "45aff58f61cc1282b2998ad90505f7da417349970329dea4f1fe596b745e7b44"
+    },
+    {
+      "module": "RelativeComparison",
+      "sha256": "0d8e44a160958a8dc9aa04692c2afa6e48f17005e0e335326c0bfbd7b2c5225d"
+    },
+    {
+      "module": "RelativeLowerCriterion",
+      "sha256": "f602ea4291f3b88d4a51e4a67dfd4d2370c2b11500408298e11eaa741492659c"
+    },
+    {
+      "module": "RelativeLowerLocalInverse",
+      "sha256": "150b4df2d8c1c15af34230ef70e075ba408f4c59fd0adf8d29fc3a3da0e0d01e"
+    },
+    {
+      "module": "RelativeRowSums",
+      "sha256": "82753bc4d569900d1dd010801379b4b8e0b25d0882488c95de4765d1f776380f"
+    },
+    {
+      "module": "RelativePrefixBounds",
+      "sha256": "f2fe8638be0492ed96c7c8d6a6f7f1b115466334d6586746f581935e27839b71"
+    },
+    {
+      "module": "RelativeFiniteEstimates",
+      "sha256": "27498b438db2ec40e5e34d1e87bc0e35017b8e9b73f773b10f73e1ee839c4f56"
+    },
+    {
+      "module": "RelativeFiniteControl",
+      "sha256": "424236fcd6f58f24893a199d8f7cc27721d7f2d19d8ea0ebf504e1bc429f5b3a"
+    },
+    {
+      "module": "RelativeNormalizedFactors",
+      "sha256": "02c6179f366abad6c0c2807ec0259dd7843bafcc419ed244964db1d11e3fc60b"
+    },
+    {
+      "module": "RelativeFactorOrder",
+      "sha256": "b95439cd2dee46d3ac59db5a7efe71dc468484dcbcaaef77d606f0f70c00989b"
+    },
+    {
+      "module": "RelativeLDUProduct",
+      "sha256": "d56bd9479e4f9d14cb7a2249668c2fa460e702fe34aa319636f607a41c365e91"
+    },
+    {
+      "module": "RelativeLDUMatrix",
+      "sha256": "60b86d3ecc783beeb243ac5ad3046f6892edeafca8ac9c859f59912a208a93f2"
+    },
+    {
+      "module": "RelativeNormalizedControl",
+      "sha256": "2f428ebaa9ebc1465a1567771a911a3fe6df8a74e7be2e901c5e96a7d5a281f6"
+    },
+    {
+      "module": "RelativeLDUScaling",
+      "sha256": "0bf74d36a964f5f63061e901c59ccd5aa51ad603afe0aeac93284a352de8af46"
+    },
+    {
+      "module": "RelativeDiagonalControl",
+      "sha256": "cd6ab2744c8276ccb164610e2c0ec2b9e8bad71bc156afe43545870a45680b2c"
+    },
+    {
+      "module": "RelativeActualControl",
+      "sha256": "c94ed49c8bb2228fc33543d314b73fcf39582388b632afa6bf6b3c4bdb838930"
+    },
+    {
+      "module": "RelativeFullTransfer",
+      "sha256": "b8cd10570bfdd774051a7489137217d3ae0432845d39fdd57e084b6226e2a4d5"
+    },
+    {
+      "module": "RelativeLDUInverse",
+      "sha256": "656c1407fc4291a698d7a77271ed156b1b2159638785ef902b0c9f3502544beb"
+    },
+    {
+      "module": "RelativeLDUSufficiency",
+      "sha256": "333f052d78699a67a91b933e9342987324852dfe0afcd1527cf2c860ef5bb732"
+    },
+    {
+      "module": "RelativeLDUNecessity",
+      "sha256": "d177844c8dc7a2f7b235f2afc45abd66404d4b4d61cc68569d0a5864fa69b24b"
+    },
+    {
+      "module": "RelativeFullCriterion",
+      "sha256": "726edacc8ccb037dd0f781203e531ec24520edbb218ffe6862c31afd550df4fc"
+    },
+    {
+      "module": "RelativeFullLocalInverse",
+      "sha256": "6756afa89363422bbb870bdc6c5c33d9e4991f5322060fbb6ea3139cf0af0655"
+    },
+    {
+      "module": "RelativeFullLocalCriterion",
+      "sha256": "f041b32f11af129e7df95fd482af5269257e7761f1cea411c26b96e13add8375"
+    },
+    {
+      "module": "RelativeUniquenessCore",
+      "sha256": "90d5331137ffa3fcb22d2ca8c4b9b10628106001637435e1cfad940f09c5d592"
+    },
+    {
+      "module": "InverseMinors",
+      "sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58"
+    },
+    {
+      "module": "AdjacentRatios",
+      "sha256": "dd5dd6a8746142136af8034b7f7c11e62307374650e47b83c096ce0f7fdec727"
+    },
+    {
+      "module": "UniformMinors",
+      "sha256": "cfd40131607751a48af30ea0d89dd64fdaec58d4a6a1555c13193af27f20e5c4"
+    },
+    {
+      "module": "ExtractionDeterminants",
+      "sha256": "1c7166744f870d822f7ec4e81514f833e9a63dea7004b8db7e9b20a707e95460"
+    },
+    {
+      "module": "ExtractionPositive",
+      "sha256": "cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99"
+    },
+    {
+      "module": "UniformPerturbation",
+      "sha256": "bd64f926123727df5d922e86f7cd412a20fd79b5c0e1331746ef471895325de6"
+    },
+    {
+      "module": "PlannedColumns",
+      "sha256": "612171ed8be7b394536fe419ad8eb2468fc76f1ded3c681df95ede529604cb17"
+    },
+    {
+      "module": "GlobalConstruction",
+      "sha256": "8b84c26a4cee09f498b02703c0cc35f216d9a8d5a2c9314e61faee124854189a"
+    },
+    {
+      "module": "PositiveLimits",
+      "sha256": "88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb"
+    },
+    {
+      "module": "OneFactorFormula",
+      "sha256": "317a8044566f724bc285c09b792d95e5026fb0138cd94936f31a35b64540c154"
+    },
+    {
+      "module": "FormalizedTheorem",
+      "sha256": "c1208ae6acac9a692fd5daf073314bfe391de59433c276924f7e9b841b1c6218"
+    },
+    {
+      "module": "OrderedMinors",
+      "sha256": "cf0580e1bc0f0e8c9b9705b4cdeb5f29479e7e7c66f28de060870a0b3c80f2e9"
+    },
+    {
+      "module": "PrefixBounds",
+      "sha256": "01e402bdece4cbed352d74e6b81ac9d6a69093b89df0e0c7904fdc520b1ba892"
+    },
+    {
+      "module": "Necessity",
+      "sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212"
+    },
+    {
+      "module": "TwoSidedCriterion",
+      "sha256": "cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237"
+    },
+    {
+      "module": "RecurrenceParameters",
+      "sha256": "34e51e70350e943c89f19550fdee72257262ec041679c20738cab871a851f1be"
+    },
+    {
+      "module": "DenseParameters",
+      "sha256": "dc863dfb4f302fe00c2890abfa19ad892ba78c206ecc077ed801fc17a65632a1"
+    },
+    {
+      "module": "ParameterChart",
+      "sha256": "d25c11eaa321e9aa0f3696dd944283cd80bcac97ac852926fcf7f67fad608bad"
+    },
+    {
+      "module": "UnrestrictedDeterminant",
+      "sha256": "c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972"
+    },
+    {
+      "module": "CompleteResults",
+      "sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d"
+    },
+    {
+      "module": "SharpUniformMinors",
+      "sha256": "7af1b130949ce636b347628b3afda45bb1d13664129085d22d5c8c0c2123a468"
+    },
+    {
+      "module": "CompleteSharpResults",
+      "sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301"
+    },
+    {
+      "module": "ArbitraryDiagonalBridge",
+      "sha256": "1a4edb027bacb3dad5600f2b347c9fddf400339cfd7b0904ccbbb2905279bfab"
+    },
+    {
+      "module": "RelativeGlobalUniqueness",
+      "sha256": "3464c19e44ef146c6ffa1b209c095bfc37bf414ff7418f15996da9adf8c95554"
+    },
+    {
+      "module": "BandOperatorNorm",
+      "sha256": "b17aa6a685cbd5abd8b1ec6ad05216814aaf593670c434f7d457aeb85ee19511"
+    },
+    {
+      "module": "OperatorStability",
+      "sha256": "7c73db2effec6f700a3503b9788dcf50df249ac27ad46eea8e28e2ffa2fdefb6"
+    }
+  ]
+}

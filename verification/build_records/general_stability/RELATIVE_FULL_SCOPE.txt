@@ -1,0 +1,72 @@
+RELATIVE FULL-BAND CRITERION: SEMANTIC SCOPE
+2026-10-19
+
+Primary entry point:
+  RelativeFullCriterion.lean
+  BTP.RelativeStability.relative_full_positive_factorization_iff
+
+The theorem is an equivalence, not only a sufficient condition. It applies
+in every pair of positive finite bandwidths (represented by p+1,q+1).
+The base lower/upper bidiagonal entries and diagonal entries are arbitrary
+positive real sequences. They need not be bounded, bounded away from zero,
+periodic, convergent, or comparable to a common growth rate.
+
+The right side of the equivalence consists precisely of:
+  G(a_i(n)/a_(i+1)(n)), for each adjacent lower pair;
+  G(b_j(n)/b_(j+1)(n)), for each adjacent upper pair;
+  G(a_last(n)*b_last(n)*d(n-1)/d(n)).
+Here G bounds every consecutive finite product uniformly geometrically,
+with constants independent of its initial row and length.
+
+The left side is the existence of an actual analytic local factor choice:
+  * its product equals every sufficiently small relative band perturbation;
+  * its value at zero perturbation is exactly the given factorization;
+  * all physical bidiagonal and diagonal entries remain positive;
+  * the prescribed initial entries remain fixed.
+The Banach coordinates are relative changes. A bounded coordinate array
+E represents the physical matrix perturbation T0_ij*E_ij. Its norm is the
+supremum of the relative entry changes. No assertion about a common closed
+operator domain or Kato perturbations is being substituted for this norm.
+
+Additional compiled conclusion:
+  relative_full_positive_factorization_with_lipschitz
+provides one analytic map with a uniform local Lipschitz bound for all
+relative factor and diagonal changes simultaneously.
+
+No inverse or matrix criterion is hidden among the final hypotheses.
+The dependency chain contains the following proved links:
+  1. The raw product coefficients equal finite products of bidiagonals in
+     the stated order, and the upper-side convention is the transpose.
+  2. The normalized LDU product is the genuine matrix product, and its
+     derivative equals the genuine finite variation XDU+LZU+LDY.
+  3. Finite triangular inverses give compatible variations of the correct
+     bandwidth. Their relative bounds follow from explicit positive-path,
+     inverse-product and cancellation estimates.
+  4. Those estimates construct the bounded inverse in the relative Banach
+     space; the analytic inverse-function theorem then supplies the map.
+  5. Conversely, differentiating an analytic factor choice gives a bounded
+     right inverse. Finite LDU injectivity and the complete relative lower
+     criterion force both adjacent conditions. The D forcing direction
+     forces the crossed condition through the true inverse row sums.
+
+The sufficiency proof uses an exact normalization by cumulative products
+of the last factors. It does not require the normalized triangular entries
+to be bounded away from zero, or the normalized diagonal to be bounded.
+The relative estimates preserve the scale of each individual matrix entry.
+
+Formal status:
+  RelativeLDUSufficiency.lean and RelativeFullCriterion.lean compiled with
+  -DwarningAsError=true. The final declarations report only propext,
+  Classical.choice and Quot.sound. The source scan contains no sorry,
+  admit, custom axiom, native_decide or unsafe implementation.
+  Logs: relative_ldu_sufficiency.log, relative_full_criterion.log.
+
+Both uniqueness conclusions are also compiled:
+  RelativeFullLocalCriterion.relative_full_local_inverse_of_geometric
+  gives both local inverse identities with the actual data factory and
+  no extra hypothesis of finite inverses or bounded inverse estimates.
+  RelativeGlobalUniqueness.relative_full_factors_global_unique proves
+  global uniqueness of every physical entry with the initial data fixed,
+  without any norm, growth or closeness hypothesis. Its finite LDU and
+  row-system proof has been read independently by this agent.
+Their axiom lists are the same three standard axioms.

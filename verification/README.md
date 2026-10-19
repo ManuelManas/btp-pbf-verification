@@ -4,15 +4,16 @@ The current [correspondence table](LEAN_CORRESPONDENCE.txt) records the
 manuscript numbers in both editions, stable labels, declaration names and
 explicit hypotheses. It includes complete and partial formalization separately.
 
-The three Lean projects have fresh compilation logs and exhaustive axiom
+The Lean projects have recorded fresh compilation logs and exhaustive axiom
 audits in [build_records](build_records). The independent reviews also compare
 the actual definitions and hypotheses with the manuscript. Successful Lean
 compilation alone does not establish that this translation is correct.
 
 The precise current coverage is recorded in [VERIFICATION_SCOPE.json](VERIFICATION_SCOPE.json).
-The complete scalar weighted-shift lemma, the scalar periodic criterion and
-the abstract radius mechanism are new formal proofs. The general PBF analytic
-criteria and the spectral theory are not formalized.
+The general fixed-data, variable-data and arbitrary-growth relative criteria
+now have complete analytic equivalence proofs for the actual matrix products.
+See the table for the coverage of subsidiary conclusions and the results that
+remain outside Lean.
 
 ## Preserved computational checks
 

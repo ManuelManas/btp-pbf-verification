@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "fresh_local_build": true,
+  "standalone_dependency_bootstrap": true,
+  "dependency_archives": 3143,
+  "pinned_dependency_source_modules": 1,
+  "source_modules": 114,
+  "theorem_constants": 3042,
+  "log_sha256": "94c04982877f8731903d70e22f070dd2d047aed0b27025b48a3b10699a53c6fc",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

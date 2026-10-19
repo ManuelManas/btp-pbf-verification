@@ -1,0 +1,193 @@
+Semantic review of the analytic general-stability formalization
+Reviewer: analytic subagent. Date: 2026-10-19.
+
+1. Spaces and physical matrix entries
+
+Seq is the Banach space of bounded real sequences, implemented as bounded
+continuous functions on the discrete space of natural numbers. LowerBand p
+is Fin p -> Seq. Coordinate E(r,j) is the actual strict-lower matrix entry
+(j+r+1,j). FullBand p q is LowerBand p x (Seq x LowerBand q); its last
+component represents the transpose of the upper triangular factor.
+These are genuine infinite sequence spaces, not finite truncations.
+
+The row-zero value of a factor sequence is a dummy: a unit lower bidiagonal
+has subdiagonal entries only in rows n>=1. All hypotheses use a positive
+dummy extension at zero. This adds no condition on a physical matrix.
+
+Fixed variations in factor i (zero-based indexing) begin at row p-i.
+They therefore fix exactly p(p-1)/2 physical initial entries. Free
+variations begin at row one in every factor. Their coordinate zero is the
+variation of row one, and is not lost.
+
+2. Actual products and derivatives
+
+AnalyticMatrixRealization identifies lowerProductBand with ordinary
+semi-infinite unit bidiagonal matrix multiplication. The factors in this
+API are listed from left to right. AnalyticLDUMatrix proves that every
+finite leading section of lduProduct is the ordinary normalized LDU
+product. AnalyticLDUDerivativeMatrix proves the corresponding identity
+for the explicitly computed Frechet derivative. No identification of a
+postulated linear map with the matrix derivative is left as a hypothesis.
+
+The legacy finite lowerProduct uses the opposite index order. That fact
+must be addressed with reversedEntries when applying the legacy inverse
+entry formula. FullFixedEquivalence's JointInverseRowsBounded does so.
+In particular, the fixed-data cross weight is the product of the last
+factors in the actual left-to-right lower and transposed-upper lists.
+
+3. Complete lower-band fixed-data theorem
+
+AnalyticLowerStability.fixed_initial_positive_factorization_iff_manuscript
+is an actual arbitrary-p equivalence. Its assumptions are bounded real
+factor sequences and a common positive lower bound. It concludes existence
+of a positive analytic local factor choice through the prescribed factors,
+with the specified initial entries fixed, exactly when adjacent geometric
+window-product decay holds. The polynomial multiplication, its derivative,
+the rowwise injectivity and the scalar inverse criterion are proved.
+The existence of an inverse derivative is not assumed in this final result.
+fixed_positive_choice_with_lipschitz proves the additional local Lipschitz
+conclusion for the same choice.
+
+4. Complete lower-band variable-data theorem
+
+AnalyticFreeLowerStability proves both analytic-choice and
+Frechet-differentiable-choice equivalences with all pair conditions.
+The necessity is not inferred from an injectivity assumption: the actual
+surjective derivative induces the genuine componentwise quotient by c0;
+successive extraction and the scalar quotient criterion force every pair.
+Sufficiency constructs bounded right inverses from the scalar alternatives
+and applies a proved Banach analytic local-section theorem.
+
+ManuscriptFreePairCondition uses a_i(n)/a_j(n-(j-i)), with n>=j-i+1.
+The subtraction is deliberately grouped, since natural-number subtraction
+n-j+i would be incorrect when n<j. geometric_reindex_from_row proves the
+equivalence to the extraction coordinates. The geometric direction can
+differ by pair. No assumption that all pairs decay in the same direction
+has slipped into the final theorem. Local Lipschitz is also proved.
+
+5. Normalized LDU and full-band assembly
+
+ActualAnalyticLDU removes the intermediate IsDerivative hypothesis by the
+proved matrix-derivative identity. The row criterion is stated for positive
+lower and upper bandwidths p+1,q+1; the pure triangular cases have their
+separate lower-band results. A diagonal bounded away from zero is required.
+
+FullFixedDerivative and FullFreeTransfer differentiate the actual full
+product through its triangular products and normalized LDU. They also
+prove that a full analytic choice implies an analytic normalized LDU
+choice and a bounded right inverse of the actual full derivative.
+These implications do not assume a joint-row bound.
+
+Independent follow-up review: FullFixedEquivalence and FullFreeCriterion
+have now been read in full, together with FactorOrderBridge and
+FullPositiveTransfer. The final fixed iff uses the two adjacent conditions
+and the crossed weight a_p b_q. The final free iff uses all pairs on each
+side and JointInverseRowsBounded. Their conditions contain no analytic
+section, inverse derivative, or IsDerivative as a concealed hypothesis.
+The b list represents U transpose from left to right, so the actual upper
+product is U_q ... U_1 and the crossed last-factor convention is correct.
+Both final equivalences compiled strictly. The package-wide fresh source
+rebuild and transitive axiom audit are recorded separately in report.json.
+
+6. Precisely delimited scope
+
+The product maps first use the supremum norm on the finite family of band
+coefficient sequences and on the factors. BandOperatorNorm now constructs
+the actual operators on l2, proves coefficient norm <= operator norm <=
+(p+q+1) coefficient norm, and identifies their range with all bounded
+operators having the prescribed band. OperatorStability transports the
+fixed and free analytic criteria to that operator-norm space. Thus this
+norm bridge is itself formalized, rather than merely asserted in prose.
+
+The arbitrary-growth relative full-band criterion has now also been
+formalized (section 8 below). Interiority implies analytic LDU and the
+local-family dimension theorem are not covered by this analytic audit.
+Those results remain outside the current formal coverage. No claim about
+the Toeplitz spectral theory follows
+from the analytic stability modules.
+
+7. Axiom and compilation checks
+
+The owned modules were compiled with warningAsError=true. The printed
+axiom dependencies of the final fixed/free lower equivalences, Lipschitz
+conclusions, LDU matrix identities and full derivative/transfer results
+are exactly propext, Classical.choice and Quot.sound. They contain no new
+axiom, sorry, admit, native_decide or assumed stability conclusion.
+The public package retains the independent fresh rebuild and exhaustive
+transitive axiom audit as its reproducibility record.
+
+8. Independent audit of the arbitrary-growth product maps
+
+RelativeProduct and RelativeLDUProduct have been read independently.
+The base coefficients are positive raw functions of the row, without a
+uniform upper bound or a positive uniform lower bound. The bounded
+variables are relative perturbations, not the original coefficients.
+Each polynomial path is divided by the corresponding actual base matrix
+entry. Positivity makes every normalized path contribution at most one.
+The actual-entry identities prove that the output is precisely Delta T/T,
+so no different normalization is silently substituted in the analytic map.
+
+In the LDU formulas, j is the minimum of the row and column indices and
+t=j-k parametrizes the summation index k. The lower formula includes all
+terms with t<=q, the upper formula all terms with t<=p, and the diagonal
+formula all terms with t<=q. The remaining terms vanish by bandwidth.
+The denominator is strictly positive in every output coordinate.
+The differential formula is the actual normalized sum of delta L D U,
+L delta D U and L D delta U. No inverse or stability condition appears
+as an assumption in these product/derivative identifications.
+
+RelativePositiveFactors now proves the analytic local-section mechanism,
+positivity, fixed initial entries and local Lipschitz dependence for this
+actual relative product. RelativeProductInduction proves the exact
+derivative decomposition into left extraction and the remaining product.
+Both compiled with warnings as errors and the standard three axioms only.
+RelativeLowerCriterion now proves the complete arbitrary-bandwidth lower
+equivalence: a positive analytic choice in relative norms with fixed
+initial entries exists if and only if all adjacent same-row weights have
+uniform geometric products. It also gives the local Lipschitz conclusion.
+Its proof combines the actual extraction derivative with the proved
+forcing/remainder estimates, rowwise injectivity and necessity obtained
+from actual surjectivity. No comparison constant K, positive uniform lower
+bound, inverse derivative or desired conclusion is left as a hypothesis.
+RelativeLDUInverse constructs the continuous inverse from compatible
+finite triangular solves and actual relative bounds. Its auxiliary
+RelativeLDUData stores algebraic finite inverses only, and Bounds stores
+estimates subsequently proved by the full-band assembly. The proof of
+derivative_injective does not assume Bounds: it follows from uniqueness
+of finite triangular variations. RelativeLDUSufficiency obtains those
+bounds from geometric products, proves invariance of the relative map
+under diagonal normalization, and applies the actual analytic inverse.
+RelativeLDUNecessity uses the actual diagonal forcing E=D and the chain
+rule to force the crossed geometric condition. RelativeFullCriterion
+then proves the full equivalence for arbitrary positive raw coefficients.
+Its final statement contains only positivity and the explicit adjacent
+and crossed products; no comparison constant, boundedness, algebraic data,
+analytic section, or inverse estimate is left as an assumed conclusion.
+The relative norm is the supremum of entrywise relative errors. This audit
+does not turn it into a Kato relative operator norm or establish domains
+and closedness for the unbounded matrices.
+
+9. Uniqueness and the local inverse
+
+AnalyticLowerLocalInverse and RelativeLowerLocalInverse additionally prove
+both inverse identities in neighborhoods of the base matrix and factors,
+not merely a right inverse. They preserve the same fixed initial entries,
+give uniform absolute or relative positive margins, and establish local
+Lipschitz dependence for that same inverse. FullFixedLocalInverse provides
+the bounded full-band counterpart. The relative full-band counterpart is
+in RelativeFullLocalInverse, with only the algebraic finite data needed
+for injectivity. RelativeFullLocalCriterion instantiates those data from
+the original factors and yields both identities from the geometric
+conditions alone. All three new local-inverse exports have compiled with
+warnings as errors and only the three standard axioms. These statements
+give uniqueness among nearby factor sequences in the norm specified.
+
+The additional RelativeGlobalUniqueness module now supplies the separate
+nonlinear argument. Its relative_full_factors_global_unique theorem starts
+from equality of the actual products and equality of the prescribed
+physical initial entries; positivity of the original factors and diagonal
+is sufficient. It concludes equality of the complete diagonals and of
+every physical factor entry in both lists. There is no proximity, growth,
+boundedness or geometric-decay assumption. I checked the ordering bridge
+and the reduction to normalized LDU uniqueness and the rowwise positive
+factor uniqueness theorem; the dummy row zero is correctly excluded.

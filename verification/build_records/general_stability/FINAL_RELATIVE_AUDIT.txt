@@ -1,0 +1,220 @@
+SEMANTIC AUDIT: ARBITRARY-GROWTH RELATIVE STABILITY AND OPERATOR NORMS
+Date: 2026-10-19
+Reviewer: lean_weighted_stability agent
+
+Reference manuscript
+--------------------
+output/BTP_PBF_2026-10-19_v117/BTP_PBF_Normal_2026-10-19_v117.tex
+Label stab:thm:relative-criterion is Theorem 3.33 in both the Normal and
+Memoirs auxiliary files. Its statement is at source lines 6901-6926.
+This report uses the label as the durable identifier; theorem numbers
+must be regenerated if the manuscript changes.
+
+Conclusion
+----------
+I found no mismatch between the final relative theorem and the mathematical
+meaning of Theorem 3.33. The formal development now covers both directions
+of its criterion, positive factors with the prescribed initial entries,
+real analytic dependence in the uniform relative norms, local Lipschitz
+control, and GLOBAL uniqueness of the ordered positive factors with those
+initial entries. The last assertion is proved separately by
+relative_full_factors_global_unique; it is not inferred from local IFT
+uniqueness.
+
+The final theorem does not assume uniform absolute upper or lower bounds
+on the base entries. It does not assume an inverse estimate or an analytic
+LDU map as part of its final hypotheses. Intermediate bounds are proved
+from the geometric conditions.
+
+This is a statement about infinite matrices and relative entrywise norms.
+It does not assert that every such unbounded matrix or factor defines a
+closed operator on unweighted l2. That distinction agrees with the scope
+of the manuscript's relative criterion.
+
+Principal final exports
+-----------------------
+All names below, except the operator-norm exports, are in
+BTP.RelativeStability.
+
+1. RelativeFullCriterion.relative_full_positive_factorization_iff
+   The exact equivalence between RelativeFullPositiveAnalyticChoice and
+   the adjacent geometric conditions on each side together with the
+   crossed geometric condition.
+
+2. RelativeFullCriterion.relative_full_positive_factorization_with_lipschitz
+   A positive analytic choice satisfying the actual product equation,
+   fixed initial entries and uniform local Lipschitz control.
+
+3. RelativeFullLocalCriterion.relative_full_local_inverse_of_geometric
+   A local inverse in both directions, positive margins a_i(n)/2,
+   b_j(n)/2 and d_n/2, fixed initial entries and local Lipschitz control.
+   Its hypotheses contain no RelativeLDUData or Bounds object.
+
+4. RelativeGlobalUniqueness.relative_full_factors_global_unique
+   Equality of the actual matrix products and fixed initial entries
+   implies equality of the diagonal and every genuine factor entry.
+   No norm, geometric-decay, or closeness assumption is made.
+
+For comparison with the bounded theory, BTP.GeneralStability contains:
+5. OperatorStability.full_fixed_operator_criterion
+6. OperatorStability.full_free_operator_criterion
+These formulate the fixed/free bounded criteria on the actual subspace of
+banded bounded operators on real l2 with the operator norm.
+
+Definitions and indices checked
+-------------------------------
+The base arrays a_i(n), b_j(n), d_n are arbitrary real functions, positive
+on their genuine entries. They are not bounded-sequence objects. The
+bounded-sequence objects describe RELATIVE changes, not the base arrays.
+
+relativePerturbedFactor is exactly a_i(n)*(1+h_i(n)), with the finite
+initial portion of h_i extended by zero. relativeProduct_actual and the
+corresponding LDU/full-product identities identify these maps with actual
+finite sums defining the matrix entries. The product maps are not merely
+abstract surrogates of a matrix multiplication map.
+
+Factor indices in Fin p are zero-based. The restriction n < p-i.val is
+exactly 1 <= n <= p-i for the manuscript's one-based factor index i.
+Row zero is not an actual subdiagonal entry. Requiring a positive value
+there in the analytic constructions is a harmless extension: its
+variation is zero and actual matrix coefficients do not use it. The
+uniqueness core explicitly proves independence from these fictitious
+row-zero entries.
+
+The parameters p,q of the final full criterion occur as Fin(p+1),
+Fin(q+1). Thus they cover every positive lower and upper bandwidth. A
+side of bandwidth one has an empty adjacent-condition family.
+
+GeometricDecay uses consecutive windows whose first row is s+1, s >= 0.
+This is the manuscript's range n >= 1. The condition for length zero is
+automatic. RelativeAdjacentGeometric uses same-row ratios; the crossed
+weight is exactly
+  a_last(n) * b_last(n) * d(n-1) / d(n).
+
+Sufficiency: hypothesis audit
+-----------------------------
+I read RelativeLDUSufficiency and its estimates in RelativeActualControl,
+RelativeNormalizedControl, RelativeFiniteControl, RelativeFiniteEstimates,
+RelativeLDUScaling and RelativeLDUInverse.
+
+RelativeLDUData encodes actual finite triangular sections, their inverse
+identities, coherence, and identification with the raw matrix entries.
+It does not encode the analytic conclusion or a uniform inverse bound.
+factorRelativeData constructs it from the original arrays and positive
+diagonal without an absolute boundedness assumption.
+
+The normalization divides all lower factor entries in a row by that
+row's last lower factor, and independently does the analogous operation
+on the upper side. RelativeLDUProduct_scale proves exact invariance of
+the relative nonlinear product under the corresponding two-sided
+scaling. This does NOT reduce the argument to the old theorem with
+uniformly positive bounded factors: normalized smaller factors may tend
+to zero, and the scaled diagonal may remain unbounded. The proof uses
+new relative estimates for actual finite inverses.
+
+normalized_finite_control derives constants independent of the section
+size from the adjacent and crossed geometric hypotheses. Its prefix
+comparisons, inverse-entry bounds and weighted diagonal sums are proved,
+not retained as assumptions of the final statement.
+
+The lower derivative estimate uses the exact cancellation identity
+  L*lowerPart(V) = E*U^{-1} - L*(diagPart(V)+upperPart(V)),
+  V = L^{-1}*E*U^{-1}.
+Consequently it retains the scale of the target entry L_ij; it does not
+replace a tiny target coefficient by an absolute estimate. The upper
+estimate is its transposed counterpart. Positivity assumptions used in
+summing these estimates are present and discharged. These are the
+critical bounds permitting arbitrary relative growth.
+
+Finite inverse solutions are shown coherent and then define a bounded
+linear map on all relative coefficient sequences. inverseMap_right
+proves the inverse equation entry by entry using actual finite sections.
+derivative_injective is obtained independently from finite triangular
+uniqueness. The analytic IFT is then applied to the genuine polynomial
+relative product map.
+
+Necessity: hypothesis audit
+--------------------------
+The choice gives a bounded right inverse of its actual derivative by
+the chain rule. Triangular extraction and normalized LDU injectivity
+recover the two adjacent criteria without assuming an analytic LDU
+selection in advance.
+
+For the crossed condition, the forcing direction is the diagonal D
+expressed relatively to T0, namely d_n/(T0)_nn. Its entries lie in [0,1].
+The diagonal component of the formal inverse derivative is exactly the
+weighted joint row sum of the two checkerboard-signed triangular
+inverses. The bounded derivative therefore bounds these row sums. The
+positive recurrence criterion then gives the crossed geometric decay.
+No absolute boundedness of a,b,d is used in this argument.
+
+Local inverse, Lipschitz and global uniqueness
+--------------------------------------------
+The local-inverse result has both identities, not only a right section.
+The same relative sup norm controls every entry of every factor at once.
+The Lipschitz conclusion and g(0)=0 give the manuscript's displayed
+factor-error estimate after shrinking to a neighborhood containing zero.
+The relative margins ensure positivity without an absolute alpha > 0.
+
+Global uniqueness is separate. RelativeUniquenessCore proves uniqueness
+of ordered triangular factors by strong induction on the row. Known
+initial entries and the previous rows reduce the remaining row entries
+to the matrix system of Lemma24, whose determinant is positive. Reversal
+of factor order has been checked explicitly: the manuscript's initial
+triangle becomes n <= j in the legacy right-to-left ordering.
+
+RelativeGlobalUniqueness then uses the actual equality of finite LDU
+sections to recover the diagonal and the two unit triangular products,
+and applies the row-system uniqueness to each side. It covers all
+positive factorizations with the prescribed initial entries, even ones
+far from the base factorization. In fact positivity is only required
+for the first factorization, since its row matrices determine the
+linear systems. This stronger formulation is valid.
+
+The core/global uniqueness files were authored by this reviewer, and
+were independently read by the lean_audit_existing agent, who confirmed
+the row system, initial-index reversal, and the stronger one-sided
+positivity assumption. The sufficiency and final analytic assembly were
+reviewed independently from their authors.
+
+Actual operator norm for the bounded criteria
+--------------------------------------------
+BandOperatorNorm constructs continuous linear maps on
+  lp (fun _ : Nat => Real) 2,
+not on a formal coefficient proxy. Coordinate vectors recover the
+matrix entries. The following estimates are proved:
+  coefficient norm <= operator norm
+  operator norm <= (p+q+1) * coefficient norm.
+
+The range is characterized as ALL bounded real l2 operators with entries
+zero outside the specified band. bandOperatorEquivRange is a continuous
+linear equivalence with precisely that operator-norm subspace.
+OperatorStability transports analytic choices, products, positivity and
+initial-data conditions through it. Both fixed and free full-band
+criteria have explicit operator-norm exports. The diagonal's upper
+boundedness is encoded by d : Seq; the other stated uniform assumptions
+are compatible with the manuscript.
+
+The formal operator space is real l2. This suffices for the real matrix
+perturbations in the manuscript. This report does not claim a separately
+formalized complexification theorem or an operator-domain realization
+for arbitrary-growth relative matrices.
+
+Compilation and trust boundary
+------------------------------
+The final modules were compiled with -DwarningAsError=true. The inspected
+#print axioms outputs contain only propext, Classical.choice and
+Quot.sound. No sorry/admit or custom mathematical axiom supplies the
+relative criterion, analytic inversion, matrix realization or uniqueness.
+Standard Lean/mathlib foundations remain the trusted base.
+
+The common fresh source rebuild completed successfully in snapshot
+audit_p07crm6z: 114 mathematical modules and 3042 theorem constants, with
+source_unchanged=true. Its machine-readable report is the authoritative
+package-wide reproducibility check. The external Mathlib cache remains
+a separately verified dependency, not a full Mathlib source rebuild. The old audit_eyecmhiv snapshot was made before
+the final split of the uniqueness proof into its two files and must NOT
+be used as the final audit of those files. All current Lean sources
+reviewed here have been frozen for the common final audit.
+
+No outstanding mathematical scope gap was found for Theorem 3.33.

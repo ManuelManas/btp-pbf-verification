@@ -1,0 +1,165 @@
+FULL-BAND STABILITY: FORMAL COVERAGE AND INDEPENDENT CHECK
+2026-10-19
+
+Final compiled entry points (all use actual matrix multiplication):
+
+1. ActualAnalyticLDU.lean
+   actual_ldu_analytic_iff_row_bound
+   actual_ldu_differentiable_iff_row_bound
+   actual_ldu_local_inverse
+   Corresponds to stab:prop:ldu-row-sums and stab:lem:band-ldu-inverse.
+   Both implications are proved. The derivative is identified with the
+   actual LDU multiplication derivative, rather than assumed to represent
+   it. Finite inverse formulas, support/bandwidth, compatibility of finite
+   sections, uniform bounds, the Banach inverse and analytic inverse
+   function theorem are all connected.
+
+2. FullFixedEquivalence.lean
+   full_fixed_positive_factorization_iff
+   Corresponds to stab:thm:general-full-stability.
+   For every positive lower and upper width (encoded p+1,q+1), under
+   uniform positive lower and finite upper bounds for the prescribed
+   bidiagonal sequences, analytic positive fixed-initial-entry choice is
+   equivalent to the two manuscript adjacent conditions and the crossed
+   condition on a_p b_q. The diagonal is a bounded sequence bounded away
+   from zero. Sufficiency uses genuine inverse-product domination, not
+   an assumed inverse or LDU choice. Necessity cancels the injective
+   formal LDU derivative and derives the crossed condition from actual
+   inverse row sums.
+
+3. FullFreeCriterion.lean
+   full_free_positive_factorization_iff
+   full_free_positive_factorization_iff_manuscript
+   Corresponds to stab:prop:free-full-transfer (the complete criterion).
+   All pairs, including non-adjacent ones, are covered. The final statement
+   uses exactly the row-shifted pair quotients of the manuscript plus
+   the joint rows of the true signed triangular inverses.
+   full_fixed_choice_locally_lipschitz
+   full_free_choice_locally_lipschitz
+
+4. FullDifferentiableCriterion.lean
+   full_free_differentiable_iff_analytic
+   full_free_differentiable_factorization_iff_manuscript
+   Differentiability is needed only at the base matrix. Its bounded
+   derivative provides the right inverse used in the necessary conditions;
+   the resulting criteria then produce an analytic choice.
+
+5. FullFixedLocalInverse.lean
+   full_fixed_local_inverse
+   Adds both local inverse identities, local Lipschitz continuity and one
+   neighborhood with every factor and diagonal entry at least alpha/2.
+
+Foundational chain owned by this agent:
+ BandLDU, FullBandStability, BandSpaces, FiniteLDUCompatibility,
+ BoundedLDUInverse, ActualPBFData, LDUCriterion, AnalyticLDUCriterion,
+ ActualAnalyticLDU, FullPositiveTransfer, FactorOrderBridge,
+ FullFixedCriterion, LDUInjectivity, FullFixedEquivalence,
+ FullDerivativeSplit, FullFreeCriterion, FullDifferentiableCriterion,
+ FullFixedLocalInverse.
+Other team members supply the actual lower fixed/free criteria,
+analytic multiplication and derivative, scalar criteria, inverse
+dominance, finite inverse estimates and analytic inverse-function API.
+
+Semantic checks:
+- reversedEntries numbers factors from the right. FactorOrderBridge proves
+  exact equality to the left-to-right Banach multiplication, for variable
+  sequences, not merely constant or periodic factors.
+- The upper list is the factor list of U-transpose; consequently its
+  last parameter is b_q and the crossed condition is a_p b_q.
+- Fixed zero extension preserves precisely p(p-1)/2 and q(q-1)/2 physical
+  initial entries. Dummy row-zero values do not enter matrix products.
+- Final equivalences assume neither an inverse, an analytic section, nor
+  the desired derivative representation. IsDerivative occurs only in
+  intermediate API and is discharged in ActualAnalyticLDU.
+- Independent semantic review by lean_analytic_stability found no mismatch
+  in these definitions, factor order, positivity or final hypotheses.
+
+6. BandOperatorNorm.lean and OperatorStability.lean
+   coefficientNorm_le_operatorNorm, norm_bandOperator_le
+   bandOperator_basis, bandOperator_range_iff, bandOperatorEquivRange
+   full_fixed_operator_criterion, full_free_operator_criterion
+   The actual bounded operator on real ell^2 is constructed using shifts
+   and multiplication operators. Its matrix entries equal the original
+   band coefficients. The exact inequalities are
+      coefficient norm <= operator norm <= (p+q+1) coefficient norm.
+   The range is precisely the operators with the prescribed finite band.
+   The analytic fixed/free criteria are transported through the proved
+   continuous linear equivalence to operator-norm neighborhoods. The
+   former coefficient/operator-norm scope gap has therefore been closed.
+
+7. RelativeFullCriterion.lean
+   relative_full_positive_factorization_iff
+   relative_full_positive_factorization_with_lipschitz
+   Corresponds to the equivalence and relative Lipschitz conclusion in
+   stab:thm:relative-criterion, for arbitrary positive widths p+1,q+1.
+   There are NO bounds on the prescribed positive factor entries or on
+   the diagonal. The final hypotheses are exactly the same-row adjacent
+   geometric conditions and the crossed condition
+      G(a_last(n)*b_last(n)*d(n-1)/d(n)).
+   The genuine normalized matrix product is used throughout. Its input
+   and output coordinates are bounded RELATIVE variations, rather than
+   bounded base entries. The proof derives finite inverse bounds, the
+   bounded inverse and analytic section. These are not hypotheses of the
+   final theorem. The entrywise relative topology is not being presented
+   as a closed-operator or Kato perturbation theorem.
+
+8. RelativeFullLocalCriterion.lean
+   relative_full_local_inverse_of_geometric
+   Specializes the actual finite-section factory factorRelativeData.
+   Gives both local inverse identities, fixed initial entries, local
+   Lipschitz dependence, and factor/diagonal lower bounds equal to half
+   their positive base entries. No auxiliary finite inverse data or
+   Bounds assumptions remain in its final statement.
+   This result proves local uniqueness in relative factor norm.
+
+9. RelativeGlobalUniqueness.lean
+   relative_full_factors_global_unique
+   Completes the global uniqueness conclusion of the relative theorem:
+   positive physical factors, their full product and the prescribed
+   initial entries determine the diagonal and every factor entry.
+   No norm, growth, geometric-decay or closeness hypothesis is required.
+   The proof uses genuine normalized LDU uniqueness, the exact factor-
+   order bridge, and the invertible row systems of the audited Lemma 2.4.
+   Independent reading verified the reversal of the initial-entry indices
+   and the scope of the row induction. The theorem only needs positivity
+   of the first factorization; the second solves the same uniquely
+   determined linear row equations.
+
+Relative proof chain owned by this agent:
+ RelativeClamp, RelativePrefixBounds, RelativeFiniteEstimates,
+ RelativeFiniteControl, RelativeNormalizedFactors,
+ RelativeNormalizedControl, RelativeDiagonalControl,
+ RelativeActualControl, RelativeLDUSufficiency, RelativeFullCriterion.
+The other agents supply the full relative lower criterion, actual LDU
+polynomial and derivative, relative inverse construction, cross necessity,
+and local inverse specialization.
+
+Relative semantic checks:
+- rawReverse is proved to convert between the left-to-right factor list
+  and the legacy right-to-left finite matrix product, for arbitrary raw
+  sequences. No bound or convergence is needed for this algebraic bridge.
+- Normalization by the cumulative product of each last factor is exact
+  and preserves the normalized relative product. It is not an assumption
+  that an arbitrary matrix is bounded after a diagonal change of scale.
+- The normalized lower entries may approach zero. The lower/upper inverse
+  estimates therefore preserve their relative scale by a genuine finite
+  cancellation identity; an absolute coefficient bound alone is not used
+  to assert a relative inverse bound.
+- The scaled diagonal can remain unbounded. Only its backward weighted
+  row sums, derived from G(cross), enter the inverse estimates.
+- The final positivity assumption includes fictitious row-zero factor
+  values. Those values are absent from all matrix entries and can be set
+  arbitrarily positive; all physical subdiagonals begin at row one.
+- Width one has no adjacent condition, as in the manuscript.
+
+Verification:
+Lean 4.34.0-rc2; mathlib commit 85e3a25e006c35636f0e53b0e9296caca2685bc0.
+Each final module compiled with -DwarningAsError=true, output .build/NAME.olean.
+Typical command, run in research/pbf_general_stability_lean_2026-10-19:
+ BTP_BUILD_DIR="$PWD/.build:/Users/manuel/Documents/Codex/Auditar_articulo_LaTeX/research/pbf_stability_lean_2026-10-19/audit_existing/semi_infinite/.verification.Z9BrCO" ./run_lean.sh -DwarningAsError=true -o .build/NAME.olean NAME.lean
+The second directory supplies already audited legacy inverse-section
+modules temporarily. Their minimal source closure must be included in
+standalone packaging; it is not a new axiom or external calculation.
+#print axioms on the final main statements reports exactly:
+ propext, Classical.choice, Quot.sound.
+No sorry/admit/custom axiom/native computation is used.
