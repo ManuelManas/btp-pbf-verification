@@ -26,3 +26,4 @@ ParameterChart
 UnrestrictedDeterminant
 CompleteResults
 CompleteSharpResults
+ArbitraryDiagonalBridge

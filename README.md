@@ -4,44 +4,87 @@ Companion verification code for **Banded Totally Positive Matrices and
 Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz
 Orthogonality**, by Manuel Mañas.
 
-Verification archive: **dichotomies and ordered root partitions, 17 October 2026**.
-See [verification](verification/README.md) for the computational checks,
-the [correspondence table](verification/LEAN_CORRESPONDENCE.txt),
-and [scope](verification/VERIFICATION_SCOPE.json).
-The formal sources and their build records are preserved unchanged.
-The new stability and spectral results have written proofs and
-computational checks; they are not formalized in Lean.
+The [correspondence table](verification/LEAN_CORRESPONDENCE.txt) identifies
+the manuscript results, their current numbers in both editions, the Lean
+declarations and their exact hypotheses. It uses stable mathematical labels;
+it is not tied to a manuscript version number or to the preliminary arXiv upload.
 
-## Contents
+## Formal coverage
 
-| Directory | Contents |
+| Project | Proved content |
 | --- | --- |
-| [`lean/semi_infinite`](lean/semi_infinite) | Finite row reconstruction, inverse-minor identities and bounds, the determinant extraction identity, and the criterion involving the **p + q − 2 positive limits**, starting from compatible Metelmann factors. |
-| [`lean/toeplitz`](lean/toeplitz) | The direct Toeplitz implication **BTP ⇒ PBF**, its converse, and uniform bounds on the positive factors. |
-| [`computational`](computational) | Exact checks with rational and symbolic arithmetic, and multiprecision checks of density moments; scripts and recorded outputs. |
+| [Semi-infinite](lean/semi_infinite) | Finite row construction, extraction recurrences, inverse-minor identities and bounds, global criteria from compatible Metelmann factors. The candidate two-sided factorization may have an arbitrary positive diagonal; its normalization is now proved explicitly. |
+| [Toeplitz](lean/toeplitz) | BTP if and only if PBF, with positive bounded factors, without a root-criterion assumption. The complete characterization involving TN and negative roots is separately conditional on the explicitly named classical input `EdreiPolynomialInput`. |
+| [Stability](lean/stability) | The complete weighted-shift lemma in real ℓ∞, including its inverse norm and one-block criterion; the exact scalar periodic reduction; and the abstract quantitative contraction argument, its combinatorial constants and positivity estimates. |
 
-The two Lean projects contain 70 source files in total, including shared
-modules. Each project has a `modules.txt` file specifying the compilation order.
-The detailed correspondence with the manuscript, including index shifts, is in
-[`LEAN_CORRESPONDENCE.txt`](verification/LEAN_CORRESPONDENCE.txt) and summarized below.
+**The whole stability chapter is not formalized.** The abstract radius result
+takes a bounded linear inverse and remainder estimates as inputs. Its general
+realization for band-matrix multiplication and the analytic PBF criteria remain
+written proofs. The Jacobi-fraction reformulation and polynomial/spectral/measure
+theory are also outside Lean coverage. The computational scripts test the
+specified finite cases; they do not prove those infinite-dimensional theorems.
 
-| Result | Lean source |
-| --- | --- |
-| Reconstruction one row at a time | [`Lemma24.lean`](lean/semi_infinite/Lemma24.lean) |
-| Successive factor-extraction recurrences | [`Proposition29.lean`](lean/semi_infinite/Proposition29.lean) |
-| Bounds from inverse entries | [`Proposition215.lean`](lean/semi_infinite/Proposition215.lean) |
-| Inverse minors and their uniform bounds | [`InverseMinors.lean`](lean/semi_infinite/InverseMinors.lean), [`SharpUniformMinors.lean`](lean/semi_infinite/SharpUniformMinors.lean), [`CompleteSharpResults.lean`](lean/semi_infinite/CompleteSharpResults.lean) |
-| Extraction determinant identity, including vanishing recurrence terms | [`UnrestrictedDeterminant.lean`](lean/semi_infinite/UnrestrictedDeterminant.lean) |
-| Global criterion for both bandwidths | [`CompleteResults.lean`](lean/semi_infinite/CompleteResults.lean) |
-| Toeplitz BTP ⇔ PBF | [`BTPToPBF.lean`](lean/toeplitz/BTPToPBF.lean) |
+## New formal proofs
 
-The Lean theorem statements record their hypotheses explicitly. The separate
-files concerning total nonnegativity and negative roots retain their named
-classical hypotheses. The direct BTP ⇒ PBF result is in `BTPToPBF.lean`.
-The polynomial and measure formulas are treated in the manuscript; the Lean
-sources supplied here concern the factorization results listed above.
+- [WeightedShift.lean](lean/stability/WeightedShift.lean): the actual continuous
+  linear operator I−W on bounded sequences is bijective exactly when products
+  of its nonnegative weights decay uniformly geometrically. An explicit inverse
+  has norm at most 1+Cρ/(1−ρ). A single uniformly contractive block is equivalent
+  to this condition for bounded weights. The row-sum equivalence does not require
+  an a priori bound on the weights.
+- [PeriodicStability.lean](lean/stability/PeriodicStability.lean): the preceding
+  decay condition is equivalent to a period product less than one. For shifted
+  adjacent factor ratios this is exactly strict ordering of period products.
+- [AnalyticRadius.lean](lean/stability/AnalyticRadius.lean): under the displayed
+  linear-inverse and remainder estimates, there is a unique solution in the
+  variation ball, with image bound 3r/4 and Lipschitz constant 2M. The exact
+  arbitrary-bandwidth combinatorial bounds and positivity estimate are proved;
+  the product expansion is also checked for two factors in any normed ring.
+- [ArbitraryDiagonalBridge.lean](lean/semi_infinite/ArbitraryDiagonalBridge.lean):
+  uniqueness of the normalized diagonal from leading-section determinants,
+  followed by the two-sided inverse-minor criterion with an arbitrary candidate
+  positive diagonal.
+
+## Reproduce the proofs and axiom audit
+
+The toolchain is pinned to Lean `leanprover/lean4:v4.34.0-rc2` and Mathlib
+commit `85e3a25e006c35636f0e53b0e9296caca2685bc0`.
+Install the toolchain with [elan](https://github.com/leanprover/elan), then run:
+
+```sh
+elan toolchain install leanprover/lean4:v4.34.0-rc2
+cd lean/semi_infinite
+python3 bootstrap.py
+sh check.sh
+cd ../toeplitz
+python3 bootstrap.py
+sh check.sh
+cd ../stability
+python3 bootstrap.py
+sh check.sh
+```
+
+Each `check.sh` starts with an empty directory of local compiled modules,
+treats warnings as errors, and audits the transitive axiom dependencies of
+**every project theorem**, including generated auxiliary proofs. It fails
+on an axiom outside `propext`, `Classical.choice`, and `Quot.sound`.
+These are Lean's standard foundational axioms, not additional mathematical
+assumptions. Explicit theorem hypotheses must still be inspected; in particular,
+the axiom audit does not prove `EdreiPolynomialInput`.
+
+The current clean build covers 29 semi-infinite, 42 Toeplitz and 3 stability
+modules. Shared sources are counted separately in the first two projects;
+these are not counts of distinct manuscript results. Three additional
+`AxiomAudit.lean` files provide the audit utilities.
+The [build records](verification/build_records) include independent semantic
+reviews, fresh compilation logs and the verified dependency bootstrap.
+The 3095 pinned dependency archives were checked and unpacked into a new
+directory. This reproduces the cached Mathlib artifacts, not a source build
+of Mathlib itself. Use `bootstrap.py --offline` for an existing archive cache.
+`BTP_LEAN_BIN` and `BTP_LEANTAR` support nonstandard toolchain locations.
 
 ## Run the exact computational checks
+
 
 The first two scripts use Python 3 and its standard library:
 
@@ -72,56 +115,16 @@ Each script writes a JSON report beside its source. These reports are included
 for comparison. The recorded results show that all four scripts completed successfully.
 They check the finite cases and identities specified in their source files.
 
-## Check the Lean proofs
 
-The projects pin the following versions:
+Additional historical scripts and their recorded scope are described in
+[verification/README.md](verification/README.md). They have not been rerun
+or promoted to formal proofs by the present Lean update.
 
-- **Lean:** `leanprover/lean4:v4.34.0-rc2`
-- **mathlib:** commit `85e3a25e006c35636f0e53b0e9296caca2685bc0`
+## Citation and archived records
 
-Install that Lean toolchain using [elan](https://github.com/leanprover/elan),
-then run each project from its own directory:
-
-```sh
-elan toolchain install leanprover/lean4:v4.34.0-rc2
-
-cd lean/semi_infinite
-python3 bootstrap.py
-sh check.sh
-
-cd ../toeplitz
-python3 bootstrap.py
-sh check.sh
-```
-
-`bootstrap.py` obtains the pinned dependency archives and verifies their
-SHA-256 hashes. `check.sh` compiles the modules in a fresh output directory
-with warnings treated as errors. The source files include `#print axioms`
-commands for the main results.
-
-For an existing dependency cache, use `python3 bootstrap.py --offline`.
-The variables `BTP_LEAN_BIN` and `BTP_LEANTAR` allow matching executables
-installed outside the standard elan directory.
-
-## Exact uniform-minor constant
-
-`SharpUniformMinors.lean` proves the displayed manuscript bound using the
-maximum of 1 and all consecutive products of adjacent Metelmann series.
-`CompleteSharpResults.lean` records the raw minor identity, the zero-row
-case, strict positivity, and the sharp bound.
-
-The recorded clean build checks all 28 semi-infinite modules with warnings
-treated as errors. The reported foundational axioms are `propext`,
-`Classical.choice`, and `Quot.sound`. See the preserved
-[build log](verification/build_records/lean_clean_build.log) and
-[validation record](verification/build_records/validation.json).
-These records describe the earlier formal build; the present update does
-not claim a fresh Lean build or formal proofs of the stability and spectral
-results. The source hashes in the correspondence table identify the exact
-formal files used.
-
-## Citation
-
-The [dated verification archive](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17-dichotomies)
-contains the sources, correspondence table, checks and hashes.
-Citation metadata are in [`CITATION.cff`](CITATION.cff).
+The [verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-stability) contains sources, correspondence,
+instructions and build records. Citation metadata are in [CITATION.cff](CITATION.cff).
+Earlier releases remain available for reproducibility. Legacy names in
+`verification_v64` and old declaration identifiers are historical records,
+not the identifier or claimed coverage of this verification package.
+No Zenodo deposit or DOI is claimed by this update.

@@ -1,10 +1,9 @@
 {
-  "date": "2026-10-17",
-  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-17-dichotomies",
-  "archive_sha256": "5cb22ff2703698ce517942ab5eef73629e9cac6b4d2b589f9b8cd7a83c4bd873",
-  "lean_files": 70,
-  "build_status": "Existing formal sources and build records are preserved unchanged; no new Lean build is claimed.",
-  "indexing": "Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers.",
+  "date": "2026-10-19",
+  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-stability",
+  "lean_files": 74,
+  "build_status": "Fresh builds of all 74 mathematical source modules (29 + 42 + 3), followed by an axiom audit of every project theorem. Common modules are counted separately in the first two projects.",
+  "indexing": "Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers. In the stability modules, blockProduct w s N multiplies w(s+1),...,w(s+N); the initial row is zero. In the periodic adjacent-ratio module, w(t)=a(t+1)/b(t) represents manuscript gamma(t+1).",
   "correspondence": [
     {
       "label": "lem:rowwise",
@@ -16,24 +15,24 @@
           "archive_path": "lean/semi_infinite/Lemma24.lean",
           "line": 537,
           "source_sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Lemma24.lean#L537"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Lemma24.lean#L537"
         },
         {
           "declaration": "BTP.number_of_parameters",
           "archive_path": "lean/semi_infinite/Lemma24.lean",
           "line": 155,
           "source_sha256": "09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Lemma24.lean#L155"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Lemma24.lean#L155"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.4",
-          "printed_page": "7"
+          "printed_page": "8"
         },
         "Memoirs_AMS": {
           "number": "2.4",
-          "printed_page": "9"
+          "printed_page": "10"
         }
       }
     },
@@ -47,34 +46,34 @@
           "archive_path": "lean/semi_infinite/Proposition29.lean",
           "line": 385,
           "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L385"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L385"
         },
         {
           "declaration": "BTP.Extraction.proposition_2_9_converse",
           "archive_path": "lean/semi_infinite/Proposition29.lean",
           "line": 339,
           "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L339"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L339"
         },
         {
           "declaration": "BTP.Extraction.positive_iteration",
           "archive_path": "lean/semi_infinite/Proposition29.lean",
           "line": 448,
           "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L448"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L448"
         },
         {
           "declaration": "BTP.Extraction.final_factor",
           "archive_path": "lean/semi_infinite/Proposition29.lean",
           "line": 477,
           "source_sha256": "dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L477"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L477"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.11",
-          "printed_page": "14"
+          "printed_page": "15"
         },
         "Memoirs_AMS": {
           "number": "2.11",
@@ -92,24 +91,24 @@
           "archive_path": "lean/semi_infinite/Proposition215.lean",
           "line": 464,
           "source_sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition215.lean#L464"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition215.lean#L464"
         },
         {
           "declaration": "BTP.InverseBounds.arbitrary_positive_refactorization_bound",
           "archive_path": "lean/semi_infinite/Proposition215.lean",
           "line": 534,
           "source_sha256": "1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition215.lean#L534"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition215.lean#L534"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.13",
-          "printed_page": "16"
+          "printed_page": "17"
         },
         "Memoirs_AMS": {
           "number": "2.13",
-          "printed_page": "20"
+          "printed_page": "21"
         }
       }
     },
@@ -123,52 +122,52 @@
           "archive_path": "lean/semi_infinite/InverseMinors.lean",
           "line": 111,
           "source_sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/InverseMinors.lean#L111"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/InverseMinors.lean#L111"
         },
         {
           "declaration": "BTP.SemiInfinite.leading_minor_pos",
           "archive_path": "lean/semi_infinite/InverseMinors.lean",
           "line": 128,
           "source_sha256": "8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/InverseMinors.lean#L128"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/InverseMinors.lean#L128"
         },
         {
           "declaration": "BTP.SemiInfinite.next_minor_formula",
           "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
           "line": 15,
           "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L15"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L15"
         },
         {
           "declaration": "BTP.SemiInfinite.next_minor_at_zero",
           "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
           "line": 24,
           "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L24"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L24"
         },
         {
           "declaration": "BTP.SemiInfinite.next_minor_pos",
           "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
           "line": 29,
           "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L29"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L29"
         },
         {
           "declaration": "BTP.SemiInfinite.inverse_minors_identities_and_limits",
           "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
           "line": 37,
           "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L37"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L37"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.16",
-          "printed_page": "19"
+          "printed_page": "21"
         },
         "Memoirs_AMS": {
           "number": "2.16",
-          "printed_page": "24"
+          "printed_page": "25"
         }
       }
     },
@@ -182,24 +181,24 @@
           "archive_path": "lean/semi_infinite/SharpUniformMinors.lean",
           "line": 134,
           "source_sha256": "7af1b130949ce636b347628b3afda45bb1d13664129085d22d5c8c0c2123a468",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/SharpUniformMinors.lean#L134"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/SharpUniformMinors.lean#L134"
         },
         {
           "declaration": "BTP.SemiInfinite.inverse_minors_uniform_bound_complete",
           "archive_path": "lean/semi_infinite/CompleteSharpResults.lean",
           "line": 54,
           "source_sha256": "a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L54"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L54"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.16",
-          "printed_page": "19"
+          "printed_page": "21"
         },
         "Memoirs_AMS": {
           "number": "2.16",
-          "printed_page": "24"
+          "printed_page": "25"
         }
       }
     },
@@ -213,31 +212,31 @@
           "archive_path": "lean/semi_infinite/UnrestrictedDeterminant.lean",
           "line": 104,
           "source_sha256": "c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/UnrestrictedDeterminant.lean#L104"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/UnrestrictedDeterminant.lean#L104"
         },
         {
           "declaration": "BTP.SemiInfinite.one_factor_determinant_formula_complete",
           "archive_path": "lean/semi_infinite/CompleteResults.lean",
           "line": 23,
           "source_sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteResults.lean#L23"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteResults.lean#L23"
         },
         {
           "declaration": "BTP.SemiInfinite.extraction_recurrence_positive",
           "archive_path": "lean/semi_infinite/ExtractionPositive.lean",
           "line": 75,
           "source_sha256": "cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/ExtractionPositive.lean#L75"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/ExtractionPositive.lean#L75"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.18",
-          "printed_page": "23"
+          "printed_page": "25"
         },
         "Memoirs_AMS": {
           "number": "2.18",
-          "printed_page": "29"
+          "printed_page": "30"
         }
       }
     },
@@ -251,62 +250,76 @@
           "archive_path": "lean/semi_infinite/Necessity.lean",
           "line": 73,
           "source_sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Necessity.lean#L73"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Necessity.lean#L73"
         },
         {
           "declaration": "BTP.SemiInfinite.PBF_iff_summable_series",
           "archive_path": "lean/semi_infinite/Necessity.lean",
           "line": 78,
           "source_sha256": "c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Necessity.lean#L78"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Necessity.lean#L78"
         },
         {
           "declaration": "BTP.SemiInfinite.all_small_parameters_extend",
           "archive_path": "lean/semi_infinite/PositiveLimits.lean",
           "line": 39,
           "source_sha256": "88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/PositiveLimits.lean#L39"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/PositiveLimits.lean#L39"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.19",
-          "printed_page": "24"
+          "printed_page": "26"
         },
         "Memoirs_AMS": {
           "number": "2.19",
-          "printed_page": "31"
+          "printed_page": "33"
         }
       }
     },
     {
       "label": "cor:global-two-sided-criterion",
       "part": "The p+q-2 positive-limit criterion",
-      "hypotheses_and_scope": "p,q>0, two compatible Metelmann products and a positive diagonal are input. The criterion concerns their actual inverse-minor limits. The lower and upper lists have p-1 and q-1 terms; uniqueness of the normalized triangular products identifies any positive factorization with these products.",
+      "hypotheses_and_scope": "p,q>0, two compatible Metelmann products and a positive diagonal are input. The criterion concerns their actual inverse-minor limits. The lower and upper lists have p-1 and q-1 terms; uniqueness of the normalized triangular products identifies any positive factorization with these products. The candidate PBF may have an arbitrary positive diagonal: ArbitraryDiagonalBridge proves that it equals the normalized diagonal before applying the limit criterion.",
       "declarations": [
         {
           "declaration": "BTP.SemiInfinite.global_two_sided_criterion_complete",
           "archive_path": "lean/semi_infinite/CompleteResults.lean",
           "line": 15,
           "source_sha256": "30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteResults.lean#L15"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteResults.lean#L15"
         },
         {
           "declaration": "BTP.SemiInfinite.two_sided_PBF_iff_positive_limits",
           "archive_path": "lean/semi_infinite/TwoSidedCriterion.lean",
           "line": 121,
           "source_sha256": "cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/TwoSidedCriterion.lean#L121"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/TwoSidedCriterion.lean#L121"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.normalized_diagonal_unique",
+          "archive_path": "lean/semi_infinite/ArbitraryDiagonalBridge.lean",
+          "line": 18,
+          "source_sha256": "1a4edb027bacb3dad5600f2b347c9fddf400339cfd7b0904ccbbb2905279bfab",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/ArbitraryDiagonalBridge.lean#L18"
+        },
+        {
+          "declaration": "BTP.SemiInfinite.arbitrary_two_sided_PBF_iff_positive_limits",
+          "archive_path": "lean/semi_infinite/ArbitraryDiagonalBridge.lean",
+          "line": 50,
+          "source_sha256": "1a4edb027bacb3dad5600f2b347c9fddf400339cfd7b0904ccbbb2905279bfab",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/ArbitraryDiagonalBridge.lean#L50"
         }
       ],
       "editions": {
         "Normal": {
           "number": "2.20",
-          "printed_page": "27"
+          "printed_page": "30"
         },
         "Memoirs_AMS": {
           "number": "2.20",
-          "printed_page": "35"
+          "printed_page": "37"
         }
       }
     },
@@ -320,79 +333,229 @@
           "archive_path": "lean/toeplitz/BTPToPBF.lean",
           "line": 47,
           "source_sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L47"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/BTPToPBF.lean#L47"
         },
         {
           "declaration": "BTP.Toeplitz.manuscript_BTP_to_PBF",
           "archive_path": "lean/toeplitz/BTPToPBF.lean",
           "line": 109,
           "source_sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L109"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/BTPToPBF.lean#L109"
         },
         {
           "declaration": "BTP.Toeplitz.manuscript_BTP_iff_PBF",
           "archive_path": "lean/toeplitz/BTPToPBF.lean",
           "line": 117,
           "source_sha256": "5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L117"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/BTPToPBF.lean#L117"
         }
       ],
       "editions": {
         "Normal": {
           "number": "4.2",
-          "printed_page": "52"
+          "printed_page": "76"
         },
         "Memoirs_AMS": {
           "number": "4.2",
-          "printed_page": "68"
+          "printed_page": "98"
         }
       }
     },
     {
       "label": "thm:toeplitz",
       "part": "Scope of the negative-root and TN branches",
-      "hypotheses_and_scope": "The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript AI declaration claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.",
+      "hypotheses_and_scope": "The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript Code availability statement claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.",
       "declarations": [
         {
           "declaration": "BTP.Toeplitz.manuscript_negative_roots_to_PBF",
           "archive_path": "lean/toeplitz/ManuscriptTheorem.lean",
           "line": 72,
           "source_sha256": "b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L72"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/ManuscriptTheorem.lean#L72"
         },
         {
           "declaration": "BTP.Toeplitz.manuscript_theorem_3_2_given_Edrei",
           "archive_path": "lean/toeplitz/ManuscriptTheorem.lean",
           "line": 83,
           "source_sha256": "b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a",
-          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L83"
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/ManuscriptTheorem.lean#L83"
         }
       ],
       "editions": {
         "Normal": {
           "number": "4.2",
-          "printed_page": "52"
+          "printed_page": "76"
         },
         "Memoirs_AMS": {
           "number": "4.2",
-          "printed_page": "68"
+          "printed_page": "98"
+        }
+      }
+    },
+    {
+      "label": "stab:lem:weighted-shift",
+      "part": "Complete scalar lemma on the Banach space of bounded sequences",
+      "hypotheses_and_scope": "Bounded nonnegative weights (thus including the positive weights in the manuscript). The actual continuous linear difference operator I-W includes its initial equation. Bijectivity iff uniform geometric decay, an explicit continuous linear inverse with norm at most 1+C*rho/(1-rho), and equivalence with contraction of one block are proved. Row-sum boundedness iff decay is also proved without an a priori bound on the weights. This does not by itself formalize the PBF multiplication derivative.",
+      "declarations": [
+        {
+          "declaration": "BTP.Stability.differenceMap_bijective_iff_geometric",
+          "archive_path": "lean/stability/WeightedShift.lean",
+          "line": 367,
+          "source_sha256": "0e5f2fdb8c865d7a65d3feb43b9863f8f24bdf212a134746f388bb56d22e7eeb",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L367"
+        },
+        {
+          "declaration": "BTP.Stability.weighted_shift_inverse_norm_bound",
+          "archive_path": "lean/stability/WeightedShift.lean",
+          "line": 452,
+          "source_sha256": "0e5f2fdb8c865d7a65d3feb43b9863f8f24bdf212a134746f388bb56d22e7eeb",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L452"
+        },
+        {
+          "declaration": "BTP.Stability.geometric_iff_block_contraction",
+          "archive_path": "lean/stability/WeightedShift.lean",
+          "line": 467,
+          "source_sha256": "0e5f2fdb8c865d7a65d3feb43b9863f8f24bdf212a134746f388bb56d22e7eeb",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L467"
+        },
+        {
+          "declaration": "BTP.Stability.rowSum_bounded_iff_geometric",
+          "archive_path": "lean/stability/WeightedShift.lean",
+          "line": 158,
+          "source_sha256": "0e5f2fdb8c865d7a65d3feb43b9863f8f24bdf212a134746f388bb56d22e7eeb",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L158"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "3.6",
+          "printed_page": "41"
+        },
+        "Memoirs_AMS": {
+          "number": "3.6",
+          "printed_page": "51"
+        }
+      }
+    },
+    {
+      "label": "stab:rem:general-radius",
+      "part": "Abstract quantitative radius and exact combinatorial estimates; partial coverage of the matrix proposition",
+      "hypotheses_and_scope": "A complete real normed variation space, a continuous linear equivalence D with inverse norm bound M, and explicit quadratic/Lipschitz remainder estimates are inputs. Existence and uniqueness in the closed ball, the 3r/4 image bound, the 2M solution Lipschitz bound and positivity at least alpha/2 are proved. The exact C_p majorants are proved for all p>=2, with formal index p=d+2. The two-factor product remainder is verified in an arbitrary normed ring. The general band-matrix realization of these inputs and real analyticity are not formalized.",
+      "declarations": [
+        {
+          "declaration": "PBFStability.quantitative_radius",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 83,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L83"
+        },
+        {
+          "declaration": "PBFStability.quantitative_radius_lipschitz",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 128,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L128"
+        },
+        {
+          "declaration": "PBFStability.positive_entries_of_radius",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 175,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L175"
+        },
+        {
+          "declaration": "PBFStability.remainderConstant_eq",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 221,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L221"
+        },
+        {
+          "declaration": "PBFStability.quadratic_majorant_bound",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 231,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L231"
+        },
+        {
+          "declaration": "PBFStability.lipschitz_majorant_bound",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 263,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L263"
+        },
+        {
+          "declaration": "PBFStability.twoFactor_expansion",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 305,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L305"
+        },
+        {
+          "declaration": "PBFStability.twoFactor_remainder_lipschitz",
+          "archive_path": "lean/stability/AnalyticRadius.lean",
+          "line": 320,
+          "source_sha256": "93e92671399872231741c136a4acdeefad35e0e5e22249dec85888ed4060eeee",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L320"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "3.8",
+          "printed_page": "44"
+        },
+        "Memoirs_AMS": {
+          "number": "3.8",
+          "printed_page": "56"
+        }
+      }
+    },
+    {
+      "label": "stab:cor:periodic-general",
+      "part": "Complete scalar periodic reduction; not the analytic matrix corollary",
+      "hypotheses_and_scope": "Positive periodic sequences with a common positive integer period. The product over a period is independent of the initial row. Uniform geometric decay is equivalent to a period product less than one. For the shifted adjacent ratio a(n+1)/b(n), this is equivalent to strict ordering of the two factor period products. Applying the general analytic PBF criterion is outside this module.",
+      "declarations": [
+        {
+          "declaration": "BTP.Stability.periodic_adjacent_product",
+          "archive_path": "lean/stability/PeriodicStability.lean",
+          "line": 85,
+          "source_sha256": "d91aae893fe4c687724ca3c17151771fdc8602fb79c933f4d6072c21d2019edd",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/PeriodicStability.lean#L85"
+        },
+        {
+          "declaration": "BTP.Stability.periodic_geometric_iff",
+          "archive_path": "lean/stability/PeriodicStability.lean",
+          "line": 132,
+          "source_sha256": "d91aae893fe4c687724ca3c17151771fdc8602fb79c933f4d6072c21d2019edd",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/PeriodicStability.lean#L132"
+        },
+        {
+          "declaration": "BTP.Stability.periodic_adjacent_geometric_iff",
+          "archive_path": "lean/stability/PeriodicStability.lean",
+          "line": 140,
+          "source_sha256": "d91aae893fe4c687724ca3c17151771fdc8602fb79c933f4d6072c21d2019edd",
+          "source_url": "https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/PeriodicStability.lean#L140"
+        }
+      ],
+      "editions": {
+        "Normal": {
+          "number": "3.9",
+          "printed_page": "45"
+        },
+        "Memoirs_AMS": {
+          "number": "3.9",
+          "printed_page": "57"
         }
       }
     }
   ],
   "outside_formalization": [
-    "Chapter 3 stability and interior criteria",
-    "Toeplitz stability, simple-root equivalence and asymptotically Toeplitz extension",
-    "Schur asymptotics and sharp normalization bounds",
-    "Mixed-type polynomials, measure existence, support and density formulas",
-    "New direct Cauchy--Binet proof of PBF implies BTP as written in v74",
-    "Reconstruction radius proof as expanded in v74",
-    "Variable-initial-entry reconstruction: two factors and arbitrary lower bandwidth",
-    "Differential equations, spectral kernels, determinantal equilibrium identities and uniform collision estimates",
-    "Necessary and sufficient dichotomy criterion for two lower factors with a free initial entry",
-    "Pairwise dichotomy sufficient criterion in arbitrary lower bandwidth, including periodic factors",
-    "Transfer from analytic normalized LDU to arbitrary prescribed factors with pairwise dichotomies",
-    "Exchange with inverted limiting parameters; reconstruction for every ordered root partition and distinct-limit upper-lower product"
+    "The complete analytic PBF criteria with fixed or variable initial entries, and the relative/unbounded operator theorems.",
+    "The band-matrix realization of the bounded inverse and general product-remainder estimates used by the quantitative-radius argument; real analyticity of that choice.",
+    "The Jacobi-fraction reformulation.",
+    "Polynomial, spectral, measure and asymptotic results.",
+    "The classical TN-to-negative-root input EdreiPolynomialInput; it is an explicit mathematical hypothesis in the conditional full characterization."
   ],
-  "formal_core_commit": "77913c80913844b17e3e47f6913a8a598c698d9d"
+  "manuscript_title": "Banded Totally Positive Matrices and Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz Orthogonality",
+  "numbering_status": "Numbers and pages read from the current Normal and Memoirs AMS auxiliary files. Stable LaTeX labels and Lean declaration names identify the mathematics independently of numbering. No correspondence with a particular arXiv upload is asserted."
 }

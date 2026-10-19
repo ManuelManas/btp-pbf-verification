@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 lean/*/.deps/
+lean/*/.deps
 lean/*/.cache/
 lean/*/.lake/
 lean/*/.build/

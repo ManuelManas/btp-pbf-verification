@@ -1,0 +1,7 @@
+{
+  "module_count": 3095,
+  "missing": [],
+  "mismatched": [],
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2"
+}

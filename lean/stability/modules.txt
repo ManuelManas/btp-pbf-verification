@@ -1,0 +1,3 @@
+WeightedShift
+AnalyticRadius
+PeriodicStability

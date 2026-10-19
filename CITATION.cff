@@ -6,12 +6,14 @@ authors:
   - family-names: "Mañas"
     given-names: "Manuel"
     orcid: "https://orcid.org/0000-0003-3764-5737"
-date-released: "2026-10-17"
+date-released: "2026-10-19"
 repository-code: "https://github.com/ManuelManas/btp-pbf-verification"
-url: "https://github.com/ManuelManas/btp-pbf-verification/tree/2026-10-17-dichotomies"
+url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-stability"
 abstract: >-
-  Lean formal proofs, a manuscript-to-Lean correspondence table,
-  and exact and high-precision computational checks.
-  New checks cover pairwise dichotomies, all ordered root partitions, general
-  differential equations, spectral kernels and determinantal asymptotics.
-  The stability and spectral results are not formalized in Lean.
+  Lean proofs and manuscript-to-formalization correspondence for banded total
+  positivity and positive bidiagonal factorizations. Includes inverse-minor
+  existence criteria, Toeplitz factorization, the complete weighted-shift
+  stability lemma, a periodic scalar criterion, and the abstract quantitative
+  perturbation-radius argument. Explicit hypotheses and partial coverage are
+  distinguished from the unformalized general analytic and spectral results.
+  Historical exact and high-precision computational checks are preserved.

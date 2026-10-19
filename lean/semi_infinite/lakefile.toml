@@ -1,6 +1,6 @@
 name = "BTPSemiInfinite"
 version = "0.3.0"
-defaultTargets = ["CompleteSharpResults"]
+defaultTargets = ["ArbitraryDiagonalBridge"]
 
 [[require]]
 name = "mathlib"
@@ -90,3 +90,6 @@ name = "CompleteResults"
 
 [[lean_lib]]
 name = "CompleteSharpResults"
+
+[[lean_lib]]
+name = "ArbitraryDiagonalBridge"

@@ -14,4 +14,6 @@ while IFS= read -r btp_module; do
     printf '\nChecking %s.lean\n' "$btp_module"
     ./run_lean.sh -DwarningAsError=true -o "$BTP_BUILD_DIR/$btp_module.olean" "$btp_module.lean"
 done < modules.txt
-printf '\nVERIFIED: all modules compiled with warnings treated as errors.\n'
+printf '\nAuditing every project theorem and its axiom dependencies\n'
+./run_lean.sh -DwarningAsError=true AxiomAudit.lean
+printf '\nVERIFIED: fresh build and all-theorem axiom audit passed.\n'

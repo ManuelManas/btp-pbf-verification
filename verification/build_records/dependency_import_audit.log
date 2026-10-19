@@ -1,0 +1,3 @@
+ContinuousLinearMap.{u_1, u_2, u_3, u_4} {R : Type u_1} {S : Type u_2} [Semiring R] [Semiring S] (σ : R →+* S)
+  (M : Type u_3) [TopologicalSpace M] [AddCommMonoid M] (M₂ : Type u_4) [TopologicalSpace M₂] [AddCommMonoid M₂]
+  [Module R M] [Module S M₂] : Type (max u_3 u_4)

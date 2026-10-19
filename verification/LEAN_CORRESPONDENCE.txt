@@ -1,145 +1,168 @@
-LEAN CORRESPONDENCE — 17 October 2026
-Existing formal sources and build records are preserved unchanged; no new Lean build is claimed.
+BTP/PBF — correspondence between manuscript statements and Lean proofs
 
-Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers.
+Banded Totally Positive Matrices and Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz Orthogonality
+
+Numbers and pages read from the current Normal and Memoirs AMS auxiliary files. Stable LaTeX labels and Lean declaration names identify the mathematics independently of numbering. No correspondence with a particular arXiv upload is asserted.
+
+Fresh builds of all 74 mathematical source modules (29 + 42 + 3), followed by an axiom audit of every project theorem. Common modules are counted separately in the first two projects.
+
+Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers. In the stability modules, blockProduct w s N multiplies w(s+1),...,w(s+N); the initial row is zero. In the periodic adjacent-ratio module, w(t)=a(t+1)/b(t) represents manuscript gamma(t+1).
 
 lem:rowwise — Finite row construction
-{"Normal": {"number": "2.4", "printed_page": "7"}, "Memoirs_AMS": {"number": "2.4", "printed_page": "9"}}
-A finite dimension d, p<d, and the Metelmann zero pattern with strict positivity of the permitted entries are input. Analytic dependence near zero, unchanged product, positivity for sufficiently small positive free entries, and the count p(p-1)/2 are proved.
+  Normal: result 2.4, printed page 8.
+  Memoirs_AMS: result 2.4, printed page 10.
+  A finite dimension d, p<d, and the Metelmann zero pattern with strict positivity of the permitted entries are input. Analytic dependence near zero, unchanged product, positivity for sufficiently small positive free entries, and the count p(p-1)/2 are proved.
   BTP.lemma_2_4
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Lemma24.lean#L537
-  SHA-256 09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Lemma24.lean#L537
   BTP.number_of_parameters
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Lemma24.lean#L155
-  SHA-256 09c8034c94e460c794a03e8347a9539e0648c0e53dda6b289d996b0ace29df18
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Lemma24.lean#L155
 
 prop:successive-recurrences — Recurrence and extraction
-{"Normal": {"number": "2.11", "printed_page": "14"}, "Memoirs_AMS": {"number": "2.11", "printed_page": "18"}}
-For 2<=r<d, the matrix is unit lower triangular of bandwidth r, with nonzero extreme subdiagonal. Nonzero initial parameters and nonvanishing recurrence terms are explicit hypotheses where ratios are used. The converse, positive iteration and bandwidth-one final factor are separate declarations.
+  Normal: result 2.11, printed page 15.
+  Memoirs_AMS: result 2.11, printed page 18.
+  For 2<=r<d, the matrix is unit lower triangular of bandwidth r, with nonzero extreme subdiagonal. Nonzero initial parameters and nonvanishing recurrence terms are explicit hypotheses where ratios are used. The converse, positive iteration and bandwidth-one final factor are separate declarations.
   BTP.Extraction.proposition_2_9
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L385
-  SHA-256 dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L385
   BTP.Extraction.proposition_2_9_converse
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L339
-  SHA-256 dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L339
   BTP.Extraction.positive_iteration
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L448
-  SHA-256 dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L448
   BTP.Extraction.final_factor
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition29.lean#L477
-  SHA-256 dfbc11716cba27dca7ba6cf05911f6973c8ad42af86edd8f4c9a5587bd13c368
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition29.lean#L477
 
 prop:inverse-parameter-bound — Strict inverse-entry bounds
-{"Normal": {"number": "2.13", "printed_page": "16"}, "Memoirs_AMS": {"number": "2.13", "printed_page": "20"}}
-The finite Metelmann pattern, 2<=p<d, and an arbitrary positive bidiagonal factorization of the same product are explicit. Strict monotonicity and the bound on its first entry are proved.
+  Normal: result 2.13, printed page 17.
+  Memoirs_AMS: result 2.13, printed page 21.
+  The finite Metelmann pattern, 2<=p<d, and an arbitrary positive bidiagonal factorization of the same product are explicit. Strict monotonicity and the bound on its first entry are proved.
   BTP.InverseBounds.proposition_2_15
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition215.lean#L464
-  SHA-256 1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition215.lean#L464
   BTP.InverseBounds.arbitrary_positive_refactorization_bound
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Proposition215.lean#L534
-  SHA-256 1c2b8476e54ee0d33d62a0d61e54ae05541528e0083e98c9aefe25e7279a9272
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Proposition215.lean#L534
 
 lem:global-inverse-minors — Parts (1) and (2): identities, positivity and limits
-{"Normal": {"number": "2.16", "printed_page": "19"}, "Memoirs_AMS": {"number": "2.16", "printed_page": "24"}}
-Compatible semi-infinite Metelmann factors are input. The leading determinant formula holds for n>=0. The next determinant is zero at n=0 and positive for n>=1; the ratio and its decreasing limit are identified. No summability hypothesis is needed for these identities.
+  Normal: result 2.16, printed page 21.
+  Memoirs_AMS: result 2.16, printed page 25.
+  Compatible semi-infinite Metelmann factors are input. The leading determinant formula holds for n>=0. The next determinant is zero at n=0 and positive for n>=1; the ratio and its decreasing limit are identified. No summability hypothesis is needed for these identities.
   BTP.SemiInfinite.leading_minor_formula
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/InverseMinors.lean#L111
-  SHA-256 8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/InverseMinors.lean#L111
   BTP.SemiInfinite.leading_minor_pos
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/InverseMinors.lean#L128
-  SHA-256 8365b03a9a775e8eeb04f280a700d3db4d6004fa25e80bfd9fb2185b1cb0bf58
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/InverseMinors.lean#L128
   BTP.SemiInfinite.next_minor_formula
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L15
-  SHA-256 a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L15
   BTP.SemiInfinite.next_minor_at_zero
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L24
-  SHA-256 a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L24
   BTP.SemiInfinite.next_minor_pos
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L29
-  SHA-256 a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L29
   BTP.SemiInfinite.inverse_minors_identities_and_limits
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L37
-  SHA-256 a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L37
 
 lem:global-inverse-minors — Part (3): the exact displayed uniform bound
-{"Normal": {"number": "2.16", "printed_page": "19"}, "Memoirs_AMS": {"number": "2.16", "printed_page": "24"}}
-All p-1 adjacent series are assumed summable. The constant is the maximum of 1 and the finite consecutive products of the series, exactly the manuscript constant B; the bound is k! B^k. The earlier weaker constant is not being substituted here.
+  Normal: result 2.16, printed page 21.
+  Memoirs_AMS: result 2.16, printed page 25.
+  All p-1 adjacent series are assumed summable. The constant is the maximum of 1 and the finite consecutive products of the series, exactly the manuscript constant B; the bound is k! B^k. The earlier weaker constant is not being substituted here.
   BTP.SemiInfinite.uniform_inverse_minors_sharp
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/SharpUniformMinors.lean#L134
-  SHA-256 7af1b130949ce636b347628b3afda45bb1d13664129085d22d5c8c0c2123a468
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/SharpUniformMinors.lean#L134
   BTP.SemiInfinite.inverse_minors_uniform_bound_complete
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteSharpResults.lean#L54
-  SHA-256 a89a544fc134f4e1fa162e069f370cf2d314d6f484bd6d629500db706b0ff301
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteSharpResults.lean#L54
 
 lem:global-extraction-determinant — Determinant identity and positive extraction
-{"Normal": {"number": "2.18", "printed_page": "23"}, "Memoirs_AMS": {"number": "2.18", "printed_page": "29"}}
-For m>=2, unit lower triangular sections of bandwidth m and a nonzero extreme subdiagonal are assumed. The identity allows arbitrary initial values, including specializations where recurrence terms vanish. Strict positivity of the initial data, extreme subdiagonal and determinants is used for the positive-extraction conclusion.
+  Normal: result 2.18, printed page 25.
+  Memoirs_AMS: result 2.18, printed page 30.
+  For m>=2, unit lower triangular sections of bandwidth m and a nonzero extreme subdiagonal are assumed. The identity allows arbitrary initial values, including specializations where recurrence terms vanish. Strict positivity of the initial data, extreme subdiagonal and determinants is used for the positive-extraction conclusion.
   BTP.SemiInfinite.extraction_determinant_formula_unrestricted
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/UnrestrictedDeterminant.lean#L104
-  SHA-256 c9ecacae562d3c44ed068e3cae96bd500de5c08cee56539f471e0b9fbf7f5972
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/UnrestrictedDeterminant.lean#L104
   BTP.SemiInfinite.one_factor_determinant_formula_complete
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteResults.lean#L23
-  SHA-256 30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteResults.lean#L23
   BTP.SemiInfinite.extraction_recurrence_positive
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/ExtractionPositive.lean#L75
-  SHA-256 cf358d187723974935640289d8f341522ee25eee05e7f522ea25438e33c3dd99
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/ExtractionPositive.lean#L75
 
 thm:global-lower-criterion — Equivalence with series and inverse-minor limits
-{"Normal": {"number": "2.19", "printed_page": "24"}, "Memoirs_AMS": {"number": "2.19", "printed_page": "31"}}
-A compatible Metelmann product is the input. Positivity of every actual inverse-minor limit and summability of every adjacent series are each equivalent to a global positive factorization. All sufficiently small positive initial entries extend. This project does not derive the compatible Metelmann factorization from an arbitrary BTP matrix.
+  Normal: result 2.19, printed page 26.
+  Memoirs_AMS: result 2.19, printed page 33.
+  A compatible Metelmann product is the input. Positivity of every actual inverse-minor limit and summability of every adjacent series are each equivalent to a global positive factorization. All sufficiently small positive initial entries extend. This project does not derive the compatible Metelmann factorization from an arbitrary BTP matrix.
   BTP.SemiInfinite.PBF_iff_positive_limits
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Necessity.lean#L73
-  SHA-256 c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Necessity.lean#L73
   BTP.SemiInfinite.PBF_iff_summable_series
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/Necessity.lean#L78
-  SHA-256 c9d999798aad0543196721e65e7e97913aef1ad9bea8c09549bb572b9b3f4212
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/Necessity.lean#L78
   BTP.SemiInfinite.all_small_parameters_extend
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/PositiveLimits.lean#L39
-  SHA-256 88d9ea433f0cfaeb4ebce52ffd3ad77483062fc7f0f4159e97dc67caf199acdb
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/PositiveLimits.lean#L39
 
 cor:global-two-sided-criterion — The p+q-2 positive-limit criterion
-{"Normal": {"number": "2.20", "printed_page": "27"}, "Memoirs_AMS": {"number": "2.20", "printed_page": "35"}}
-p,q>0, two compatible Metelmann products and a positive diagonal are input. The criterion concerns their actual inverse-minor limits. The lower and upper lists have p-1 and q-1 terms; uniqueness of the normalized triangular products identifies any positive factorization with these products.
+  Normal: result 2.20, printed page 30.
+  Memoirs_AMS: result 2.20, printed page 37.
+  p,q>0, two compatible Metelmann products and a positive diagonal are input. The criterion concerns their actual inverse-minor limits. The lower and upper lists have p-1 and q-1 terms; uniqueness of the normalized triangular products identifies any positive factorization with these products. The candidate PBF may have an arbitrary positive diagonal: ArbitraryDiagonalBridge proves that it equals the normalized diagonal before applying the limit criterion.
   BTP.SemiInfinite.global_two_sided_criterion_complete
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/CompleteResults.lean#L15
-  SHA-256 30c9b1474386c85cdd4e1e602b6bb201d3d2fa7980fda2b4a26d448bb0affa6d
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/CompleteResults.lean#L15
   BTP.SemiInfinite.two_sided_PBF_iff_positive_limits
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/semi_infinite/TwoSidedCriterion.lean#L121
-  SHA-256 cdf27ecd89d44c03ea76a7f2b06171a2858dd893d18c0ca996c0c59346847237
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/TwoSidedCriterion.lean#L121
+  BTP.SemiInfinite.normalized_diagonal_unique
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/ArbitraryDiagonalBridge.lean#L18
+  BTP.SemiInfinite.arbitrary_two_sided_PBF_iff_positive_limits
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/semi_infinite/ArbitraryDiagonalBridge.lean#L50
 
 thm:toeplitz — BTP implies bounded PBF, and BTP iff PBF
-{"Normal": {"number": "4.2", "printed_page": "52"}, "Memoirs_AMS": {"number": "4.2", "printed_page": "68"}}
-ToeplitzData supplies positive extreme coefficients and the finite band; p+q>0 is assumed. The construction and equivalence BTP iff PBF do not assume EdreiPolynomialInput. The factors have uniform upper and strictly positive lower bounds.
+  Normal: result 4.2, printed page 76.
+  Memoirs_AMS: result 4.2, printed page 98.
+  ToeplitzData supplies positive extreme coefficients and the finite band; p+q>0 is assumed. The construction and equivalence BTP iff PBF do not assume EdreiPolynomialInput. The factors have uniform upper and strictly positive lower bounds.
   BTP.Toeplitz.BTP_implies_global_bounded_PBF
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L47
-  SHA-256 5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/BTPToPBF.lean#L47
   BTP.Toeplitz.manuscript_BTP_to_PBF
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L109
-  SHA-256 5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/BTPToPBF.lean#L109
   BTP.Toeplitz.manuscript_BTP_iff_PBF
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/BTPToPBF.lean#L117
-  SHA-256 5ab759219d7d17277732d9b93991bd4813b997278ddeb536ee6fdc225028e6a8
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/BTPToPBF.lean#L117
 
 thm:toeplitz — Scope of the negative-root and TN branches
-{"Normal": {"number": "4.2", "printed_page": "52"}, "Memoirs_AMS": {"number": "4.2", "printed_page": "68"}}
-The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript AI declaration claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.
+  Normal: result 4.2, printed page 76.
+  Memoirs_AMS: result 4.2, printed page 98.
+  The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript Code availability statement claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.
   BTP.Toeplitz.manuscript_negative_roots_to_PBF
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L72
-  SHA-256 b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/ManuscriptTheorem.lean#L72
   BTP.Toeplitz.manuscript_theorem_3_2_given_Edrei
-  https://github.com/ManuelManas/btp-pbf-verification/blob/77913c80913844b17e3e47f6913a8a598c698d9d/lean/toeplitz/ManuscriptTheorem.lean#L83
-  SHA-256 b651d13d3cb70a3759281b4f08a39bd0723444a23e00c07065b69de8d51a7d7a
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/toeplitz/ManuscriptTheorem.lean#L83
 
-NOT FORMALIZED IN LEAN
-Chapter 3 stability and interior criteria
-Toeplitz stability, simple-root equivalence and asymptotically Toeplitz extension
-Schur asymptotics and sharp normalization bounds
-Mixed-type polynomials, measure existence, support and density formulas
-New direct Cauchy--Binet proof of PBF implies BTP as written in v74
-Reconstruction radius proof as expanded in v74
-Variable-initial-entry reconstruction: two factors and arbitrary lower bandwidth
-Differential equations, spectral kernels, determinantal equilibrium identities and uniform collision estimates
-Necessary and sufficient dichotomy criterion for two lower factors with a free initial entry
-Pairwise dichotomy sufficient criterion in arbitrary lower bandwidth, including periodic factors
-Transfer from analytic normalized LDU to arbitrary prescribed factors with pairwise dichotomies
-Exchange with inverted limiting parameters; reconstruction for every ordered root partition and distinct-limit upper-lower product
+stab:lem:weighted-shift — Complete scalar lemma on the Banach space of bounded sequences
+  Normal: result 3.6, printed page 41.
+  Memoirs_AMS: result 3.6, printed page 51.
+  Bounded nonnegative weights (thus including the positive weights in the manuscript). The actual continuous linear difference operator I-W includes its initial equation. Bijectivity iff uniform geometric decay, an explicit continuous linear inverse with norm at most 1+C*rho/(1-rho), and equivalence with contraction of one block are proved. Row-sum boundedness iff decay is also proved without an a priori bound on the weights. This does not by itself formalize the PBF multiplication derivative.
+  BTP.Stability.differenceMap_bijective_iff_geometric
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L367
+  BTP.Stability.weighted_shift_inverse_norm_bound
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L452
+  BTP.Stability.geometric_iff_block_contraction
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L467
+  BTP.Stability.rowSum_bounded_iff_geometric
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/WeightedShift.lean#L158
+
+stab:rem:general-radius — Abstract quantitative radius and exact combinatorial estimates; partial coverage of the matrix proposition
+  Normal: result 3.8, printed page 44.
+  Memoirs_AMS: result 3.8, printed page 56.
+  A complete real normed variation space, a continuous linear equivalence D with inverse norm bound M, and explicit quadratic/Lipschitz remainder estimates are inputs. Existence and uniqueness in the closed ball, the 3r/4 image bound, the 2M solution Lipschitz bound and positivity at least alpha/2 are proved. The exact C_p majorants are proved for all p>=2, with formal index p=d+2. The two-factor product remainder is verified in an arbitrary normed ring. The general band-matrix realization of these inputs and real analyticity are not formalized.
+  PBFStability.quantitative_radius
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L83
+  PBFStability.quantitative_radius_lipschitz
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L128
+  PBFStability.positive_entries_of_radius
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L175
+  PBFStability.remainderConstant_eq
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L221
+  PBFStability.quadratic_majorant_bound
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L231
+  PBFStability.lipschitz_majorant_bound
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L263
+  PBFStability.twoFactor_expansion
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L305
+  PBFStability.twoFactor_remainder_lipschitz
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/AnalyticRadius.lean#L320
+
+stab:cor:periodic-general — Complete scalar periodic reduction; not the analytic matrix corollary
+  Normal: result 3.9, printed page 45.
+  Memoirs_AMS: result 3.9, printed page 57.
+  Positive periodic sequences with a common positive integer period. The product over a period is independent of the initial row. Uniform geometric decay is equivalent to a period product less than one. For the shifted adjacent ratio a(n+1)/b(n), this is equivalent to strict ordering of the two factor period products. Applying the general analytic PBF criterion is outside this module.
+  BTP.Stability.periodic_adjacent_product
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/PeriodicStability.lean#L85
+  BTP.Stability.periodic_geometric_iff
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/PeriodicStability.lean#L132
+  BTP.Stability.periodic_adjacent_geometric_iff
+    https://github.com/ManuelManas/btp-pbf-verification/blob/2026-10-19-stability/lean/stability/PeriodicStability.lean#L140
+
+Outside formalization: the full PBF stability criteria (fixed or variable initial entries), the relative and unbounded operator theorems, the Jacobi-fraction reformulation, and the polynomial/spectral/measure theory. Axiom checks do not remove the explicit mathematical input EdreiPolynomialInput in the conditional full root characterization.
