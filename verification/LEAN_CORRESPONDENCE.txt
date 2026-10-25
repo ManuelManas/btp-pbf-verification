@@ -1,10 +1,12 @@
 BTP/PBF: manuscript-to-formalization correspondence
 
-Numbers and printed pages were read from the compiled Normal and Memoirs AMS editions on 25 October 2026. The stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers, not current manuscript numbers. The archived table from 19 October 2026 is retained in history/2026-10-19. No particular arXiv upload is asserted.
+Numbers and printed pages correspond to the manuscript revised and compiled locally on 25 October 2026 in the Normal and Memoirs AMS editions, not to the currently posted arXiv version. Stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers. The preceding correspondence table is preserved in history/2026-10-25-correspondence; the older table remains in history/2026-10-19.
 
-Documentation update: manuscript numbers and printed pages refreshed in both editions after the reorganization and explanatory revisions. Lean sources, declarations, hypotheses, dependencies and recorded computational outputs are unchanged from the general-stability release of 19 October 2026. No new Lean compilation or axiom audit was run for this update.
+Local documentation update of 25 October 2026 after manuscript audit corrections: result numbers and printed pages refreshed from both validated compiled editions. Lean sources, declarations, hypotheses, dependencies, computational scripts and recorded outputs remain unchanged. The recorded formal build and axiom audit are from 19 October 2026; no Lean compilation, axiom audit or computational check was rerun.
 
-https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence
+Recorded strict source build of the complete general-stability import closure and all-theorem transitive axiom audit from 19 October 2026. These checks were not rerun for this documentation update. Prior projects retain their recorded independent builds. Shared modules are counted in each standalone project; counts are not numbers of distinct mathematical results.
+
+https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence
 
 lem:rowwise — Finite row construction
 Normal: 2.4, printed page 8

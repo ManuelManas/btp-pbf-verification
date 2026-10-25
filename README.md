@@ -7,10 +7,13 @@ Orthogonality**, by Manuel Mañas.
 The [correspondence table](verification/LEAN_CORRESPONDENCE.txt) identifies
 the manuscript results, their numbers and printed pages in both editions,
 the Lean declarations and their exact hypotheses. The result numbers and page references were checked
-against the compiled manuscripts on 25 October 2026. Stable LaTeX labels and
-Lean declaration names identify the results independently of their numbering;
-old numbers retained in declaration names are code identifiers. No particular
-arXiv upload is asserted.
+against the manuscript revised and compiled locally on 25 October 2026
+after the audit corrections. These locators refer to that revised manuscript,
+not to the currently posted arXiv version. Stable LaTeX labels and Lean
+declaration names identify results independently of their numbering; old
+numbers retained in declaration names are code identifiers. The preceding
+[correspondence table](verification/history/2026-10-25-correspondence/LEAN_CORRESPONDENCE.txt)
+is preserved with its scope and release notes.
 
 This release updates the correspondence and descriptions. The Lean sources,
 computational scripts and recorded outputs are unchanged from the
@@ -139,7 +142,7 @@ or promoted to formal proofs by this documentation update.
 
 ## Citation and archived records
 
-The [current verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence) contains sources, correspondence,
+The [current verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence) contains sources, correspondence,
 instructions and build records. Citation metadata are in [CITATION.cff](CITATION.cff).
 Earlier releases and their original correspondence tables remain available for reproducibility. Legacy names in
 `verification_v64` and old declaration identifiers are historical records,

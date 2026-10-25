@@ -3,8 +3,12 @@
 The current [correspondence table](LEAN_CORRESPONDENCE.txt) records the
 manuscript numbers in both editions, stable labels, declaration names and
 explicit hypotheses. It includes complete and partial formalization separately.
-The current result numbers and page references were read from both compiled editions on 25 October
-2026; earlier values are preserved in [history/2026-10-19](history/2026-10-19).
+The result numbers and printed pages refer to the manuscript revised and
+compiled locally on 25 October 2026 after the audit corrections, not to the
+currently posted arXiv version. The preceding table is preserved in
+[history/2026-10-25-correspondence](history/2026-10-25-correspondence);
+the older table remains in [history/2026-10-19](history/2026-10-19).
+The [current verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence) contains the refreshed documentation.
 
 The formal build and axiom-audit records dated 19 October 2026 are retained
 in [build_records](build_records). The documentation update of 25 October

@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-3764-5737"
 date-released: "2026-10-25"
 repository-code: "https://github.com/ManuelManas/btp-pbf-verification"
-url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence"
+url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence"
 abstract: >-
   Lean proofs and manuscript-to-formalization correspondence for banded total
   positivity and positive bidiagonal factorizations. Includes inverse-minor
@@ -18,5 +18,7 @@ abstract: >-
   products, inverse estimates, uniqueness and operator-norm comparison are
   proved. Exact hypotheses and remaining gaps in coverage are documented.
   Historical exact and high-precision computational checks are preserved.
-  This release refreshes manuscript correspondence and documentation; the
-  formal sources and recorded verification remain those of 19 October 2026.
+  This release refreshes correspondence with the manuscript revised locally
+  on 25 October 2026, rather than the currently posted arXiv version. The
+  formal sources and recorded build and axiom audit remain those of
+  19 October 2026; no Lean compilation or computational check was rerun.

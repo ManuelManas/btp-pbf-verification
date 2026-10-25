@@ -16,8 +16,8 @@
     "The Jacobi-fraction reformulation and polynomial, spectral, measure and asymptotic theory."
   ],
   "computations": "Computational sources and recorded outputs are unchanged and have not been rerun for this documentation update. Their finite scope is recorded in build_records/historical_computational_scope.json.",
-  "numbering": "Numbers and printed pages were read from the compiled Normal and Memoirs AMS editions on 25 October 2026. The stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers, not current manuscript numbers. The archived table from 19 October 2026 is retained in history/2026-10-19. No particular arXiv upload is asserted.",
-  "public_archive": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence",
+  "numbering": "Numbers and printed pages correspond to the manuscript revised and compiled locally on 25 October 2026 in the Normal and Memoirs AMS editions, not to the currently posted arXiv version. Stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers. The preceding correspondence table is preserved in history/2026-10-25-correspondence; the older table remains in history/2026-10-19.",
+  "public_archive": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence",
   "public_archive_doi": null,
   "zenodo_status": "No Zenodo publication was performed in this update.",
   "formal_verification_record_date": "2026-10-19",

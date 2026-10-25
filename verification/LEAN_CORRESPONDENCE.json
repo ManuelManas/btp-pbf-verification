@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence",
+  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence",
   "lean_files": 188,
   "build_status": "Recorded strict source build of the complete general-stability import closure and all-theorem transitive axiom audit from 19 October 2026. These checks were not rerun for this documentation update. Prior projects retain their recorded independent builds. Shared modules are counted in each standalone project; counts are not numbers of distinct mathematical results.",
   "indexing": "Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers. In the stability modules, blockProduct w s N multiplies w(s+1),...,w(s+N); the initial row is zero. In the periodic adjacent-ratio module, w(t)=a(t+1)/b(t) represents manuscript gamma(t+1). The general_stability product API numbers bidiagonal factors from the left. FactorOrderBridge and RelativeFactorOrder prove the exact reversal needed by the legacy inverse-entry API. Row zero is a dummy factor entry. Fixed variations begin at row p-i for zero-based factor i, preserving exactly p(p-1)/2 physical initial entries. Relative maps represent the exact entrywise error divided by its original positive entry.",
@@ -794,9 +794,9 @@
     "The Jacobi-fraction reformulation and polynomial, spectral, measure and asymptotic theory."
   ],
   "manuscript_title": "Banded Totally Positive Matrices and Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz Orthogonality",
-  "numbering_status": "Numbers and printed pages were read from the compiled Normal and Memoirs AMS editions on 25 October 2026. The stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers, not current manuscript numbers. The archived table from 19 October 2026 is retained in history/2026-10-19. No particular arXiv upload is asserted.",
+  "numbering_status": "Numbers and printed pages correspond to the manuscript revised and compiled locally on 25 October 2026 in the Normal and Memoirs AMS editions, not to the currently posted arXiv version. Stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers. The preceding correspondence table is preserved in history/2026-10-25-correspondence; the older table remains in history/2026-10-19.",
   "recorded_build_date": "2026-10-19",
-  "editorial_update": "Documentation update: manuscript numbers and printed pages refreshed in both editions after the reorganization and explanatory revisions. Lean sources, declarations, hypotheses, dependencies and recorded computational outputs are unchanged from the general-stability release of 19 October 2026. No new Lean compilation or axiom audit was run for this update.",
+  "editorial_update": "Local documentation update of 25 October 2026 after manuscript audit corrections: result numbers and printed pages refreshed from both validated compiled editions. Lean sources, declarations, hypotheses, dependencies, computational scripts and recorded outputs remain unchanged. The recorded formal build and axiom audit are from 19 October 2026; no Lean compilation, axiom audit or computational check was rerun.",
   "verification_record_date": "2026-10-19",
   "documentation_update_date": "2026-10-25"
 }
