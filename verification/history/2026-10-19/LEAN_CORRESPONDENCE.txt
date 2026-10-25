@@ -1,0 +1,152 @@
+BTP/PBF — formal correspondence
+
+The stable LaTeX labels are the primary identifiers. Numbers below are read from both current editions; no particular arXiv upload is asserted.
+
+lem:rowwise — Finite row construction
+Normal 2.4; Memoirs AMS 2.4.
+A finite dimension d, p<d, and the Metelmann zero pattern with strict positivity of the permitted entries are input. Analytic dependence near zero, unchanged product, positivity for sufficiently small positive free entries, and the count p(p-1)/2 are proved.
+  BTP.lemma_2_4 — lean/semi_infinite/Lemma24.lean:537
+  BTP.number_of_parameters — lean/semi_infinite/Lemma24.lean:155
+
+prop:successive-recurrences — Recurrence and extraction
+Normal 2.11; Memoirs AMS 2.11.
+For 2<=r<d, the matrix is unit lower triangular of bandwidth r, with nonzero extreme subdiagonal. Nonzero initial parameters and nonvanishing recurrence terms are explicit hypotheses where ratios are used. The converse, positive iteration and bandwidth-one final factor are separate declarations.
+  BTP.Extraction.proposition_2_9 — lean/semi_infinite/Proposition29.lean:385
+  BTP.Extraction.proposition_2_9_converse — lean/semi_infinite/Proposition29.lean:339
+  BTP.Extraction.positive_iteration — lean/semi_infinite/Proposition29.lean:448
+  BTP.Extraction.final_factor — lean/semi_infinite/Proposition29.lean:477
+
+prop:inverse-parameter-bound — Strict inverse-entry bounds
+Normal 2.13; Memoirs AMS 2.13.
+The finite Metelmann pattern, 2<=p<d, and an arbitrary positive bidiagonal factorization of the same product are explicit. Strict monotonicity and the bound on its first entry are proved.
+  BTP.InverseBounds.proposition_2_15 — lean/semi_infinite/Proposition215.lean:464
+  BTP.InverseBounds.arbitrary_positive_refactorization_bound — lean/semi_infinite/Proposition215.lean:534
+
+lem:global-inverse-minors — Parts (1) and (2): identities, positivity and limits
+Normal 2.16; Memoirs AMS 2.16.
+Compatible semi-infinite Metelmann factors are input. The leading determinant formula holds for n>=0. The next determinant is zero at n=0 and positive for n>=1; the ratio and its decreasing limit are identified. No summability hypothesis is needed for these identities.
+  BTP.SemiInfinite.leading_minor_formula — lean/semi_infinite/InverseMinors.lean:111
+  BTP.SemiInfinite.leading_minor_pos — lean/semi_infinite/InverseMinors.lean:128
+  BTP.SemiInfinite.next_minor_formula — lean/semi_infinite/CompleteSharpResults.lean:15
+  BTP.SemiInfinite.next_minor_at_zero — lean/semi_infinite/CompleteSharpResults.lean:24
+  BTP.SemiInfinite.next_minor_pos — lean/semi_infinite/CompleteSharpResults.lean:29
+  BTP.SemiInfinite.inverse_minors_identities_and_limits — lean/semi_infinite/CompleteSharpResults.lean:37
+
+lem:global-inverse-minors — Part (3): the exact displayed uniform bound
+Normal 2.16; Memoirs AMS 2.16.
+All p-1 adjacent series are assumed summable. The constant is the maximum of 1 and the finite consecutive products of the series, exactly the manuscript constant B; the bound is k! B^k. The earlier weaker constant is not being substituted here.
+  BTP.SemiInfinite.uniform_inverse_minors_sharp — lean/semi_infinite/SharpUniformMinors.lean:134
+  BTP.SemiInfinite.inverse_minors_uniform_bound_complete — lean/semi_infinite/CompleteSharpResults.lean:54
+
+lem:global-extraction-determinant — Determinant identity and positive extraction
+Normal 2.18; Memoirs AMS 2.18.
+For m>=2, unit lower triangular sections of bandwidth m and a nonzero extreme subdiagonal are assumed. The identity allows arbitrary initial values, including specializations where recurrence terms vanish. Strict positivity of the initial data, extreme subdiagonal and determinants is used for the positive-extraction conclusion.
+  BTP.SemiInfinite.extraction_determinant_formula_unrestricted — lean/semi_infinite/UnrestrictedDeterminant.lean:104
+  BTP.SemiInfinite.one_factor_determinant_formula_complete — lean/semi_infinite/CompleteResults.lean:23
+  BTP.SemiInfinite.extraction_recurrence_positive — lean/semi_infinite/ExtractionPositive.lean:75
+
+thm:global-lower-criterion — Equivalence with series and inverse-minor limits
+Normal 2.19; Memoirs AMS 2.19.
+A compatible Metelmann product is the input. Positivity of every actual inverse-minor limit and summability of every adjacent series are each equivalent to a global positive factorization. All sufficiently small positive initial entries extend. This project does not derive the compatible Metelmann factorization from an arbitrary BTP matrix.
+  BTP.SemiInfinite.PBF_iff_positive_limits — lean/semi_infinite/Necessity.lean:73
+  BTP.SemiInfinite.PBF_iff_summable_series — lean/semi_infinite/Necessity.lean:78
+  BTP.SemiInfinite.all_small_parameters_extend — lean/semi_infinite/PositiveLimits.lean:39
+
+cor:global-two-sided-criterion — The p+q-2 positive-limit criterion
+Normal 2.20; Memoirs AMS 2.20.
+p,q>0, two compatible Metelmann products and a positive diagonal are input. The criterion concerns their actual inverse-minor limits. The lower and upper lists have p-1 and q-1 terms; uniqueness of the normalized triangular products identifies any positive factorization with these products. The candidate PBF may have an arbitrary positive diagonal: ArbitraryDiagonalBridge proves that it equals the normalized diagonal before applying the limit criterion.
+  BTP.SemiInfinite.global_two_sided_criterion_complete — lean/semi_infinite/CompleteResults.lean:15
+  BTP.SemiInfinite.two_sided_PBF_iff_positive_limits — lean/semi_infinite/TwoSidedCriterion.lean:121
+  BTP.SemiInfinite.normalized_diagonal_unique — lean/semi_infinite/ArbitraryDiagonalBridge.lean:18
+  BTP.SemiInfinite.arbitrary_two_sided_PBF_iff_positive_limits — lean/semi_infinite/ArbitraryDiagonalBridge.lean:50
+
+thm:toeplitz — BTP implies bounded PBF, and BTP iff PBF
+Normal 4.2; Memoirs AMS 4.2.
+ToeplitzData supplies positive extreme coefficients and the finite band; p+q>0 is assumed. The construction and equivalence BTP iff PBF do not assume EdreiPolynomialInput. The factors have uniform upper and strictly positive lower bounds.
+  BTP.Toeplitz.BTP_implies_global_bounded_PBF — lean/toeplitz/BTPToPBF.lean:47
+  BTP.Toeplitz.manuscript_BTP_to_PBF — lean/toeplitz/BTPToPBF.lean:109
+  BTP.Toeplitz.manuscript_BTP_iff_PBF — lean/toeplitz/BTPToPBF.lean:117
+
+thm:toeplitz — Scope of the negative-root and TN branches
+Normal 4.2; Memoirs AMS 4.2.
+The construction from supplied negative-root data is formalized. The declaration giving the full TN/BTP/negative-roots/PBF equivalence has the explicit hypothesis EdreiPolynomialInput. The classical theorem supplying that hypothesis is not proved by this project. The manuscript Code availability statement claims the unconditional BTP iff PBF branch, not a formal proof of ASW/Edrei.
+  BTP.Toeplitz.manuscript_negative_roots_to_PBF — lean/toeplitz/ManuscriptTheorem.lean:72
+  BTP.Toeplitz.manuscript_theorem_3_2_given_Edrei — lean/toeplitz/ManuscriptTheorem.lean:83
+
+stab:lem:weighted-shift — Complete scalar lemma on the Banach space of bounded sequences
+Normal 3.6; Memoirs AMS 3.6.
+Bounded nonnegative weights (thus including the positive weights in the manuscript). The actual continuous linear difference operator I-W includes its initial equation. Bijectivity iff uniform geometric decay, an explicit continuous linear inverse with norm at most 1+C*rho/(1-rho), and equivalence with contraction of one block are proved. Row-sum boundedness iff decay is also proved without an a priori bound on the weights. This does not by itself formalize the PBF multiplication derivative.
+  BTP.Stability.differenceMap_bijective_iff_geometric — lean/stability/WeightedShift.lean:367
+  BTP.Stability.weighted_shift_inverse_norm_bound — lean/stability/WeightedShift.lean:452
+  BTP.Stability.geometric_iff_block_contraction — lean/stability/WeightedShift.lean:467
+  BTP.Stability.rowSum_bounded_iff_geometric — lean/stability/WeightedShift.lean:158
+
+stab:rem:general-radius — Abstract quantitative radius and exact combinatorial estimates; partial coverage of the matrix proposition
+Normal 3.8; Memoirs AMS 3.8.
+A complete real normed variation space, a continuous linear equivalence D with inverse norm bound M, and explicit quadratic/Lipschitz remainder estimates are inputs. Existence and uniqueness in the closed ball, the 3r/4 image bound, the 2M solution Lipschitz bound and positivity at least alpha/2 are proved. The exact C_p majorants are proved for all p>=2, with formal index p=d+2. The two-factor product remainder is verified in an arbitrary normed ring. The exact matrix-specific quantitative-radius application remains partial: the general band-matrix realization of these numerical remainder bounds is not formalized. General analytic factorization criteria are covered separately below.
+  PBFStability.quantitative_radius — lean/stability/AnalyticRadius.lean:83
+  PBFStability.quantitative_radius_lipschitz — lean/stability/AnalyticRadius.lean:128
+  PBFStability.positive_entries_of_radius — lean/stability/AnalyticRadius.lean:175
+  PBFStability.remainderConstant_eq — lean/stability/AnalyticRadius.lean:221
+  PBFStability.quadratic_majorant_bound — lean/stability/AnalyticRadius.lean:231
+  PBFStability.lipschitz_majorant_bound — lean/stability/AnalyticRadius.lean:263
+  PBFStability.twoFactor_expansion — lean/stability/AnalyticRadius.lean:305
+  PBFStability.twoFactor_remainder_lipschitz — lean/stability/AnalyticRadius.lean:320
+
+stab:cor:periodic-general — Complete scalar periodic reduction; not the analytic matrix corollary
+Normal 3.9; Memoirs AMS 3.9.
+Positive periodic sequences with a common positive integer period. The product over a period is independent of the initial row. Uniform geometric decay is equivalent to a period product less than one. For the shifted adjacent ratio a(n+1)/b(n), this is equivalent to strict ordering of the two factor period products. Applying the general analytic PBF criterion is outside this module.
+  BTP.Stability.periodic_adjacent_product — lean/stability/PeriodicStability.lean:85
+  BTP.Stability.periodic_geometric_iff — lean/stability/PeriodicStability.lean:132
+  BTP.Stability.periodic_adjacent_geometric_iff — lean/stability/PeriodicStability.lean:140
+
+stab:thm:general-lower-stability — Bounded lower factors, fixed initial entries
+Normal 3.5; Memoirs AMS 3.5.
+Arbitrary lower bandwidth. Bounded positive factor sequences have a common positive lower bound. The actual product has an analytic positive local inverse with the prescribed triangular array of initial entries fixed exactly when all shifted adjacent window products decay uniformly geometrically. Local inverse identities, positivity margin and Lipschitz dependence are proved.
+  BTP.GeneralStability.fixed_initial_positive_factorization_iff_manuscript — lean/general_stability/AnalyticLowerStability.lean:66
+  BTP.GeneralStability.fixed_lower_local_inverse — lean/general_stability/AnalyticLowerLocalInverse.lean:10
+
+stab:thm:free-separated-limits — Bounded lower factors, variable initial entries
+Normal 3.15; Memoirs AMS 3.15.
+Arbitrary lower bandwidth and uniformly positive bounded factors. Analytic and base-point Frechet-differentiable positive choices are each equivalent to the two-direction geometric alternative for every shifted pair, including nonadjacent pairs. The direction may depend on the pair. Local Lipschitz dependence is proved.
+  BTP.GeneralStability.free_initial_positive_factorization_iff_manuscript — lean/general_stability/AnalyticFreeLowerStability.lean:141
+  BTP.GeneralStability.free_initial_differentiable_factorization_iff_manuscript — lean/general_stability/AnalyticFreeLowerStability.lean:147
+
+stab:thm:general-full-stability — Bounded full band, fixed initial entries
+Normal 3.20; Memoirs AMS 3.20.
+Arbitrary positive lower and upper bandwidths, encoded p+1,q+1. All prescribed factors and the normalized diagonal are bounded and uniformly positive. The analytic positive choice is equivalent to both adjacent conditions and the crossed condition. Actual infinite matrix multiplication, finite inverse formulas, their uniform bounds, and the analytic inverse are connected. OperatorStability transports the theorem to the actual full-band operator-norm neighborhood in real ell^2.
+  BTP.GeneralStability.full_fixed_positive_factorization_iff — lean/general_stability/FullFixedEquivalence.lean:108
+  BTP.GeneralStability.full_fixed_local_inverse — lean/general_stability/FullFixedLocalInverse.lean:27
+  BTP.GeneralStability.full_fixed_operator_criterion — lean/general_stability/OperatorStability.lean:76
+
+stab:prop:ldu-row-sums — Analytic normalized LDU and joint signed-inverse row sums
+Normal 3.24; Memoirs AMS 3.24.
+The two triangular factors arise from uniformly positive bounded bidiagonal factors; the bounded normalized diagonal is bounded away from zero. Analytic, or base-point differentiable, local normalized LDU choices are equivalent to the uniform bound on the true joint signed-inverse row sums. The derivative representation and inverse estimates are proved, not assumed.
+  BTP.Stability.BandLDU.actual_ldu_analytic_iff_row_bound — lean/general_stability/ActualAnalyticLDU.lean:29
+  BTP.Stability.BandLDU.actual_ldu_differentiable_iff_row_bound — lean/general_stability/ActualAnalyticLDU.lean:43
+
+stab:prop:free-full-transfer — Bounded full band, variable initial entries
+Normal 3.26; Memoirs AMS 3.26.
+With uniformly positive bounded factors and diagonal, an analytic positive factor choice exists exactly when every pair condition holds on each triangular side and the true joint signed-inverse row sums are bounded. The same equivalence holds for a choice Frechet differentiable at the base matrix. The operator-norm realization and local Lipschitz conclusion are proved.
+  BTP.GeneralStability.full_free_positive_factorization_iff_manuscript — lean/general_stability/FullFreeCriterion.lean:55
+  BTP.GeneralStability.full_free_differentiable_factorization_iff_manuscript — lean/general_stability/FullDifferentiableCriterion.lean:85
+  BTP.GeneralStability.full_free_operator_criterion — lean/general_stability/OperatorStability.lean:109
+
+stab:lem:relative-lower — Relative triangular criterion with arbitrary positive growth
+Normal 3.34; Memoirs AMS 3.34.
+Every lower bandwidth and arbitrary positive raw factor sequences, with no uniform upper or lower bound. The output is exactly the entrywise relative matrix perturbation. Positive analytic choices with fixed initial entries exist if and only if all same-row adjacent products decay uniformly geometrically. The relative Lipschitz estimate is proved.
+  BTP.RelativeStability.relative_positive_choice_iff_adjacent — lean/general_stability/RelativeLowerCriterion.lean:78
+  BTP.RelativeStability.relative_lower_local_inverse — lean/general_stability/RelativeLowerLocalInverse.lean:12
+
+stab:thm:relative-criterion — Relative full-band criterion with arbitrary positive growth
+Normal 3.33; Memoirs AMS 3.33.
+Arbitrary positive lower and upper bandwidths and arbitrary positive factor and diagonal entries, with no absolute bounds. The analytic positive choice for the genuine product in entrywise relative matrix and factor norms is equivalent to both same-row adjacent geometric conditions and the crossed weight a_last(n)b_last(n)d(n-1)/d(n). Positivity, prescribed initial entries, both local inverse identities, local relative Lipschitz dependence and global uniqueness with those initial entries are proved. These are entrywise relative norms, not a Kato norm; no closed-operator realization is asserted.
+  BTP.RelativeStability.relative_full_positive_factorization_iff — lean/general_stability/RelativeFullCriterion.lean:61
+  BTP.RelativeStability.relative_full_local_inverse_of_geometric — lean/general_stability/RelativeFullLocalCriterion.lean:13
+  BTP.RelativeStability.relative_full_factors_global_unique — lean/general_stability/RelativeGlobalUniqueness.lean:59
+
+Outside current formal coverage:
+- Interior implies analytic LDU, local-family dimension, perturbation examples and several stability corollaries are not claimed by the general-criterion formalization.
+- Closed unbounded operators with a common domain and Kato perturbations. The relative criterion formalized here concerns entrywise relative errors.
+- The exact manuscript quantitative-radius application retains its separately documented partial scope.
+- The Jacobi-fraction reformulation and polynomial, spectral, measure and asymptotic theory.

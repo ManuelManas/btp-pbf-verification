@@ -5,22 +5,31 @@ Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz
 Orthogonality**, by Manuel Mañas.
 
 The [correspondence table](verification/LEAN_CORRESPONDENCE.txt) identifies
-the manuscript results, their current numbers in both editions, the Lean
-declarations and their exact hypotheses. It uses stable mathematical labels;
-it is not tied to a manuscript version number or to the preliminary arXiv upload.
+the manuscript results, their numbers and printed pages in both editions,
+the Lean declarations and their exact hypotheses. The result numbers and page references were checked
+against the compiled manuscripts on 25 October 2026. Stable LaTeX labels and
+Lean declaration names identify the results independently of their numbering;
+old numbers retained in declaration names are code identifiers. No particular
+arXiv upload is asserted.
+
+This release updates the correspondence and descriptions. The Lean sources,
+computational scripts and recorded outputs are unchanged from the
+[general-stability release of 19 October 2026](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-general-stability).
+Its build and axiom-audit records are retained with their original scope;
+no new formal build or axiom audit was run for this documentation update.
 
 ## Formal coverage
 
 | Project | Proved content |
 | --- | --- |
-| [Semi-infinite](lean/semi_infinite) | Finite row construction, extraction recurrences, inverse-minor identities and bounds, global criteria from compatible Metelmann factors. The candidate two-sided factorization may have an arbitrary positive diagonal; its normalization is now proved explicitly. |
+| [Semi-infinite](lean/semi_infinite) | Finite row construction, extraction recurrences, inverse-minor identities and bounds, global criteria from compatible Metelmann factors. The candidate two-sided factorization may have an arbitrary positive diagonal; its normalization is proved explicitly. |
 | [Toeplitz](lean/toeplitz) | BTP if and only if PBF, with positive bounded factors, without a root-criterion assumption. The complete characterization involving TN and negative roots is separately conditional on the explicitly named classical input `EdreiPolynomialInput`. |
 | [Scalar stability and radius](lean/stability) | The complete weighted-shift lemma in real ℓ∞, including its inverse norm and one-block criterion; the exact scalar periodic reduction; and the abstract quantitative contraction argument, its combinatorial constants and positivity estimates. |
 | [General stability](lean/general_stability) | Complete fixed-data, variable-data and arbitrary-growth relative criteria; normalized LDU, local inverses, global fixed-data uniqueness, and the actual bounded operator-norm realization. |
 
 ## General stability theorems
 
-The new [general-stability project](lean/general_stability) proves the actual
+The [general-stability project](lean/general_stability) proves the actual
 analytic factorization criteria in arbitrary finite bandwidth:
 
 - Fixed initial entries: the lower and full-band equivalences.
@@ -81,7 +90,7 @@ including its required legacy sources, plus the `AxiomAudit.lean` utility.
 It audits 3042 theorem constants with their dependencies. These include auxiliary declarations and
 are not counts of new manuscript results. Earlier projects retain their recorded
 builds. The [build records](verification/build_records/general_stability) include
-the fresh compilation and independent semantic reviews. Across the four active
+the compilation and independent semantic reviews recorded on 19 October 2026. Across the four active
 projects there are 188 mathematical source modules and four
 `AxiomAudit.lean` utilities; shared sources are counted in each project.
 
@@ -126,13 +135,13 @@ They check the finite cases and identities specified in their source files.
 
 Additional historical scripts and their recorded scope are described in
 [verification/README.md](verification/README.md). They have not been rerun
-or promoted to formal proofs by the present Lean update.
+or promoted to formal proofs by this documentation update.
 
 ## Citation and archived records
 
-The [verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-general-stability) contains sources, correspondence,
+The [current verification release](https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence) contains sources, correspondence,
 instructions and build records. Citation metadata are in [CITATION.cff](CITATION.cff).
-Earlier releases remain available for reproducibility. Legacy names in
+Earlier releases and their original correspondence tables remain available for reproducibility. Legacy names in
 `verification_v64` and old declaration identifiers are historical records,
 not the identifier or claimed coverage of this verification package.
 No Zenodo deposit or DOI is claimed by this update.

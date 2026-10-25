@@ -1,13 +1,18 @@
-# General stability criteria
+# Manuscript correspondence and documentation update
 
-Add complete analytic equivalence proofs in arbitrary bandwidth for fixed
-initial entries, variable initial entries and arbitrary-growth relative errors.
-Prove actual matrix products and derivatives, lower extraction, joint inverse
-row bounds, normalized LDU and the required bounded inverses. Realize the bounded
-band matrices on real ℓ² and transport both full-band criteria to operator norm.
+The correspondence table now records the result numbers and printed pages
+in both compiled editions checked on 25 October 2026. Six result numbers
+changed after the manuscript was reorganized; the LaTeX labels continue to
+identify the same results. Historical numbers in Lean declaration names
+remain code identifiers.
 
-Refresh the correspondence by stable labels and current theorem numbers.
-Retain previous sources, releases, finite checks and their documented scope.
-The new project is rebuilt from empty local output and every theorem is audited
-for transitive axiom dependencies. No additional mathematical axioms occur.
-No Zenodo deposit or arXiv update is claimed.
+The Lean sources, theorem declarations, hypotheses, dependencies, computational
+scripts and recorded outputs are unchanged. Their identities were checked
+against the preceding release. This update does not report a new formal
+compilation, axiom audit, mathematical result or enlargement of formal coverage.
+The build and semantic-review records from 19 October 2026 remain available.
+
+The current README and verification scope distinguish this documentation
+update from those historical checks. The preceding correspondence, scope and
+release notes are retained in verification/history/2026-10-19 and in the
+unchanged prior release. No Zenodo deposit or arXiv update is claimed.

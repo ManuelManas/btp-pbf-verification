@@ -3,22 +3,26 @@
 The current [correspondence table](LEAN_CORRESPONDENCE.txt) records the
 manuscript numbers in both editions, stable labels, declaration names and
 explicit hypotheses. It includes complete and partial formalization separately.
+The current result numbers and page references were read from both compiled editions on 25 October
+2026; earlier values are preserved in [history/2026-10-19](history/2026-10-19).
 
-The Lean projects have recorded fresh compilation logs and exhaustive axiom
-audits in [build_records](build_records). The independent reviews also compare
+The formal build and axiom-audit records dated 19 October 2026 are retained
+in [build_records](build_records). The documentation update of 25 October
+2026 changes the correspondence and descriptions only; it does not report
+a new Lean compilation or axiom audit. The independent reviews also compare
 the actual definitions and hypotheses with the manuscript. Successful Lean
 compilation alone does not establish that this translation is correct.
 
 The precise current coverage is recorded in [VERIFICATION_SCOPE.json](VERIFICATION_SCOPE.json).
 The general fixed-data, variable-data and arbitrary-growth relative criteria
-now have complete analytic equivalence proofs for the actual matrix products.
+have complete analytic equivalence proofs for the actual matrix products.
 See the table for the coverage of subsidiary conclusions and the results that
 remain outside Lean.
 
 ## Preserved computational checks
 
 The scripts below and their outputs are historical finite checks. They were
-not rerun in the current formalization update. Their original scope and counts
+not rerun in this documentation update. Their original scope and counts
 are retained in [historical_computational_scope.json](build_records/historical_computational_scope.json).
 They are neither substitutes for written proofs nor Lean proofs of the full
 infinite-dimensional statements.

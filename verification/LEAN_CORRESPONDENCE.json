@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-19",
-  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-19-general-stability",
+  "date": "2026-10-25",
+  "public_url": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-correspondence",
   "lean_files": 188,
-  "build_status": "Fresh strict source build of the complete new general-stability import closure and all-theorem transitive axiom audit. Prior projects retain their recorded independent builds. Shared modules are counted in each standalone project; counts are not numbers of distinct mathematical results.",
+  "build_status": "Recorded strict source build of the complete general-stability import closure and all-theorem transitive axiom audit from 19 October 2026. These checks were not rerun for this documentation update. Prior projects retain their recorded independent builds. Shared modules are counted in each standalone project; counts are not numbers of distinct mathematical results.",
   "indexing": "Index translation. In the semi-infinite modules, factors are numbered from zero on the right: a j n corresponds to the paper's hat a_(p-j)(n). The auxiliary index k for next minors has paper order k+1. inverseMinorRatio a p k n corresponds to kappa_(k+1,n+1). Consequently next_minor_at_zero is needed separately for the n=0 determinant identity. cumulative, ratioAt and normalizedTail represent pi, r and chi, respectively. Names containing old proposition numbers are stable code identifiers, not current manuscript numbers. In the stability modules, blockProduct w s N multiplies w(s+1),...,w(s+N); the initial row is zero. In the periodic adjacent-ratio module, w(t)=a(t+1)/b(t) represents manuscript gamma(t+1). The general_stability product API numbers bidiagonal factors from the left. FactorOrderBridge and RelativeFactorOrder prove the exact reversal needed by the legacy inverse-entry API. Row zero is a dummy factor entry. Fixed variations begin at row p-i for zero-based factor i, preserving exactly p(p-1)/2 physical initial entries. Relative maps represent the exact entrywise error divided by its original positive entry.",
   "correspondence": [
     {
@@ -163,7 +163,7 @@
       "editions": {
         "Normal": {
           "number": "2.16",
-          "printed_page": "21"
+          "printed_page": "20"
         },
         "Memoirs_AMS": {
           "number": "2.16",
@@ -194,7 +194,7 @@
       "editions": {
         "Normal": {
           "number": "2.16",
-          "printed_page": "21"
+          "printed_page": "20"
         },
         "Memoirs_AMS": {
           "number": "2.16",
@@ -232,7 +232,7 @@
       "editions": {
         "Normal": {
           "number": "2.18",
-          "printed_page": "25"
+          "printed_page": "24"
         },
         "Memoirs_AMS": {
           "number": "2.18",
@@ -274,7 +274,7 @@
         },
         "Memoirs_AMS": {
           "number": "2.19",
-          "printed_page": "33"
+          "printed_page": "32"
         }
       }
     },
@@ -315,11 +315,11 @@
       "editions": {
         "Normal": {
           "number": "2.20",
-          "printed_page": "30"
+          "printed_page": "29"
         },
         "Memoirs_AMS": {
           "number": "2.20",
-          "printed_page": "37"
+          "printed_page": "36"
         }
       }
     },
@@ -353,11 +353,11 @@
       "editions": {
         "Normal": {
           "number": "4.2",
-          "printed_page": "76"
+          "printed_page": "78"
         },
         "Memoirs_AMS": {
           "number": "4.2",
-          "printed_page": "98"
+          "printed_page": "102"
         }
       }
     },
@@ -384,11 +384,11 @@
       "editions": {
         "Normal": {
           "number": "4.2",
-          "printed_page": "76"
+          "printed_page": "78"
         },
         "Memoirs_AMS": {
           "number": "4.2",
-          "printed_page": "98"
+          "printed_page": "102"
         }
       }
     },
@@ -429,11 +429,11 @@
       "editions": {
         "Normal": {
           "number": "3.6",
-          "printed_page": "41"
+          "printed_page": "40"
         },
         "Memoirs_AMS": {
           "number": "3.6",
-          "printed_page": "51"
+          "printed_page": "52"
         }
       }
     },
@@ -501,12 +501,12 @@
       ],
       "editions": {
         "Normal": {
-          "number": "3.8",
-          "printed_page": "44"
+          "number": "3.18",
+          "printed_page": "58"
         },
         "Memoirs_AMS": {
-          "number": "3.8",
-          "printed_page": "56"
+          "number": "3.18",
+          "printed_page": "76"
         }
       }
     },
@@ -539,12 +539,12 @@
       ],
       "editions": {
         "Normal": {
-          "number": "3.9",
-          "printed_page": "45"
+          "number": "3.19",
+          "printed_page": "59"
         },
         "Memoirs_AMS": {
-          "number": "3.9",
-          "printed_page": "57"
+          "number": "3.19",
+          "printed_page": "77"
         }
       }
     },
@@ -571,7 +571,7 @@
       "editions": {
         "Normal": {
           "number": "3.5",
-          "printed_page": "40"
+          "printed_page": "39"
         },
         "Memoirs_AMS": {
           "number": "3.5",
@@ -601,12 +601,12 @@
       ],
       "editions": {
         "Normal": {
-          "number": "3.15",
-          "printed_page": "51"
+          "number": "3.14",
+          "printed_page": "53"
         },
         "Memoirs_AMS": {
-          "number": "3.15",
-          "printed_page": "65"
+          "number": "3.14",
+          "printed_page": "69"
         }
       }
     },
@@ -639,12 +639,12 @@
       ],
       "editions": {
         "Normal": {
-          "number": "3.20",
-          "printed_page": "56"
+          "number": "3.8",
+          "printed_page": "46"
         },
         "Memoirs_AMS": {
-          "number": "3.20",
-          "printed_page": "71"
+          "number": "3.8",
+          "printed_page": "59"
         }
       }
     },
@@ -670,12 +670,12 @@
       ],
       "editions": {
         "Normal": {
-          "number": "3.24",
-          "printed_page": "59"
+          "number": "3.16",
+          "printed_page": "56"
         },
         "Memoirs_AMS": {
-          "number": "3.24",
-          "printed_page": "75"
+          "number": "3.16",
+          "printed_page": "73"
         }
       }
     },
@@ -708,12 +708,12 @@
       ],
       "editions": {
         "Normal": {
-          "number": "3.26",
-          "printed_page": "61"
+          "number": "3.17",
+          "printed_page": "57"
         },
         "Memoirs_AMS": {
-          "number": "3.26",
-          "printed_page": "78"
+          "number": "3.17",
+          "printed_page": "74"
         }
       }
     },
@@ -740,11 +740,11 @@
       "editions": {
         "Normal": {
           "number": "3.34",
-          "printed_page": "67"
+          "printed_page": "69"
         },
         "Memoirs_AMS": {
           "number": "3.34",
-          "printed_page": "85"
+          "printed_page": "90"
         }
       }
     },
@@ -778,11 +778,11 @@
       "editions": {
         "Normal": {
           "number": "3.33",
-          "printed_page": "67"
+          "printed_page": "69"
         },
         "Memoirs_AMS": {
           "number": "3.33",
-          "printed_page": "85"
+          "printed_page": "89"
         }
       }
     }
@@ -794,5 +794,9 @@
     "The Jacobi-fraction reformulation and polynomial, spectral, measure and asymptotic theory."
   ],
   "manuscript_title": "Banded Totally Positive Matrices and Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz Orthogonality",
-  "numbering_status": "Numbers and pages read from the current Normal and Memoirs AMS auxiliary files. Stable LaTeX labels and Lean declaration names identify the mathematics independently of numbering. No correspondence with a particular arXiv upload is asserted."
+  "numbering_status": "Numbers and printed pages were read from the compiled Normal and Memoirs AMS editions on 25 October 2026. The stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers, not current manuscript numbers. The archived table from 19 October 2026 is retained in history/2026-10-19. No particular arXiv upload is asserted.",
+  "recorded_build_date": "2026-10-19",
+  "editorial_update": "Documentation update: manuscript numbers and printed pages refreshed in both editions after the reorganization and explanatory revisions. Lean sources, declarations, hypotheses, dependencies and recorded computational outputs are unchanged from the general-stability release of 19 October 2026. No new Lean compilation or axiom audit was run for this update.",
+  "verification_record_date": "2026-10-19",
+  "documentation_update_date": "2026-10-25"
 }
