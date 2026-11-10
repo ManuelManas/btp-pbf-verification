@@ -1,24 +1,15 @@
 cff-version: 1.2.0
-message: "Please cite this software when using the formal proofs or exact computational checks."
+message: "Please cite this repository when using the formal proofs or computational checks."
 type: software
-title: "BTP/PBF: formal proofs and exact computational checks"
+title: "BTP/PBF verification"
 authors:
   - family-names: "Mañas"
     given-names: "Manuel"
     orcid: "https://orcid.org/0000-0003-3764-5737"
-date-released: "2026-10-25"
 repository-code: "https://github.com/ManuelManas/btp-pbf-verification"
-url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence"
+url: "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/final"
 abstract: >-
-  Lean proofs and manuscript-to-formalization correspondence for banded total
-  positivity and positive bidiagonal factorizations. Includes inverse-minor
-  existence criteria, Toeplitz factorization and the general analytic stability
-  criteria in arbitrary bandwidth, with fixed or variable initial entries,
-  and with arbitrary positive growth in entrywise relative norms. The actual
-  products, inverse estimates, uniqueness and operator-norm comparison are
-  proved. Exact hypotheses and remaining gaps in coverage are documented.
-  Historical exact and high-precision computational checks are preserved.
-  This release refreshes correspondence with the manuscript revised locally
-  on 25 October 2026, rather than the currently posted arXiv version. The
-  formal sources and recorded build and axiom audit remain those of
-  19 October 2026; no Lean compilation or computational check was rerun.
+  Lean proofs and computational checks accompanying the manuscript on banded
+  totally positive matrices and positive bidiagonal factorizations. The data
+  include the correspondence between manuscript results and Lean declarations,
+  the formal verification logs, and reproducible computational checks.

@@ -1,0 +1,17 @@
+{
+  "source_archive_name": "Verificacion_BTP_PBF_Estabilidad_General.zip",
+  "source_archive_sha256": "9f75153df9e10b31c48c63a1fbb4d8cce5ffe449aa6db104d651760fbfc530ce",
+  "recorded_general_stability_build_date": "2026-11-10",
+  "source_table_sha256": "b151ce8e98c186bbf49a41a0710836caeb929fc5294c42ea7ceb9b86b3c90936",
+  "mathematical_source_changes": 0,
+  "new_lean_build_or_axiom_audit": true,
+  "source_attributions": "The formal sources retain their attributions. Manuscript labels identify the corresponding results.",
+  "license_note": "The included pinned Mathlib source and its Apache 2.0 license are retained under lean/general_stability/dependency_sources/. No separate license for the original PBF formalization was present in the source archive; this supplement does not introduce or infer one.",
+  "verification_date": "2026-11-10",
+  "preceding_general_stability_build_date": "2026-10-19",
+  "audit_report": "verification/lean_audit/RESULTS.json",
+  "preceding_supplement_sha256": "a6b7d5ef4e4eb7f16d6c3abc91c7cd60b1b593ae79c70a848ca7d846e3136123",
+  "source_table": "verification/LEAN_CORRESPONDENCE.json",
+  "source_header_edits": 9,
+  "manuscript_tex_sha256": "4ea03a92ddfa1afdb37c71d7430927c6341f9960af5588bbe4461abbf24b069e"
+}

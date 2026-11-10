@@ -1,37 +1,41 @@
 {
-  "date": "2026-10-25",
-  "manuscript_title": "Banded Totally Positive Matrices and Positive Bidiagonal Factorizations: Existence, Stability, and Toeplitz Orthogonality",
-  "formal_build": "The recorded general-stability build and exhaustive transitive axiom audit are from 19 October 2026. Earlier projects retain their own build records. No compilation or axiom audit was rerun for this documentation-only update; all source and recorded-output hashes are unchanged.",
-  "module_counts": {
-    "semi_infinite": 29,
-    "toeplitz": 42,
-    "stability": 3,
-    "general_stability": 114
-  },
-  "explicit_classical_hypothesis": "EdreiPolynomialInput remains an explicit input for the full TN/negative-root characterization; BTP iff PBF is independent of this input.",
+  "edition": "Memoirs_AMS",
+  "current_correspondence_rows": 18,
+  "formal_scope": "The exact hypotheses, mathematical claims, indexing translations and limitations are given row by row in LEAN_CORRESPONDENCE.json and its text rendering.",
+  "classical_input": "EdreiPolynomialInput remains an explicit input to the full TN/negative-root characterization. The BTP iff PBF construction does not assume that input.",
+  "relative_scope": "Entrywise relative perturbations in arbitrary finite bandwidth; no common-domain assertion for closed unbounded operators is made.",
   "not_formalized": [
     "Interior implies analytic LDU, local-family dimension, perturbation examples and several stability corollaries are not claimed by the general-criterion formalization.",
-    "Closed unbounded operators with a common domain and Kato perturbations. The relative criterion formalized here concerns entrywise relative errors.",
-    "The exact manuscript quantitative-radius application retains its separately documented partial scope.",
-    "The Jacobi-fraction reformulation and polynomial, spectral, measure and asymptotic theory."
+    "The Jacobi-fraction formulation and the polynomial, spectral, measure and asymptotic results are not formalized.",
+    "The Wall–Chihara identification following Proposition 2.23 is explained algebraically in the manuscript."
   ],
-  "computations": "Computational sources and recorded outputs are unchanged and have not been rerun for this documentation update. Their finite scope is recorded in build_records/historical_computational_scope.json.",
-  "numbering": "Numbers and printed pages correspond to the manuscript revised and compiled locally on 25 October 2026 in the Normal and Memoirs AMS editions, not to the currently posted arXiv version. Stable LaTeX labels and Lean declaration names are primary identifiers. Numbers retained in declaration names are historical code identifiers. The preceding correspondence table is preserved in history/2026-10-25-correspondence; the older table remains in history/2026-10-19.",
-  "public_archive": "https://github.com/ManuelManas/btp-pbf-verification/releases/tag/2026-10-25-audit-correspondence",
-  "public_archive_doi": null,
-  "zenodo_status": "No Zenodo publication was performed in this update.",
-  "formal_verification_record_date": "2026-10-19",
-  "documentation_update_date": "2026-10-25",
-  "formal_results": [
-    "Bounded lower factors, fixed initial entries",
-    "Bounded lower factors, variable initial entries",
-    "Bounded full band, fixed initial entries",
-    "Analytic normalized LDU and joint signed-inverse row sums",
-    "Bounded full band, variable initial entries",
-    "Relative triangular criterion with arbitrary positive growth",
-    "Relative full-band criterion with arbitrary positive growth"
-  ],
-  "partial_formal_results": [
-    "The earlier quantitative-radius application retains the partial coverage documented in lean/stability."
-  ]
+  "lean_build_provenance": "All 188 listed modules were rebuilt from source in four fresh project directories. The transitive axiom audits passed for all 5346 theorem checks across the projects. All 52 declaration references in the 18-row manuscript correspondence were matched to the new audit logs.",
+  "project_counts": {
+    "general_stability": {
+      "listed_modules": 114,
+      "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "dependency_archives": 3143
+    },
+    "semi_infinite": {
+      "listed_modules": 29,
+      "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "dependency_archives": 3095
+    },
+    "stability": {
+      "listed_modules": 3,
+      "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "dependency_archives": 3095
+    },
+    "toeplitz": {
+      "listed_modules": 42,
+      "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "dependency_archives": 3095
+    }
+  },
+  "count_explanation": "188 listed local modules, four axiom-audit modules and one pinned Mathlib source exception are included. Shared source modules are counted in each standalone project; these are not counts of distinct mathematical results.",
+  "auxiliary_modules": "Complete standalone projects are preserved. Auxiliary periodic and quantitative-radius modules do not add rows or claims to the current correspondence table.",
+  "source_preservation": "All mathematical declarations were preserved. Nine Lean source headers were edited to refer to the manuscript by theorem labels. These exact source files were recompiled and audited.",
+  "computations": "Recorded checks and their execution dates appear in computations/RECORDED_CHECKS.json. The boundary-residue check was rerun after editing its docstring.",
+  "verification_date": "2026-11-10",
+  "audit_report": "verification/lean_audit/RESULTS.json"
 }

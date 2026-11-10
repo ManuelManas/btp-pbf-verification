@@ -1,23 +1,16 @@
-# Stability proofs
-
-The stable manuscript labels, declarations, hypotheses and scope are listed
-in ../../verification/LEAN_CORRESPONDENCE.txt. Numbering is read from the
-current manuscript auxiliary files; identifiers containing older numbers are
-code names and are not references to current theorem numbers.
-
-- WeightedShift.lean proves the weighted-shift lemma on the real Banach
-  space of bounded sequences, including the inverse norm and block criterion.
-- PeriodicStability.lean proves the exact scalar periodic reduction,
-  including the shifted adjacent ratio and strict ordering of period products.
-- AnalyticRadius.lean proves the abstract contraction theorem, its sharp
-  displayed constants and positivity bound. A bounded inverse and remainder
-  estimates are explicit inputs. The matrix-specific quantitative remainder application remains outside this
-  module. The general analytic PBF criteria are proved separately in
-  [general_stability](../general_stability), including the relative criterion.
-  This does not enlarge the quantitative-radius claim made here.
+# Auxiliary stability project
 
 Run `python3 bootstrap.py` followed by `sh check.sh` in this directory.
-The latter starts with no compiled local modules and audits every project
-theorem for unexpected axioms. It fails on any dependency other than
-propext, Classical.choice and Quot.sound. The pinned Mathlib cache is verified
-by bootstrap.py; it is not a source rebuild of Mathlib itself.
+The project and its module list are preserved as a complete reproducible unit.
+`WeightedShift.lean` is mapped to the current manuscript in
+`../../verification/LEAN_CORRESPONDENCE.txt`.
+
+`PeriodicStability.lean` and `AnalyticRadius.lean` remain unchanged parts of
+this project. Their presence adds no claims to the current correspondence
+table. The general analytic PBF criteria, including relative stability,
+are in `../general_stability`.
+
+The checker starts with an empty directory of compiled local modules and
+audits every project theorem for transitive axiom dependencies. It accepts
+only `propext`, `Classical.choice`, and `Quot.sound`. Bootstrap verifies the
+pinned dependency cache; it does not rebuild Mathlib from source.

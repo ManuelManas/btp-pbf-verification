@@ -3,8 +3,8 @@ import Lemma24
 /-!
 # Proposition 2.9: determining successive factors by linear recurrences
 
-Date: 2026-10-08. Version: v01.
-Source: BTP_PBF_Normal_2026-10-07_v16.tex, `prop:successive-recurrences`.
+Date: 2026-10-08.
+Manuscript label: `prop:successive-recurrences`.
 
 Rows are indexed from zero. `G n k` denotes a matrix entry. Only indices
 less than `d` occur in the finite matrix. The sum in `rhs` uses `j = 0,…,r-1`,

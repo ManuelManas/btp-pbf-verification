@@ -7,9 +7,9 @@ import Mathlib.Tactic
 /-!
 # Lemma 2.4: finite row-by-row refactorization
 
-Formalization date: 2026-10-08. Version: v01.
+Formalization date: 2026-10-08.
 
-Source: BTP_PBF_Normal_2026-10-07_v16.tex, label `lem:rowwise`.
+Manuscript label: `lem:rowwise`.
 The factors are numbered from the right, starting at zero. Thus `a j n`
 is the manuscript's `a_{p-j}(n)`. The initial zero pattern is `n ≤ j`.
 -/

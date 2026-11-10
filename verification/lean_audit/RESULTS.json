@@ -1,0 +1,618 @@
+{
+  "verification_date": "2026-11-10",
+  "passed": true,
+  "compiler": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "source_supplement_sha256": "a6b7d5ef4e4eb7f16d6c3abc91c7cd60b1b593ae79c70a848ca7d846e3136123",
+  "manuscript_tex_sha256": "4ea03a92ddfa1afdb37c71d7430927c6341f9960af5588bbe4461abbf24b069e",
+  "started_utc": "2026-11-10T14:14:12.263384+00:00",
+  "finished_utc": "2026-11-10T14:20:39.119598+00:00",
+  "dependency_archives_verified": 3143,
+  "dependency_source_exceptions_compiled": 1,
+  "dependency_method": "The two clean builds shared the dependency tree prepared offline from 3143 checksum-verified cache archives and one checksum-verified Mathlib source module.",
+  "command": "sh check.sh",
+  "warnings_as_errors": true,
+  "allowed_transitive_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "projects": {
+    "semi_infinite": {
+      "modules": 29,
+      "audit_import_closure_modules": 29,
+      "audited_theorem_declarations": 929,
+      "observed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "check_exit_code": 0,
+      "toolchain": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "audit_source_sha256": "b5150a78bea46777a7647016905d730ae024b027b63471ca97279b3ec2fb60bf",
+      "log": "verification/lean_audit/semi_infinite.log",
+      "log_sha256": "85fe5369688e453b98ffadab5590ed28cc34593dc898a9acc760ef50ba213004",
+      "start": "2026-11-10T14:14:12.398178+00:00",
+      "finish": "2026-11-10T14:16:08.889565+00:00"
+    },
+    "toeplitz": {
+      "modules": 42,
+      "audit_import_closure_modules": 42,
+      "audited_theorem_declarations": 1265,
+      "observed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "check_exit_code": 0,
+      "toolchain": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "audit_source_sha256": "24666856630741ac1c2931ac25365af2b5b099ce1bf660ee0156b462ad7bf1c0",
+      "log": "verification/lean_audit/toeplitz.log",
+      "log_sha256": "8e92704e31aa15fafc7c2c884bdf902681a463de7169802f56bbcfb3040ff25a",
+      "start": "2026-11-10T14:14:12.398319+00:00",
+      "finish": "2026-11-10T14:16:49.569326+00:00"
+    },
+    "stability": {
+      "modules": 3,
+      "audit_import_closure_modules": 3,
+      "audited_theorem_declarations": 110,
+      "observed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "check_exit_code": 0,
+      "toolchain": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "audit_source_sha256": "e7e2b38c2bf7dfe6cbb8cd64e2e084db646384e392da10daa160998bc184afaf",
+      "log": "verification/lean_audit/stability.log",
+      "log_sha256": "d8d183e1b4dff593b3f023cdc7c7835055aef2b47c0ac1d5eca9ade34124ec31",
+      "start": "2026-11-10T14:14:12.399568+00:00",
+      "finish": "2026-11-10T14:14:32.605972+00:00"
+    },
+    "general_stability": {
+      "modules": 114,
+      "audit_import_closure_modules": 114,
+      "audited_theorem_declarations": 3042,
+      "observed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "check_exit_code": 0,
+      "toolchain": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "audit_source_sha256": "aa42ce5e43310acc991b733ea4654f33814941c8c4cce982a4eb96ffc76dc78c",
+      "log": "verification/lean_audit/general_stability.log",
+      "log_sha256": "ba869a9dac8547faa41c6a81b257f6e02b215f6eb6e8b94b0bade260fc7d31e6",
+      "start": "2026-11-10T14:14:12.398430+00:00",
+      "finish": "2026-11-10T14:20:39.118996+00:00"
+    }
+  },
+  "listed_project_modules": 188,
+  "theorem_checks_including_shared_declarations": 5346,
+  "distinct_audited_names": 3474,
+  "count_scope": "Counts include generated auxiliary theorems. Each standalone project audits its own namespace closure. Declarations shared between projects occur in each project count.",
+  "correspondence_rows": 18,
+  "matched_declaration_references": 52,
+  "correspondence": [
+    {
+      "label": "lem:rowwise",
+      "project": "semi_infinite",
+      "declaration": "BTP.lemma_2_4",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:rowwise",
+      "project": "semi_infinite",
+      "declaration": "BTP.number_of_parameters",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "prop:successive-recurrences",
+      "project": "semi_infinite",
+      "declaration": "BTP.Extraction.proposition_2_9",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "prop:successive-recurrences",
+      "project": "semi_infinite",
+      "declaration": "BTP.Extraction.proposition_2_9_converse",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "prop:successive-recurrences",
+      "project": "semi_infinite",
+      "declaration": "BTP.Extraction.positive_iteration",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "prop:successive-recurrences",
+      "project": "semi_infinite",
+      "declaration": "BTP.Extraction.final_factor",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "prop:inverse-parameter-bound",
+      "project": "semi_infinite",
+      "declaration": "BTP.InverseBounds.proposition_2_15",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "prop:inverse-parameter-bound",
+      "project": "semi_infinite",
+      "declaration": "BTP.InverseBounds.arbitrary_positive_refactorization_bound",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.leading_minor_formula",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.leading_minor_pos",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.next_minor_formula",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.next_minor_at_zero",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.next_minor_pos",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.inverse_minors_identities_and_limits",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.uniform_inverse_minors_sharp",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-inverse-minors",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.inverse_minors_uniform_bound_complete",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-extraction-determinant",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.extraction_determinant_formula_unrestricted",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-extraction-determinant",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.one_factor_determinant_formula_complete",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "lem:global-extraction-determinant",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.extraction_recurrence_positive",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:global-lower-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.PBF_iff_positive_limits",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:global-lower-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.PBF_iff_summable_series",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:global-lower-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.all_small_parameters_extend",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "cor:global-two-sided-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.global_two_sided_criterion_complete",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "cor:global-two-sided-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.two_sided_PBF_iff_positive_limits",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "cor:global-two-sided-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.normalized_diagonal_unique",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "cor:global-two-sided-criterion",
+      "project": "semi_infinite",
+      "declaration": "BTP.SemiInfinite.arbitrary_two_sided_PBF_iff_positive_limits",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:toeplitz",
+      "project": "toeplitz",
+      "declaration": "BTP.Toeplitz.BTP_implies_global_bounded_PBF",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:toeplitz",
+      "project": "toeplitz",
+      "declaration": "BTP.Toeplitz.manuscript_BTP_to_PBF",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:toeplitz",
+      "project": "toeplitz",
+      "declaration": "BTP.Toeplitz.manuscript_BTP_iff_PBF",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:toeplitz",
+      "project": "toeplitz",
+      "declaration": "BTP.Toeplitz.manuscript_negative_roots_to_PBF",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "thm:toeplitz",
+      "project": "toeplitz",
+      "declaration": "BTP.Toeplitz.manuscript_theorem_3_2_given_Edrei",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:lem:weighted-shift",
+      "project": "stability",
+      "declaration": "BTP.Stability.differenceMap_bijective_iff_geometric",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:lem:weighted-shift",
+      "project": "stability",
+      "declaration": "BTP.Stability.weighted_shift_inverse_norm_bound",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:lem:weighted-shift",
+      "project": "stability",
+      "declaration": "BTP.Stability.geometric_iff_block_contraction",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:lem:weighted-shift",
+      "project": "stability",
+      "declaration": "BTP.Stability.rowSum_bounded_iff_geometric",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:general-lower-stability",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.fixed_initial_positive_factorization_iff_manuscript",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:general-lower-stability",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.fixed_lower_local_inverse",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:free-separated-limits",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.free_initial_positive_factorization_iff_manuscript",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:free-separated-limits",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.free_initial_differentiable_factorization_iff_manuscript",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:general-full-stability",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.full_fixed_positive_factorization_iff",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:general-full-stability",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.full_fixed_local_inverse",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:general-full-stability",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.full_fixed_operator_criterion",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:prop:ldu-row-sums",
+      "project": "general_stability",
+      "declaration": "BTP.Stability.BandLDU.actual_ldu_analytic_iff_row_bound",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:prop:ldu-row-sums",
+      "project": "general_stability",
+      "declaration": "BTP.Stability.BandLDU.actual_ldu_differentiable_iff_row_bound",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:prop:free-full-transfer",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.full_free_positive_factorization_iff_manuscript",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:prop:free-full-transfer",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.full_free_differentiable_factorization_iff_manuscript",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:prop:free-full-transfer",
+      "project": "general_stability",
+      "declaration": "BTP.GeneralStability.full_free_operator_criterion",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:lem:relative-lower",
+      "project": "general_stability",
+      "declaration": "BTP.RelativeStability.relative_positive_choice_iff_adjacent",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:lem:relative-lower",
+      "project": "general_stability",
+      "declaration": "BTP.RelativeStability.relative_lower_local_inverse",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:relative-criterion",
+      "project": "general_stability",
+      "declaration": "BTP.RelativeStability.relative_full_positive_factorization_iff",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:relative-criterion",
+      "project": "general_stability",
+      "declaration": "BTP.RelativeStability.relative_full_local_inverse_of_geometric",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "label": "stab:thm:relative-criterion",
+      "project": "general_stability",
+      "declaration": "BTP.RelativeStability.relative_full_factors_global_unique",
+      "observed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "source_preparation": "The supplied formalization differs from the input archive only in documentation headers. It was compiled and audited in fresh local build directories."
+}

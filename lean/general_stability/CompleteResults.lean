@@ -1,7 +1,7 @@
 import TwoSidedCriterion
 import UnrestrictedDeterminant
 
-/-! # Complete statements added in version 02 (2026-10-08)
+/-! # Global criterion and extraction determinant
 
 1. A PBF exists if and only if all p+q-2 actual inverse-minor limits are positive.
 2. The extraction determinant identity holds for ALL initial parameters,

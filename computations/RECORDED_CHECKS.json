@@ -1,0 +1,92 @@
+{
+  "recorded_execution_date": "2026-11-04",
+  "checks": {
+    "root_formulas_exact": 225181,
+    "spectral_kernels": 516,
+    "uniform_asymptotics": 2227,
+    "noncentral_collision": 8,
+    "boundary_residue_exact": 6
+  },
+  "checks_passed": true,
+  "original_execution_record_sha256": "1cd01c1c757cbd03f7bfab6e9f428f89b7ecc2d7d5130f81ce74cd570947e8ee",
+  "scope": "These exact and numerical examples support the stated identities and asymptotics; they are not proofs of the general theorems.",
+  "date_note": "Historic dates embedded in scripts or outputs describe their original preparation. The external execution record documents the run on 4 November 2026.",
+  "portability_change": "The spectral script uses portable dependency lookup. The boundary-residue script has a revised introductory docstring. The mathematical calculations and original recorded JSON outputs are preserved.",
+  "targeted_portability_rerun": {
+    "date": "2026-11-04",
+    "purpose": "Targeted validation of the portable dependency-loading adaptation",
+    "script": "computations/spectral_kernels/check_kernels.py",
+    "script_sha256": "4fcbbb4cf2f3172ee55cd60d8d302e6219f40b5211970979b77a5cd946492465",
+    "result_sha256": "ebb7f4311e2d4894ff2148ef03500d23a2be9de9ba5618028a28ad2998dc7f53",
+    "checks": 516,
+    "passed": true,
+    "exit_code": 0,
+    "output_byte_identical_to_recorded_run": true,
+    "python": "3.9.6",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "mathematical_body_unchanged": true,
+    "other_computational_checks_rerun": false,
+    "lean_rebuilt": false
+  },
+  "rerun_status": "The boundary-residue check was repeated after the documentation edit. The other computations retain their recorded execution evidence.",
+  "files": {
+    "computations/check_boundary_residue.json": {
+      "source_sha256": "035ec6d20d3e94a917b6bda6f46ecc41942bdbc3602df60e6da28ec48d7357e4",
+      "packaged_sha256": "035ec6d20d3e94a917b6bda6f46ecc41942bdbc3602df60e6da28ec48d7357e4",
+      "unchanged": true
+    },
+    "computations/check_boundary_residue.py": {
+      "source_sha256": "0bfe25adb03b1d6450c3a87d06b21928f3ca7d76ddeb84ee53291217fcb82e15",
+      "packaged_sha256": "41a2b3539eafc317c926d060d7cd6c28d99b1c7e14e262c9e0717361c921d640",
+      "unchanged": false
+    },
+    "computations/root_formulas/new_formula_checks.json": {
+      "source_sha256": "cb1cf9449feed3d47bfd3123114951d8d18e2a3863272f15a6db2e77f866955a",
+      "packaged_sha256": "cb1cf9449feed3d47bfd3123114951d8d18e2a3863272f15a6db2e77f866955a",
+      "unchanged": true
+    },
+    "computations/root_formulas/new_formula_checks.py": {
+      "source_sha256": "c117d3f2cda8f16cebf09045f020b9d08b739b7e767388b248a9f772dee68c4f",
+      "packaged_sha256": "c117d3f2cda8f16cebf09045f020b9d08b739b7e767388b248a9f772dee68c4f",
+      "unchanged": true
+    },
+    "computations/spectral_kernels/check_kernels.py": {
+      "source_sha256": "41e88db62f686e748c2c8e6466157a87da20c9f278c24d09dc439a6649c730ae",
+      "packaged_sha256": "4fcbbb4cf2f3172ee55cd60d8d302e6219f40b5211970979b77a5cd946492465",
+      "unchanged": false
+    },
+    "computations/spectral_kernels/check_results.json": {
+      "source_sha256": "ebb7f4311e2d4894ff2148ef03500d23a2be9de9ba5618028a28ad2998dc7f53",
+      "packaged_sha256": "ebb7f4311e2d4894ff2148ef03500d23a2be9de9ba5618028a28ad2998dc7f53",
+      "unchanged": true
+    },
+    "computations/uniform_asymptotics/adversarial_math_checks.py": {
+      "source_sha256": "928598016b65d584e356f310e0bd0b080471989610eef6c95232425e8a850db5",
+      "packaged_sha256": "928598016b65d584e356f310e0bd0b080471989610eef6c95232425e8a850db5",
+      "unchanged": true
+    },
+    "computations/uniform_asymptotics/collision_check.py": {
+      "source_sha256": "ab913309f5dbaef7639b34369a2eb0c4f7372d8f9c7ce1036fa45bcfbb0ce9d8",
+      "packaged_sha256": "ab913309f5dbaef7639b34369a2eb0c4f7372d8f9c7ce1036fa45bcfbb0ce9d8",
+      "unchanged": true
+    },
+    "computations/uniform_asymptotics/collision_results.json": {
+      "source_sha256": "373314cf35c98b92217285ccd2874a2331e2f0443698f56d6e756e46c80b946a",
+      "packaged_sha256": "373314cf35c98b92217285ccd2874a2331e2f0443698f56d6e756e46c80b946a",
+      "unchanged": true
+    },
+    "computations/uniform_asymptotics/results.json": {
+      "source_sha256": "cec3a764305cc29efbe075f6759a04364b91cb10dbd0b98378f036f94f258a28",
+      "packaged_sha256": "cec3a764305cc29efbe075f6759a04364b91cb10dbd0b98378f036f94f258a28",
+      "unchanged": true
+    }
+  },
+  "boundary_residue_rerun": {
+    "script": "computations/check_boundary_residue.py",
+    "result_sha256": "035ec6d20d3e94a917b6bda6f46ecc41942bdbc3602df60e6da28ec48d7357e4",
+    "checks": 6,
+    "passed": true,
+    "result_identical_to_recorded_output": true
+  }
+}
