@@ -32,7 +32,12 @@ and reproduction. It does not claim a formal verification of every result.
        python3 bootstrap.py
        sh check.sh
 
-   In lean/general_stability, lake build runs the same two scripts.
+   In lean/general_stability, lake build runs the same two scripts in order.
+   Both methods rebuild all 114 local modules and audit the same 3,042
+   theorem declarations. The Lake build on a fresh Ubuntu arm64 system
+   is recorded in verification/lean_audit/general_stability_ubuntu.log.
+   The general-stability bootstrap retries transient download errors up to
+   two times before reporting failure.
    Bootstrap downloads the pinned dependency cache, checks SHA256 hashes,
    and prepares local .deps/ and .cache/ directories. Internet access is
    needed unless those verified cache archives already exist; --offline

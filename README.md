@@ -19,11 +19,15 @@ Lean compiled all 188 listed modules in four independent projects. The [audit re
 
 ## Reproduction
 
-To compile the general stability proofs and run their axiom audit:
+To compile the general stability proofs and run their axiom audit, use the following commands.
 
 ```sh
 cd lean/general_stability
 lake build
 ```
+
+The Lake target runs `python3 bootstrap.py` followed by `sh check.sh`. You can also run those commands directly from the same directory. Both methods rebuild every module and run the same axiom audit. The dependency download now retries transient network errors and verifies each archive against its pinned SHA-256 checksum.
+
+On a fresh Ubuntu arm64 system with an empty Mathlib cache, `lake build` verified 3,143 dependency archives, compiled all 114 general stability modules and passed the axiom audit for 3,042 theorem declarations. See the [Ubuntu build log](verification/lean_audit/general_stability_ubuntu.log).
 
 The [instructions](README.txt) list the pinned toolchain, dependency checks, build commands and commands for reproducing the computational results. The [manifest](MANIFEST.json) lists the SHA-256 hashes of the files supplied in the download.

@@ -6,6 +6,16 @@ recompiles every listed local module into a new empty directory and audits
 every theorem, including generated auxiliaries, for transitive axioms.
 Only propext, Classical.choice and Quot.sound are accepted.
 
+The two commands can also be run directly in this directory:
+
+    python3 bootstrap.py
+    sh check.sh
+
+The Ubuntu arm64 build from an empty Mathlib cache is recorded in
+../../verification/lean_audit/general_stability_ubuntu.log. On a macOS
+arm64 host where Lake exited abnormally after reporting a successful build,
+the two direct commands completed successfully.
+
 Main entry points: AnalyticLowerStability, AnalyticFreeLowerStability,
 FullFixedEquivalence, FullFreeCriterion, FullDifferentiableCriterion,
 ActualAnalyticLDU, RelativeLowerCriterion, RelativeFullCriterion and

@@ -7,8 +7,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 4823,
-      "sha256": "2042eb37847e22ae26af87a658ab750bb7d6db267faf5875a9fb1e332b1765c8"
+      "bytes": 5160,
+      "sha256": "36f1e9d958451d55d2981e8e535f046ab353c92af8d23aa941456b1fe9cffb1a"
     },
     {
       "path": "computations/RECORDED_CHECKS.json",
@@ -432,8 +432,8 @@
     },
     {
       "path": "lean/general_stability/README.txt",
-      "bytes": 1005,
-      "sha256": "9a87de047e51105d40d7c1679ca0c54692cf82d02a40950dbe02f0b226f9435f"
+      "bytes": 1371,
+      "sha256": "236727f82a8b61603587740c4616fe8335d083924f1f7a920215768eaf95ffc6"
     },
     {
       "path": "lean/general_stability/RecurrenceParameters.lean",
@@ -1244,6 +1244,11 @@
       "path": "verification/lean_audit/general_stability.log",
       "bytes": 304828,
       "sha256": "ba869a9dac8547faa41c6a81b257f6e02b215f6eb6e8b94b0bade260fc7d31e6"
+    },
+    {
+      "path": "verification/lean_audit/general_stability_ubuntu.log",
+      "bytes": 305014,
+      "sha256": "a9f2671ea796a91296b342c4cb6f1e8300094f2033d7a16b8bf596e810cf98dd"
     },
     {
       "path": "verification/lean_audit/semi_infinite.log",
