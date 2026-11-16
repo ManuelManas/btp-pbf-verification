@@ -7,8 +7,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 4755,
-      "sha256": "ad740de27dfc08923db7d9606312b9f5e2325876f87ac29034b112261bbe6f56"
+      "bytes": 4823,
+      "sha256": "2042eb37847e22ae26af87a658ab750bb7d6db267faf5875a9fb1e332b1765c8"
     },
     {
       "path": "computations/RECORDED_CHECKS.json",
@@ -432,8 +432,8 @@
     },
     {
       "path": "lean/general_stability/README.txt",
-      "bytes": 914,
-      "sha256": "4051ebaaf7f29c123eada58b8c5d579918c88e48056477a6ff06ca0762467594"
+      "bytes": 1005,
+      "sha256": "9a87de047e51105d40d7c1679ca0c54692cf82d02a40950dbe02f0b226f9435f"
     },
     {
       "path": "lean/general_stability/RecurrenceParameters.lean",
@@ -652,8 +652,8 @@
     },
     {
       "path": "lean/general_stability/bootstrap.py",
-      "bytes": 4151,
-      "sha256": "0ce220dbdc9703154c40c59e48fc2a1eb813a3df9fe625cb8f9e9ac434ad8656"
+      "bytes": 4594,
+      "sha256": "869c3f5fede4012ce168a6fe361222bad856942a1d2d7e8a308be44ba86ebec2"
     },
     {
       "path": "lean/general_stability/cache-manifest.json",
@@ -679,6 +679,16 @@
       "path": "lean/general_stability/dependency_sources/Mathlib/Order/Monotone/Monovary.lean",
       "bytes": 13944,
       "sha256": "634d54ffb3e272c5539f6001c2758fa7f832ad17c0029d2d142c7b639a95c756"
+    },
+    {
+      "path": "lean/general_stability/lake-manifest.json",
+      "bytes": 151,
+      "sha256": "94592bf0c6aafe5b8f258d15a7061da8672ffe9907596828d6dcfd81d6d724f5"
+    },
+    {
+      "path": "lean/general_stability/lakefile.lean",
+      "bytes": 595,
+      "sha256": "ebcfe738b3c936403adb33fdd985f1bdfc099445ce4227c6c13d704d350dbfc1"
     },
     {
       "path": "lean/general_stability/lean-toolchain",

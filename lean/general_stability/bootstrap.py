@@ -8,11 +8,13 @@ Only .deps/ and .cache/ inside this project are written. The existing
 import argparse
 import concurrent.futures
 import hashlib
+import http.client
 import json
 import os
 from pathlib import Path
 import shutil
 import subprocess
+import time
 import urllib.error
 import urllib.request
 
@@ -22,6 +24,22 @@ MANIFEST = json.loads((ROOT / "cache-manifest.json").read_text())
 
 def checked(path, expected):
     return path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == expected
+
+
+def fetch_archive(url):
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(url, timeout=60) as response:
+                return response.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                return None
+            if exc.code not in (408, 429, 500, 502, 503, 504) or attempt == 2:
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.IncompleteRead):
+            if attempt == 2:
+                raise
+        time.sleep(2 ** attempt)
 
 
 def main():
@@ -48,13 +66,10 @@ def main():
         temp = local_cache / (name + ".download")
         for container in ("mathlib4-master", "mathlib4"):
             url = f"https://lakecache.blob.core.windows.net/{container}/f/{name}"
-            try:
-                with urllib.request.urlopen(url, timeout=60) as response:
-                    temp.write_bytes(response.read())
-            except urllib.error.HTTPError as exc:
-                if exc.code == 404:
-                    continue
-                raise
+            data = fetch_archive(url)
+            if data is None:
+                continue
+            temp.write_bytes(data)
             if not checked(temp, expected):
                 raise RuntimeError("SHA256 mismatch: " + name)
             dest = local_cache / name

@@ -19,4 +19,11 @@ Lean compiled all 188 listed modules in four independent projects. The [audit re
 
 ## Reproduction
 
+To compile the general stability proofs and run their axiom audit:
+
+```sh
+cd lean/general_stability
+lake build
+```
+
 The [instructions](README.txt) list the pinned toolchain, dependency checks, build commands and commands for reproducing the computational results. The [manifest](MANIFEST.json) lists the SHA-256 hashes of the files supplied in the download.

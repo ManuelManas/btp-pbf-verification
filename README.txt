@@ -32,6 +32,7 @@ and reproduction. It does not claim a formal verification of every result.
        python3 bootstrap.py
        sh check.sh
 
+   In lean/general_stability, lake build runs the same two scripts.
    Bootstrap downloads the pinned dependency cache, checks SHA256 hashes,
    and prepares local .deps/ and .cache/ directories. Internet access is
    needed unless those verified cache archives already exist; --offline
